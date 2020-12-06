@@ -1,0 +1,12 @@
+@mixin hov {
+  &:hover,
+  &:focus {
+    @content;
+  }
+}
+
+@mixin bgBasic {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

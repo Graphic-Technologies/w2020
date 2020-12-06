@@ -1,0 +1,8 @@
+@function typeScale($scale, $step) {
+  $fs: 1rem;
+  @for $i from 1 through $step {
+    $fs: $fs * $scale;
+  }
+  $fs: ceil($fs * 100) / 100;
+  @return $fs;
+}

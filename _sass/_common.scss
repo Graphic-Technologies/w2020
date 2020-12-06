@@ -1,3 +1,26 @@
+:root {
+    /* Colors */
+    --color-primary: #00292C;
+    --color-primary-dark: #00181A;
+    --color-green: #8DCF54;
+    --color-green-dark: #3A5F1C;
+    --color-turquoise: #54CFA9;
+    --color-turquoise-dark: #1D634D;
+    --color-aqua: #54C6CF;
+    --color-aqua-dark: #1E5E67;
+    --color-sky: #54A9CF;
+    --color-sky-dark: #235F7B;
+    --gradient: linear-gradient(-20deg, var(--color-green), var(--color-turquoise), var(--color-aqua), var(--color-sky));
+    
+    /* Typography */
+    --font-primary: Poppins, Montserrat, sans-serif;
+
+    /* Global Styles */
+    --transition: .2s;
+    --radius: 1rem;
+    --shadow: 0px 2px 5px rgba(0, 0, 0, .15);
+}
+
 html {
   font: normal 100%/1.3 "Lato", sans-serif;
 }

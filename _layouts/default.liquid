@@ -4,16 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Educate</title>
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
 </head>
 <body>
   
-  {% include patterns/footer.liquid %}
+  {% include patterns/header.liquid %}
   
   {{ content }}
   
-  {% include patterns/header.liquid %}
+  {% include patterns/footer.liquid %}
 
-  <script src="/js/main.js"></script>
+  <script src="{{site.baseurl}}/js/main.js" type="module"></script>
 </body>
 </html>

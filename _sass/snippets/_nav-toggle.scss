@@ -1,0 +1,48 @@
+.nav-toggle {
+  width: 5rem;
+  height: 4.5rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-shrink: 0;
+  .tog {
+    width: 100%;
+    height: .22rem;
+    background-color: var(--color-primary);
+    position: relative;
+    transition:
+      width .35s cubic-bezier(.27,-0.82,.6,1.6);
+  }
+  .middle {
+    transition-duration: .5s;
+  }
+  .bottom {
+    transition-duration: .4s;
+  }
+  &.transition-open,
+  &.transition-close {
+    .top,
+    .middle,
+    .bottom {
+      width: 0;
+    }
+  }
+  &.transition-close,
+  &.open {
+    .top {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+    .middle {
+      width: 0;
+    }
+    .bottom {
+      bottom: 50%;
+      left: 50%;
+      transform: translate(-50%, 50%) rotate(-45deg);
+      align-self: flex-start;
+    }
+  }
+}

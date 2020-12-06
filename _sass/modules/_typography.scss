@@ -1,0 +1,32 @@
+h1, .heading-1 {
+  @include typeScaleH1;
+}
+
+h2, .heading-2 {
+  @include typeScaleH2;
+}
+
+h3, .heading-3 {
+  @include typeScaleH3;
+}
+
+h4, .heading-4 {
+  @include typeScaleH4;
+}
+
+h5, .heading-5 {
+  @include typeScaleH5;
+}
+
+h6, .heading-6 {
+  font-size: 1rem;
+}
+
+a {
+  color: var(--color-sky-dark);
+  transition:
+    all var(--transition);
+  @include hov {
+    color: var(--color-sky);
+  }
+}

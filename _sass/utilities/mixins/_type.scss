@@ -1,0 +1,59 @@
+$sScale: 1.2;
+$mScale: 1.25;
+$lScale: 1.333;
+
+@mixin typeScaleH1 {
+  font-size: typeScale($sScale, 5);
+  @media only screen and (min-width: 38em) {
+    font-size: typeScale($mScale, 5);
+  }
+  @media only screen and (min-width: 60em) {
+    font-size: typeScale($lScale, 5);
+  }
+}
+
+@mixin typeScaleH2 {
+  font-size: typeScale($sScale, 4);
+  @media only screen and (min-width: 38em) {
+    font-size: typeScale($mScale, 4);
+  }
+  @media only screen and (min-width: 60em) {
+    font-size: typeScale($lScale, 4);
+  }
+}
+
+@mixin typeScaleH3 {
+  font-size: typeScale($sScale, 3);
+  @media only screen and (min-width: 38em) {
+    font-size: typeScale($mScale, 3);
+  }
+  @media only screen and (min-width: 60em) {
+    font-size: typeScale($lScale, 3);
+  }
+}
+
+@mixin typeScaleH4 {
+  font-size: typeScale($sScale, 2);
+  @media only screen and (min-width: 38em) {
+    font-size: typeScale($mScale, 2);
+  }
+  @media only screen and (min-width: 60em) {
+    font-size: typeScale($lScale, 2);
+  }
+}
+
+@mixin typeScaleH5 {
+  font-size: typeScale($sScale, 1);
+  @media only screen and (min-width: 38em) {
+    font-size: typeScale($mScale, 1);
+  }
+  @media only screen and (min-width: 60em) {
+    font-size: typeScale($lScale, 1);
+  }
+}
+
+@mixin gradientText {
+  background: var(--gradient) center / cover no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
