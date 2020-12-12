@@ -1,14 +1,14 @@
 $colors: (
-  primary,
-  primary-dark,
-  green,
-  green-dark,
-  turquoise,
-  turquoise-dark,
-  aqua,
-  aqua-dark,
-  sky,
-  sky-dark
+  primary: dark,
+  primary-dark: dark,
+  secondary: light,
+  secondary-dark: dark,
+  accent-1: light,
+  accent-1-dark: dark,
+  accent-2: light,
+  accent-2-dark: dark,
+  accent-3: light,
+  accent-3-dark: dark
 );
 
 $classes: (
@@ -17,11 +17,11 @@ $classes: (
 );
 
 @each $cName, $cValue in $classes {
-  @each $color in $colors {
+  @each $color, $value in $colors {
 
     .#{$cName}-#{$color} {
       #{$cValue}: var(--color-#{$color});
-      @if ($cName == 'bg') {
+      @if ($cName == 'bg' and $value == 'dark') {
         color: #fff;
       }
     }

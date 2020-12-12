@@ -1,12 +1,14 @@
 import { toggles } from './selectors.js';
 import { Toggle } from './components/nav-toggle.js';
-import { headerShift } from './components/header.js';
+import { headerShift, stickyHeader } from './components/header.js';
 import { addToPageNav, createLinked } from './components/page-nav.js';
 import { autoLinkedHeadings } from './selectors.js';
 import './pages/pages.js';
 
 function init() {
 
+  stickyHeader();
+  window.addEventListener('scroll', stickyHeader);
   headerShift();
 
   toggles.forEach(tog => Toggle(tog));

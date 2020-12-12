@@ -2,6 +2,11 @@
   <li>
     <a class="skip-links__link" href="#nav">Skip to navigation</a>
   </li>
+  {% if page.url contains 'week' %}
+  <li>
+    <a class="skip-links__link" href="#outline">Skip to content outline navigation</a>
+  </li>
+  {% endif %}
   <li>
     <a class="skip-links__link" href="#main">Skip to main content</a>
   </li>

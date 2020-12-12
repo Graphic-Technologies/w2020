@@ -2,16 +2,16 @@
     /* Colors */
     --color-primary: #00292C;
     --color-primary-dark: #00181A;
-    --color-green: #8DCF54;
-    --color-green-dark: #3A5F1C;
-    --color-green-pale: #FCFFFA;
-    --color-turquoise: #54CFA9;
-    --color-turquoise-dark: #1D634D;
-    --color-aqua: #54C6CF;
-    --color-aqua-dark: #1E5E67;
-    --color-sky: #54A9CF;
-    --color-sky-dark: #235F7B;
-    --gradient: linear-gradient(-20deg, var(--color-green), var(--color-turquoise), var(--color-aqua), var(--color-sky));
+    --color-secondary: #8DCF54;
+    --color-secondary-dark: #3A5F1C;
+    --color-secondary-pale: #FCFFFA;
+    --color-accent-1: #54CFA9;
+    --color-accent-1-dark: #1D634D;
+    --color-accent-2: #54C6CF;
+    --color-accent-2-dark: #1E5E67;
+    --color-accent-3: #54A9CF;
+    --color-accent-3-dark: #235F7B;
+    --gradient: linear-gradient(-20deg, var(--color-secondary), var(--color-accent-1), var(--color-accent-2), var(--color-accent-3));
     
     /* Typography */
     --font-primary: Poppins, Montserrat, sans-serif;
@@ -20,6 +20,22 @@
     --transition: .2s;
     --radius: 1rem;
     --shadow: 0px 2px 5px rgba(0, 0, 0, .15);
+    --shadow-large: 0px 5px 10px rgba(0, 0, 0, .15);
+}
+
+.group-2 {
+  --color-primary: #2c0029;
+  --color-primary-dark: #00181A;
+  --color-secondary: #548dcf;
+  --color-secondary-dark: #3A5F1C;
+  --color-secondary-pale: #FCFFFA;
+  --color-accent-1: #ae54cf;
+  --color-accent-1-dark: #1D634D;
+  --color-accent-2: #cf54c6;
+  --color-accent-2-dark: #1E5E67;
+  --color-accent-3: #cf54a9;
+  --color-accent-3-dark: #235F7B;
+  --gradient: linear-gradient(-20deg, var(--color-secondary), var(--color-accent-1), var(--color-accent-2), var(--color-accent-3));
 }
 
 html {

@@ -81,6 +81,8 @@ img {
 
 svg {
   fill: currentColor;
+  width: 100%;
+  display: block;
 }
 
 svg:not(:root) {

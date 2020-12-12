@@ -11,10 +11,16 @@
   &-16by9 {
     padding-top: 56.25%;
   }
+  &-1by1 {
+    padding-top: 100%;
+  }
   .embed-item,
   img,
   svg,
   iframe {
     @include embeded;
+  }
+  img {
+    object-fit: cover;
   }
 }

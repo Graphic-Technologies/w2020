@@ -1,18 +1,45 @@
 <header class="hero">
   <div class="container-grid">
+    {% if include.preHeadline %}
+      <span>{{ include.preHeadline }}</span>
+    {% endif %}
     {% if page.url == '/' %}
       <h2 class="hero__headline">
     {% else %}
       <h1 class="hero__headline">
     {% endif %}
-      {% if include.preHeadline %}
-      <span>{{ include.preHeadline }}</span>
-      {% endif %}
       {{ include.headline }}
     {% if page.url == '/' %}
         </h2>
     {% else %}
       </h1>
+    {% endif %}
+    {% if include.byline %}
+    <p class="hero__byline l-span-8">{{ include.byline }}</p>
+    {% endif %}
+    {% if page.url == "/" %}
+      <ul class="icon-list text-secondary">
+        <li>
+          <i class="icon-3 text-secondary">
+            <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#ai" /></svg>
+          </i>
+        </li>
+        <li>
+          <i class="icon-3 text-secondary">
+            <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#psd" /></svg>
+          </i>
+        </li>
+        <li>
+          <i class="icon-3 text-secondary">
+            <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#svg" /></svg>
+          </i>
+        </li>
+        <li>
+          <i class="icon-3 text-secondary">
+            <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#xd" /></svg>
+          </i>
+        </li>
+      </ul>
     {% endif %}
   </div>
 </header>

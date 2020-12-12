@@ -10,3 +10,12 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@mixin bgGradientHov {
+  background-image: var(--gradient);
+  background-size: 125% auto;
+  background-position: left center;
+  @include hov {
+    background-position: 100% center;
+  }
+}

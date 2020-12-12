@@ -1,0 +1,5 @@
+{% capture url %}{% if include.link contains 'http' %}{{ include.link }}{% else %}{{site.baseurl}}{{ include.link }}{% endif %}{% endcapture %}
+<a class="card card-linked" href="{{ url }}">
+  <{{ include.titleTag | default: 'h3' }} class="card__title">{{ include.title }}</{{ include.titleTag | default: 'h3' }}>
+  <p class="card__text">{{ include.text }}</p>
+</a>

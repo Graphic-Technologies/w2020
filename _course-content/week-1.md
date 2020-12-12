@@ -4,7 +4,7 @@ title: Set Up &amp; Intro to&nbsp;Illustrator
 week: 1
 intro: |-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia.
-graphic: gradient-ai.svg
+graphic: ai
 graphicTilt: true
 deliverables:
   - title: Icon Peer Feedback

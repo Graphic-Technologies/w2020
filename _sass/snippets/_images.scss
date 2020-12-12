@@ -1,0 +1,16 @@
+.profile-frame {
+  &::before {
+    content: ' ';
+    @include embeded;
+    background: var(--gradient);
+    border-radius: 50%;
+  }
+  img {
+    border-radius: 50%;
+    width: calc(100% - 1.5rem);
+    height: calc(100% - 1.5rem);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

@@ -45,15 +45,15 @@
           opacity var(--transition);
       }
       .icon {
-        color: var(--color-green);
+        color: var(--color-secondary);
         position: relative;
       }
       @include hov {
         .sidebar__list__title {
-          color: var(--color-sky);
+          color: var(--color-accent-3);
         }
         .icon {
-          color: var(--color-sky);
+          color: var(--color-accent-3);
         }
         &::before {
           opacity: 1;

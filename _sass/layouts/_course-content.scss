@@ -18,7 +18,7 @@
   }
   .to-do {
     h3 {
-      color: var(--color-green);
+      color: var(--color-secondary);
       @include typeScaleH4;
       font-weight: bold;
     }

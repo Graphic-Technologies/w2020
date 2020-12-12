@@ -1,0 +1,35 @@
+.card {
+  display: block;
+  width: 100%;
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  color: var(--color-primary);
+  &__title {
+    @include typeScaleH4;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: .75rem;
+    &::before {
+      content: ' ';
+      position: absolute;
+      width: 4.5rem;
+      height: 75%;
+      background: var(--gradient);
+      top: 50%;
+      transform: translateY(-50%);
+      left: -1.5rem;
+      z-index: -1;
+    }
+    &::after {
+      content: ' ';
+      display: block;
+    }
+  }
+  @include hov {
+    box-shadow: var(--shadow-large);
+    color: var(--color-primary);
+    transform: scale(1.025);
+  }
+}

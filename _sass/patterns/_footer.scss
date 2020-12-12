@@ -2,9 +2,9 @@
   color: #fafafa;
   background-color: var(--color-primary-dark);
   a {
-    color: var(--color-green);
+    color: var(--color-secondary);
     @include hov {
-      color: var(--color-turquoise);
+      color: var(--color-accent-1);
     }
   }
   .logo {
@@ -14,27 +14,14 @@
     display: block;
     margin-bottom: 1.5rem;
     text-decoration: none;
-    background-size: 125% auto;
-    background-position: left center;
-    transition:
-      background .2s;
-    @include hov {
-      background-position: 100% center;
+    @include bgGradientHov;
+    @media only screen and (min-width: 60em) {
+      text-align: right;
     }
   }
   .icon-list {
-    display: flex;
-    @include listClear;
-    li:not(:last-child) {
-      margin-right: 1.5rem;
-    }
     @media only screen and (min-width: 60em) {
       justify-content: flex-end;
-    }
-  }
-  .legal {
-    @media only screen and (min-width: 60em) {
-      order: -1;
     }
   }
   .sub-footer {

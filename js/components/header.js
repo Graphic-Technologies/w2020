@@ -6,3 +6,11 @@ export function headerShift() {
     body.style.paddingTop = `${shift}px`;
   }
 }
+
+export function stickyHeader() {
+  if (window.pageYOffset > 50) {
+    masthead.classList.add('sticky');
+  } else {
+    masthead.classList.remove('sticky');
+  }
+}

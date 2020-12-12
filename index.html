@@ -3,4 +3,74 @@ layout: default
 class: home has-hero
 ---
 
-{% include patterns/hero.liquid headline="Graphic Technologies" preHeadline="Welcome to MAD9010: " %}
+{% include patterns/hero.liquid headline="Graphic Technologies" preHeadline="Welcome to MAD9010:" byline="An introduction to graphics and illustration programs used to design effective interfaces for responsive websites and mobile&nbsp;applications" %}
+
+<section class="pad-t-4 pad-b-2">
+  <div class="container-grid">
+    <h2>Course Introduction</h2>
+    <p class="l-span-8">
+      Students are introduced to graphics and illustration programs in the computer environment. Students also learn skills and production techniques which help to design effective interfaces for websites, mobile websites and mobile applications. Focus is placed on hands-on learning of software, such as Adobe Photoshop and Illustrator. Basic design concepts are covered within the context of becoming productive with the software packages.
+    </p>
+    {% include snippets/link-external.liquid link="https://brightspace.algonquincollege.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=332375&type=lti&rcode=5D0A62E3-9FCD-4186-8FE2-4DAA73394FE0-2477272&srcou=6606" text="View full course outline" class="scale-5 btn--gradient" wrapped=true %}
+  </div>
+</section>
+
+<section class="pad-t-2 pad-b-4">
+  <ul class="container-grid list-clear list-cards">
+    <li class="m-span-6 l-span-4">
+      {% include patterns/cards/link.liquid link="https://adamrobillard.ca" title="Course Content" text="All of the course learning materials broken down week by week." %}
+    </li>
+    <li class="m-span-6 l-span-4">
+      {% include patterns/cards/link.liquid link="deliverables/" title="Deliverables" text="All of the information you need to complete the course exercises and assignments." %}
+    </li>
+    <li class="m-span-6 l-span-4">
+      {% include patterns/cards/link.liquid link="deliverables/" title="Resources" text="Additional external &amp; college resources that will compliment and support your learning." %}
+    </li>
+  </ul>
+</section>
+
+<section class="bg-secondary pad-t-4 pad-b-4">
+  <div class="container-grid center">
+    <div class="xs-0 s-0 l-span-4 l-order-2">
+      <img src="{{site.baseurl}}/images/ac-icon.svg" alt="Algonquin College">
+    </div>
+    <div class="l-span-8">
+      <h2>Brightspace</h2>
+      <p class="scale-5">All of course content for this semester can be found on this website. However, exercise &amp; assignment submissions, as well as discussion boards and quizzes will still take place on Brightspace.</p>
+      {% include snippets/link-external.liquid link="https://brightspace.algonquincollege.com/d2l/home/332375" text="View course on Brightspace" class="scale-5 btn--primary" wrapped=true %}
+    </div>
+  </div>
+</section>
+
+<section class="pad-t-4 pad-b-4">
+  <div class="container-grid">
+    <div class="m-span-4">
+      <div class="embed embed-1by1 profile-frame">
+        <img class="img-flex" src="{{site.baseurl}}/images/adam-headshot.jpg" alt="Adam Robillard">
+      </div>
+    </div>
+    <div class="m-span-8">
+      <h2>About the Professor</h2>
+      <h3 class="push-0">Adam Robillard</h3>
+      <p>Adam is an Interaction Designer at {% include snippets/link-external.liquid text="Spruce Creative Inc" link="https://sprucecreative.ca" %} specializing in website design, development, and user experience. A graduate of Algonquin College's {% include snippets/link-external.liquid text="Graphic Design" link="https://algonquindesign.ca" %} program, Adam has experience in a wide variety of design, development, branding, and visual communication.</p>
+      <ul class="list-clear">
+        <li class="push-1-2">
+          <a class="icon-link" href="mailto:robilla@algonquincollege.com">
+            <i class="icon">
+              <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#email" /></svg>
+            </i>
+            <span class="icon-label">robilla@algonquincollege.com</span>
+          </a>
+        </li>
+        <li>
+          <a class="icon-link" href="https://github.com/arobillard">
+            <i class="icon">
+              <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#github" /></svg>
+            </i>
+            <span class="icon-label">arobillard</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>

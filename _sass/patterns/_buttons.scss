@@ -1,0 +1,40 @@
+.btn,
+a.btn {
+  display: inline-block;
+  padding: .75em 1.5em;
+  background-color: var(--color-secondary);
+  cursor: pointer;
+  color: var(--color-primary);
+  text-decoration: none;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  text-align: center;
+  @include hov {
+    background-color: var(--color-accent-1);
+    color: var(--color-primary);
+    box-shadow: var(--shadow-large);
+  }
+}
+
+.btn--gradient,
+a.btn--gradient {
+  @extend .btn;
+  background-color: var(--color-primary-dark);
+  cursor: pointer;
+  color: #fff;
+  @include bgGradientHov;
+  @include hov {
+    color: #fff;
+  }
+}
+
+.btn--primary,
+a.btn--primary {
+  @extend .btn;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  @include hov {
+    background-color: var(--color-primary-dark);
+    color: var(--color-secondary);
+  }
+}

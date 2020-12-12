@@ -15,16 +15,36 @@
     left: 0;
     width: 100%;
     padding: 1rem;
-    background-color: var(--color-primary);
-    color: #fff;
+    background-color: var(--color-secondary);
+    color: var(--color-primary-dark);
     display: block;
     z-index: 100000;
     @include typeScaleH4;
     text-align: center;
     text-decoration: none;
+    transition: none;
     &:focus {
       top: 0;
-      color: #fff;
+      color: var(--color-primary-dark);
     }
   }
+}
+
+
+*:focus {
+  outline: 2px solid var(--color-primary-dark);
+  outline-offset: 2px;
+}
+
+.has-hero {
+  .skip-links__link {
+    
+  }
+  .masthead *:focus {
+    outline: 2px solid var(--color-secondary);
+  }
+}
+
+.footer *:focus {
+  outline: 2px solid var(--color-secondary);
 }
