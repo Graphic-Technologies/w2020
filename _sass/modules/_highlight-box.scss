@@ -1,0 +1,24 @@
+.highlight-box {
+  padding: 1.5rem 1.5rem 1.5rem 2.25rem;
+  background-color: #FCFFFA;
+  border: 2px solid var(--color-green);
+  border-radius: var(--radius);
+  position: relative;
+  overflow: hidden;
+  margin: 3rem 0;
+  &::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: .75rem;
+    height: 100%;
+    background: var(--gradient);
+  }
+  h3 {
+    @include typeScaleH4;
+    color: var(--color-primary);
+    font-weight: bold;
+    margin-bottom: .75rem;
+  }
+}

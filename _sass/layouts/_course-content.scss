@@ -1,0 +1,26 @@
+.course-content {
+  .content-outline {
+    .page-nav {
+      display: grid;
+      gap: .75rem 3rem;
+      &.columns-2 {
+        @media only screen and (min-width: 38em) {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+      li {
+        @include typeScaleH5;
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .to-do {
+    h3 {
+      color: var(--color-green);
+      @include typeScaleH4;
+      font-weight: bold;
+    }
+  }
+}

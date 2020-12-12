@@ -1,3 +1,12 @@
 permalinks: pretty
 sass:
   style: expanded
+
+kramdown:
+  parse_block_html: true
+
+collections:
+  course-content:
+    output: true
+    permalink: /:collection/:path/
+    layout: content

@@ -1,0 +1,30 @@
+$colors: (
+  primary,
+  primary-dark,
+  green,
+  green-dark,
+  turquoise,
+  turquoise-dark,
+  aqua,
+  aqua-dark,
+  sky,
+  sky-dark
+);
+
+$classes: (
+  'text': color,
+  'bg': background-color
+);
+
+@each $cName, $cValue in $classes {
+  @each $color in $colors {
+
+    .#{$cName}-#{$color} {
+      #{$cValue}: var(--color-#{$color});
+      @if ($cName == 'bg') {
+        color: #fff;
+      }
+    }
+
+  }
+}

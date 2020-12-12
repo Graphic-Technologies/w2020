@@ -52,8 +52,26 @@ $lScale: 1.333;
   }
 }
 
+@mixin typeScaleSmall {
+  font-size: typeScale($sScale, 1, 'down');
+  @media only screen and (min-width: 38em) {
+    font-size: typeScale($mScale, 1, 'down');
+  }
+  @media only screen and (min-width: 60em) {
+    font-size: typeScale($lScale, 1, 'down');
+  }
+}
+
 @mixin gradientText {
   background: var(--gradient) center / cover no-repeat;
   -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  -o-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
+  -o-text-fill-color: transparent;
+  text-fill-color: transparent;
 }

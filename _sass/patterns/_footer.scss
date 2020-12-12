@@ -1,0 +1,47 @@
+.footer {
+  color: #fafafa;
+  background-color: var(--color-primary-dark);
+  a {
+    color: var(--color-green);
+    @include hov {
+      color: var(--color-turquoise);
+    }
+  }
+  .logo {
+    @include gradientText;
+    @include typeScaleH4;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+    background-size: 125% auto;
+    background-position: left center;
+    transition:
+      background .2s;
+    @include hov {
+      background-position: 100% center;
+    }
+  }
+  .icon-list {
+    display: flex;
+    @include listClear;
+    li:not(:last-child) {
+      margin-right: 1.5rem;
+    }
+    @media only screen and (min-width: 60em) {
+      justify-content: flex-end;
+    }
+  }
+  .legal {
+    @media only screen and (min-width: 60em) {
+      order: -1;
+    }
+  }
+  .sub-footer {
+    background-color: var(--color-primary);
+    text-align: center;
+    p {
+      margin: 0;
+    }
+  }
+}

@@ -3,14 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Educate</title>
+  {% if page.intro %}<meta name="description" content="{{ page.intro }}">{% endif %}
+  <title>{% if page.title %}{{ page.title }} · {% if page.week %}Week {{ page.week }} · {% endif %}{% endif %}Graphic Technologies</title>
   <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
 </head>
-<body>
+<body{% if page.class %} class="{{ page.class }}"{% endif %}>
+  
+  {% include snippets/skip-links.liquid %}
   
   {% include patterns/header.liquid %}
   
-  {{ content }}
+  <main id="main" role="main">
+
+    {{ content }}
+
+  </main>
   
   {% include patterns/footer.liquid %}
 

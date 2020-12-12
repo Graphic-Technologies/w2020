@@ -1,4 +1,4 @@
-<nav id="{{ include.id | default: 'nav' }}" class="{{ include.class | default: 'nav' }}">
+<nav id="{{ include.id | default: 'nav' }}" class="{{ include.class | default: 'nav' }}" role="navigation">
   <ul class="list-clear">
     <li>
       <a href="{{site.baseurl}}/course-content"{% if page.url contains 'course-content' %} aria-current="page"{% endif %} title="Course Content">Course Content</a>

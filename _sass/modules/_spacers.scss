@@ -1,0 +1,54 @@
+$ratio: 1.5rem;
+
+$sizes: (
+  '0': 0,
+  '1-2': 0.5,
+  '1': 1,
+  '2': 2,
+  '3': 3,
+  '4': 4
+);
+
+$types: (
+  'pad-t': padding-top,
+  'pad-b': padding-bottom,
+  'gutter': padding,
+  'island': padding,
+  'push': margin-bottom,
+  'push-l': margin-left,
+  'push-r': margin-right
+);
+
+@each $tName, $tProp in $types {
+  @each $sName, $sValue in $sizes {
+
+    $value: $ratio * $sValue;
+
+    @if ($value == 0rem) {
+      $value: 0;
+    }
+
+    @if ($sName == '1') {
+      @if ($tName == 'gutter') {
+        .#{$tName}-#{$sName} {
+          padding-left: $value;
+          padding-right: $value;
+        }
+      } @else {
+        .#{$tName} {
+          #{$tProp}: #{$value};
+        }
+      }
+    } @else if ($tName == 'gutter') {
+      .#{$tName}-#{$sName} {
+        padding-left: $value;
+        padding-right: $value;
+      }
+    } @else {
+      .#{$tName}-#{$sName} {
+        #{$tProp}: #{$value};
+      }
+    }
+
+  }
+}

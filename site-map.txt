@@ -1,0 +1,59 @@
+# Site Map
+
+## Navigation
+
+- Home/Logo
+- Course Content
+- Deliverables
+  - Exercises
+  - Assignments
+  - Discussions
+  - Quizzes
+- Resources
+
+
+
+1 - Home
+    > Course introduction
+    > Cards
+      - Course Content
+      - Deliverables
+      - Resources
+    > BS Banner
+    > Prof introduction
+
+2 - Course Content
+    > Brief overview of course including unit breakdown
+    > List of weeks
+  
+  2.1-15 - Weeks 1 - 15
+
+3 - Deliverables
+    > Exercises
+      > Outline of weekly exercise expectations
+      > List of all exercises
+    > Assignments
+      > Outline of assignment expectations
+      > List of all assignments
+    > Discussions
+      > Outline of discussion expectations
+      > List of discussions with direct links to BS
+    > Quizzes
+      > Outline of quiz expectations
+      > List of quizzes with direct links to BS
+  
+  3.1-10 - Exercises
+  3.10-12 - Assignments
+
+4 - Resources
+    > Tuturials & Guides
+      > Adobe Resources
+      > Let's Xd
+      > CG Site
+      > Learn the Web
+      > LinkedIn Learning
+    > College Resources
+      > Digital Resources
+      > Financial Aid
+      > Registrar's Office
+      > Counselling Services

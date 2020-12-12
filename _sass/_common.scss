@@ -4,6 +4,7 @@
     --color-primary-dark: #00181A;
     --color-green: #8DCF54;
     --color-green-dark: #3A5F1C;
+    --color-green-pale: #FCFFFA;
     --color-turquoise: #54CFA9;
     --color-turquoise-dark: #1D634D;
     --color-aqua: #54C6CF;
@@ -22,5 +23,6 @@
 }
 
 html {
-  font: normal 100%/1.3 "Lato", sans-serif;
+  font: normal 100%/1.5 var(--font-primary);
+  background-color: #fafafa;
 }

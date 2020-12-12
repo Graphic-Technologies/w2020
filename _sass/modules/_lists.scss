@@ -1,5 +1,60 @@
-.list-clear {
+@mixin listClear {
   padding: 0;
   margin: 0;
   list-style-type: none;
+  > li {
+    display: block;
+    &::before {
+      display: none;
+    }
+  }
+}
+
+.list-clear {
+  @include listClear;
+}
+
+// ::marker {
+//   color: var(--color-green);
+//   font-weight: bold;
+// }
+
+ul {
+  list-style-type: none;
+}
+
+ul > li {
+  display: flex;
+  &::before {
+    display: inline-block;
+    margin-top: .45rem;
+    margin-right: 1.5rem;
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    content: '';
+    text-align: right;
+    background-color: var(--color-green);
+    font-weight: bold;
+  }
+}
+
+ol {
+  counter-reset: ol-simple-numbers;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ol > li {
+  display: flex;
+  &::before {
+    display: inline-block;
+    margin-right: 1.5rem;
+    width: 1rem;
+    counter-increment: ol-simple-numbers;
+    content: counter(ol-simple-numbers) ".";
+    text-align: right;
+    color: var(--color-green);
+    font-weight: bold;
+  }
 }

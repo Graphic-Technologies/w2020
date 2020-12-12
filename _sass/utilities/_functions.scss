@@ -1,7 +1,13 @@
-@function typeScale($scale, $step) {
+@function typeScale($scale, $step, $dir: 'up') {
   $fs: 1rem;
-  @for $i from 1 through $step {
-    $fs: $fs * $scale;
+  @if ($dir == 'down') {
+    @for $i from 1 through $step {
+      $fs: $fs / $scale;
+    }
+  } @else {
+    @for $i from 1 through $step {
+      $fs: $fs * $scale;
+    }
   }
   $fs: ceil($fs * 100) / 100;
   @return $fs;

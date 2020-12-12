@@ -7,16 +7,21 @@ export async function Toggle(tog) {
   const targets = [target, tog];
   const middle = tog.querySelector('.middle');
   const navItems = target.querySelectorAll('a')
+  const onMobile = window.matchMedia('(max-width: 59.999em)');
+
+  onMobile.matches && navItems.forEach(item => {
+    item.classList.add('out');
+  })
 
   async function itemsIn() {
     await asyncForEach(navItems, async (item) => {
       await wait(50);
-      item.classList.add('transitioned');
+      item.classList.remove('out');
     })
   }
   async function itemsOut() {
     navItems.forEach(item => {
-      item.classList.remove('transitioned');
+      item.classList.add('out');
     });
   }
 

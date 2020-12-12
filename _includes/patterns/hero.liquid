@@ -1,0 +1,18 @@
+<header class="hero">
+  <div class="container-grid">
+    {% if page.url == '/' %}
+      <h2 class="hero__headline">
+    {% else %}
+      <h1 class="hero__headline">
+    {% endif %}
+      {% if include.preHeadline %}
+      <span>{{ include.preHeadline }}</span>
+      {% endif %}
+      {{ include.headline }}
+    {% if page.url == '/' %}
+        </h2>
+    {% else %}
+      </h1>
+    {% endif %}
+  </div>
+</header>

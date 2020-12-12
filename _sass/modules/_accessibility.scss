@@ -1,0 +1,30 @@
+.screen-reader-text {
+  position: absolute!important;
+  top: 0;
+  left: 0;
+  font-size: 1rem;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip-links {
+  &__link {
+    position: absolute;
+    top: -100rem;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--color-primary);
+    color: #fff;
+    display: block;
+    z-index: 100000;
+    @include typeScaleH4;
+    text-align: center;
+    text-decoration: none;
+    &:focus {
+      top: 0;
+      color: #fff;
+    }
+  }
+}

@@ -1,27 +1,164 @@
-@mixin grid($xs: 4, $s: 4, $m: 6, $l: 12, $gap: 1.5) {
+@function divideAble($num, $frac) {
+  $result: ceil($num / $frac) - $num / $frac;
+  @if ($result == 0) {
+    @return true;
+  } @else {
+    @return false;
+  }
+}
+
+@mixin grid($xs: 12, $s: 12, $m: 12, $l: 12, $gap: 1.5) {
   display: grid;
   grid-template-columns: repeat($xs, 1fr);
   @if ($gap != 0) {
     gap: #{$gap}rem;
   }
+  > * {
+    grid-column: 1 / -1;
+    margin-bottom: 0;
+  }
+
+  @if (divideAble($xs, 2)) {
+    .xs-1-2 {
+      grid-column: span #{$xs / 2}
+    }
+  }
+  @if (divideAble($xs, 3)) {
+    .xs-1-3 {
+      grid-column: span #{$xs / 3}
+    }
+    .xs-2-3 {
+      grid-column: span #{$xs / 3 * 2}
+    }
+  }
+  @if (divideAble($xs, 4)) {
+    .xs-1-4 {
+      grid-column: span #{$xs / 4}
+    }
+    .xs-3-4 {
+      grid-column: span #{$xs / 4 * 3}
+    }
+  }
+  @if (divideAble($xs, 6)) {
+    .xs-1-6 {
+      grid-column: span #{$xs / 6}
+    }
+    .xs-5-6 {
+      grid-column: span #{$xs / 6 * 5}
+    }
+  }
+
   @media only screen and (min-width: 25em) {
     grid-template-columns: repeat($s, 1fr);
+    @if (divideAble($s, 2)) {
+      .s-1-2 {
+        grid-column: span #{$xs / 2}
+      }
+    }
+    @if (divideAble($s, 3)) {
+      .s-1-3 {
+        grid-column: span #{$s / 3}
+      }
+      .s-2-3 {
+        grid-column: span #{$s / 3 * 2}
+      }
+    }
+    @if (divideAble($s, 4)) {
+      .s-1-4 {
+        grid-column: span #{$s / 4}
+      }
+      .s-3-4 {
+        grid-column: span #{$s / 4 * 3}
+      }
+    }
+    @if (divideAble($s, 6)) {
+    .s-1-6 {
+      grid-column: span #{$s / 6}
+    }
+    .s-5-6 {
+      grid-column: span #{$s / 6 * 5}
+    }
+  }
   }
   @media only screen and (min-width: 38em) {
     grid-template-columns: repeat($m, 1fr);
+    @if (divideAble($m, 2)) {
+      .m-1-2 {
+        grid-column: span #{$m / 2}
+      }
+    }
+    @if (divideAble($m, 3)) {
+      .m-1-3 {
+        grid-column: span #{$m / 3}
+      }
+      .m-2-3 {
+        grid-column: span #{$m / 3 * 2}
+      }
+    }
+    @if (divideAble($m, 4)) {
+      .m-1-4 {
+        grid-column: span #{$m / 4}
+      }
+      .m-3-4 {
+        grid-column: span #{$m / 4 * 3}
+      }
+    }
+    @if (divideAble($m, 6)) {
+    .m-1-6 {
+      grid-column: span #{$m / 6}
+    }
+    .m-5-6 {
+      grid-column: span #{$m / 6 * 5}
+    }
+  }
   }
   @media only screen and (min-width: 60em) {
     grid-template-columns: repeat($l, 1fr);
+    @if (divideAble($l, 2)) {
+      .l-1-2 {
+        grid-column: span #{$l / 2}
+      }
+    }
+    @if (divideAble($l, 3)) {
+      .l-1-3 {
+        grid-column: span #{$l / 3}
+      }
+      .l-2-3 {
+        grid-column: span #{$l / 3 * 2}
+      }
+    }
+    @if (divideAble($l, 4)) {
+      .l-1-4 {
+        grid-column: span #{$l / 4}
+      }
+      .l-3-4 {
+        grid-column: span #{$l / 4 * 3}
+      }
+    }
+    @if (divideAble($l, 6)) {
+    .l-1-6 {
+      grid-column: span #{$l / 6}
+    }
+    .l-5-6 {
+      grid-column: span #{$l / 6 * 5}
+    }
+  }
   }
 }
 
 @mixin container {
   width: 100%;
-  max-width: 65em;
+  max-width: 70em;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  @media only screen and (min-width: 60em) {
+  
+    padding-left: 3rem;
+    padding-right: 3rem;
+  
+  }
 }
 
 @mixin containerGrid {
