@@ -1,0 +1,32 @@
+---
+layout: default
+title: Course Content
+class: has-hero
+---
+
+{% include patterns/banner-inner.liquid %}
+
+<section class="pad-t-4 pad-b-4 bg-grey-light" tabindex="0">
+  <div class="container-grid">
+    <h2>Course Information</h2>
+    <dl class="course-info">
+      <div class="dl-unit xs-span-12 m-span-4">
+        <dt>Instructor:</dt>
+        <dd><a href="mailto:robilla@algonquincollege.com">Adam Robillard</a></dd>
+      </div>
+      <div class="dl-unit xs-span-12 m-span-4">
+        <dt>Course Code:</dt>
+        <dd>MAD9010</dd>
+      </div>
+      <div class="dl-unit xs-span-12 m-span-4">
+        <dt>Class Time:</dt>
+        <dd>
+          <span class="content-sec-1">Monday <time datetime="08:00">8:00 - 10:00am</time></span>
+          <span class="content-sec-2">Tuesday <time datetime="08:00">10:00am - 12:00pm</time></span>
+        </dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+{% include patterns/content-cards.liquid %}

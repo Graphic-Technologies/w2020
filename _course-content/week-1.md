@@ -2,6 +2,7 @@
 layout: course-content
 title: Set Up &amp; Intro to&nbsp;Illustrator
 week: 1
+active: true
 intro: |-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia.
 graphic: ai

@@ -10,15 +10,26 @@
     font-weight: 500;
     text-transform: uppercase;
     position: relative;
+    background-color: #fff;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -ms-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
+    text-fill-color: transparent;
     &::before {
       content: ' ';
       position: absolute;
       top: 50%;
       left: 0;
-      width: 100%;
+      width: calc(100% + 1.75rem);
       height: 100%;
       background: var(--gradient);
-      transform: translate(-25%, -50%);
+      transform: translate(-1.5rem, -50%);
       z-index: -1;
     }
   }
@@ -32,10 +43,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 3rem;
+    @media only screen and (min-width: 60em) {
+      padding-top: 3rem;
+    }
     .graphic-tilt {
       width: 100%;
       max-width: 15rem;
       transform: rotate(var(--tilt));
+      margin: 0 auto;
     }
   }
 }

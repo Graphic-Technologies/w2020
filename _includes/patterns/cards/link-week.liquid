@@ -1,0 +1,18 @@
+{% capture numDel %}{% for deliverable in week.deliverables %}{{ forloop.length }}{% break %}{% endfor %}{% endcapture %}
+{% capture numFiles %}{% for file in week.files %}{{ forloop.length }}{% break %}{% endfor %}{% endcapture %}
+
+<a class="card card--week {{ include.class }}" href="{{ week.url }}">
+  <span class="card__preTitle">Week {{ week.week }}</span>
+  <h3 class="card__title">{{ week.title }}</h3>
+  <p class="card__text">{{ week.intro }}</p>
+  <ul class="icon-list">
+    <li class="icon-wrap">
+      <i class="icon"><svg><use xlink:href="{{site.baseurl}}/images/icons.svg#assignment" /></svg></i>
+      <span class="label">{{ numDel }} Deliverables</span>
+    </li>
+    <li class="icon-wrap">
+      <i class="icon"><svg><use xlink:href="{{site.baseurl}}/images/icons.svg#download" /></svg></i>
+      <span class="label">{{ numFiles }} File{% if numFiles != '1' %}s{% endif %}</span>
+    </li>
+  </ul>
+</a>

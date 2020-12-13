@@ -1,8 +1,9 @@
 import { toggles } from './selectors.js';
-import { Toggle } from './components/nav-toggle.js';
-import { headerShift, stickyToggle } from './components/header.js';
-import './components/section-selector.js';
-import { addToPageNav, createLinked } from './components/page-nav.js';
+import { Toggle } from './modules/nav-toggle.js';
+import { headerShift, stickyToggle } from './modules/header.js';
+import './modules/section-selector.js';
+import './modules/accessibility.js';
+import { addToPageNav, createLinked } from './modules/page-nav.js';
 import { autoLinkedHeadings } from './selectors.js';
 import './pages/pages.js';
 

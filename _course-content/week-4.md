@@ -1,7 +1,7 @@
 ---
 layout: course-content
-title: Meeting Illustrator
-week: 2
+title: Time to Draw
+week: 4
 active: true
 intro: |-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia.

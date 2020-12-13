@@ -1,13 +1,13 @@
 <nav id="{{ include.id | default: 'nav' }}" class="{{ include.class | default: 'nav' }}" role="navigation">
   <ul class="list-clear">
     <li>
-      <a href="{{site.baseurl}}/course-content"{% if page.url contains 'course-content' %} aria-current="page"{% endif %}>Course Content</a>
+      <a href="{{site.baseurl}}/course-content"{% if page.url contains 'course-content' %} aria-current="page"{% endif %} data-text="Course Content">Course Content</a>
     </li>
     <li>
-      <a href="{{site.baseurl}}/deliverables"{% if page.url contains 'deliverables' %} aria-current="page"{% endif %}>Deliverables</a>
+      <a href="{{site.baseurl}}/deliverables"{% if page.url contains 'deliverables' %} aria-current="page"{% endif %} data-text="Deliverables">Deliverables</a>
     </li>
     <li>
-      <a href="{{site.baseurl}}/resources"{% if page.url contains 'resources' %} aria-current="page"{% endif %}>Resources</a>
+      <a href="{{site.baseurl}}/resources"{% if page.url contains 'resources' %} aria-current="page"{% endif %} data-text="Resources">Resources</a>
     </li>
   </ul>
 </nav>

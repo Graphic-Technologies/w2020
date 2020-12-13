@@ -3,6 +3,7 @@ $colors: (
   primary-dark: dark,
   secondary: light,
   secondary-dark: dark,
+  secondary-pale: light,
   accent-1: light,
   accent-1-dark: dark,
   accent-2: light,
@@ -27,4 +28,8 @@ $classes: (
     }
 
   }
+}
+
+.bg-grey-light {
+  background-color: #f2f2f2;
 }

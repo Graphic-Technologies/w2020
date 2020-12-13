@@ -24,5 +24,11 @@
   &__byline {
     color: #fff;
     @include typeScaleH5;
+    margin-bottom: 1.5rem;
+  }
+  .icon-list {
+    li:not(:last-child) {
+      margin-right: 3rem;
+    }
   }
 }

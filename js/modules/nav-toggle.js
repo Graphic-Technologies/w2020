@@ -11,17 +11,20 @@ export async function Toggle(tog) {
 
   onMobile.matches && navItems.forEach(item => {
     item.classList.add('out');
+    item.setAttribute('tabindex', '-1');
   })
 
   async function itemsIn() {
     await asyncForEach(navItems, async (item) => {
       await wait(50);
       item.classList.remove('out');
+      item.setAttribute('tabindex', '0');
     })
   }
   async function itemsOut() {
     navItems.forEach(item => {
       item.classList.add('out');
+      item.setAttribute('tabindex', '-1');
     });
   }
 

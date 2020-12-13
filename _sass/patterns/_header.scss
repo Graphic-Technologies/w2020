@@ -69,7 +69,7 @@
         position: relative;
         color: var(--color-primary);
         &::after {
-          content: attr(title);
+          content: attr(data-text);
           position: absolute;
           top: 0;
           left: 0;
@@ -155,7 +155,7 @@
   }
 }
 .has-hero .masthead:not(.sticky) {
-  background-color: transparent;
+  background-color: var(--color-primary);
   .nav:not(.open) a {
     color: #fff;
     @include hov {
@@ -167,4 +167,8 @@
       background-color: #fff;
     }
   }
+}
+
+.masthead.sticky {
+  box-shadow: var(--shadow);
 }

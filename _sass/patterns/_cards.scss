@@ -6,6 +6,37 @@
   box-shadow: var(--shadow);
   text-decoration: none;
   color: var(--color-primary);
+  &__preTitle {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    @include typeScaleH5;
+    background-color: #fff;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -ms-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
+    text-fill-color: transparent;
+    &::before {
+      content: ' ';
+      position: absolute;
+      width: calc(100% + 1.75rem);
+      height: 75%;
+      background: var(--gradient);
+      top: 50%;
+      transform: translateY(-50%);
+      left: -1.5rem;
+      z-index: -1;
+    }
+    + .card__title::before {
+      display: none;
+    }
+  }
   &__title {
     @include typeScaleH4;
     font-weight: bold;
@@ -31,5 +62,19 @@
     box-shadow: var(--shadow-large);
     color: var(--color-primary);
     transform: scale(1.025);
+  }
+}
+
+.card--week {
+  .icon-list {
+    .icon-wrap {
+      gap: .75rem;
+      &:not(:last-child) {
+        margin-right: 3rem;
+      }
+      .icon {
+        color: var(--color-secondary);
+      }
+    }
   }
 }

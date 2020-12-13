@@ -1,4 +1,4 @@
-<header class="hero pad-t-4 pad-b-4">
+<header class="hero pad-t-4 pad-b-4" tabindex="0">
   <div class="container-grid">
     {% if include.preHeadline %}
       <span>{{ include.preHeadline }}</span>
@@ -18,7 +18,7 @@
     <p class="hero__byline l-span-8">{{ include.byline }}</p>
     {% endif %}
     {% if page.url == "/" %}
-      <ul role="img" class="icon-list text-secondary">
+      <ul class="icon-list text-secondary">
         <li>
           <i role="img" class="icon-3 text-secondary">
             <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#ai" /></svg>
