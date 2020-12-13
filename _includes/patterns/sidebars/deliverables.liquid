@@ -4,10 +4,10 @@
     {% for deliverable in page.deliverables %}
     <li>
       <a href="{{ deliverable.link }}"{% if deliverable.newTab %} target="_blank" rel="noreferrer noopener"{% endif %} class="sidebar__list__item icon-wrap">
-        <i class="icon">
+        <i role="img" class="icon">
           <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#{{ deliverable.icon }}" /></svg>
         </i>
-        <div class="icon-label">
+        <div role="img" class="icon-label">
           <span class="sidebar__list__secondary">{{ deliverable.category }}</span>
           <span class="sidebar__list__title">{{ deliverable.title }}</span>
         </div>

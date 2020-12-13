@@ -1,7 +1,7 @@
 {% if include.wrapped %}<div class="link-wrap {{ include.wrapClass }}">{% endif %}
   <a class="link-external {{ include.class }}" href="{{ include.link }}"target="_blank" rel="noopener noreferrer">
     {{ include.text }}
-    <i class="icon">
+    <i role="img" class="icon">
       <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#external" /></svg>
     </i>
   </a>
