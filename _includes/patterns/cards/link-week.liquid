@@ -1,7 +1,7 @@
 {% capture numDel %}{% for deliverable in week.deliverables %}{{ forloop.length }}{% break %}{% endfor %}{% endcapture %}
 {% capture numFiles %}{% for file in week.files %}{{ forloop.length }}{% break %}{% endfor %}{% endcapture %}
 
-<a class="card card--week {{ include.class }}" href="{{ week.url }}">
+<a class="card card--week {{ include.class }}" href="{{site.baseurl}}{{ week.url }}">
   <span class="card__preTitle">Week {{ week.week }}</span>
   <h3 class="card__title">{{ week.title }}</h3>
   <p class="card__text">{{ week.intro }}</p>
