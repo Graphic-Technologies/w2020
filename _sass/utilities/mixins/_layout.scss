@@ -102,6 +102,9 @@
         .#{$mqLabel}-0 {
           display: none;
         }
+        .#{$mqLabel}-first-row {
+          grid-row-start: 1;
+        }
       }
     }
 

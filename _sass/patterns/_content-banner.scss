@@ -1,9 +1,9 @@
 .content-banner {
-  padding-top: 9rem;
+  padding-top: 3rem;
   padding-bottom: 9rem;
-  // &__content {
-    
-  // }
+  @media only screen and (min-width: 60em) {
+    padding-top: 6rem;
+  }
   &__week {
     color: var(--color-primary);
     @include typeScaleH4;

@@ -48,3 +48,23 @@
 .footer *:focus {
   outline: 2px solid var(--color-secondary);
 }
+
+.to-top {
+  position: fixed;
+  bottom: 0;
+  right: 3rem;
+  padding: .75rem 1.5rem;
+  background-color: var(--color-accent-3);
+  color: var(--color-primary);
+  border-radius: var(--radius) var(--radius) 0 0;
+  opacity: .5;
+  transform: translateY(100%);
+  @include hov {
+    transform: translateY(0);
+    opacity: 1;
+    color: var(--color-primary);
+  }
+  &.visible {
+    transform: translateY(0);
+  }
+}

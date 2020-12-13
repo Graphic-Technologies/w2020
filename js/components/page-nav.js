@@ -28,7 +28,7 @@ export function createLinked(heading) {
   a.classList.add('heading-linked__link');
   a.href = `#${heading.id}`;
   a.insertAdjacentElement('beforeend', clone);
-  a.setAttribute('aria-label', 'Select to share link to this point on the page.');
+  a.setAttribute('aria-label', `Select to share link to ${heading.textContent}.`);
 
   const span = document.createElement('span');
   span.textContent = heading.textContent;

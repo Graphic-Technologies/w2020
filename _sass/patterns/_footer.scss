@@ -1,10 +1,15 @@
 .footer {
   color: #fafafa;
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-primary);
   a {
     color: var(--color-secondary);
     @include hov {
       color: var(--color-accent-1);
+    }
+  }
+  .branding {
+    @media only screen and (min-width: 60em) {
+      text-align: right;
     }
   }
   .logo {
@@ -15,9 +20,6 @@
     margin-bottom: 1.5rem;
     text-decoration: none;
     @include bgGradientHov;
-    @media only screen and (min-width: 60em) {
-      text-align: right;
-    }
   }
   .icon-list {
     @media only screen and (min-width: 60em) {
@@ -25,7 +27,7 @@
     }
   }
   .sub-footer {
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-dark);
     text-align: center;
     p {
       margin: 0;

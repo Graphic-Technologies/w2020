@@ -18,13 +18,13 @@ class: home has-hero
 <section class="pad-t-2 pad-b-4">
   <ul class="container-grid list-clear list-cards">
     <li class="m-span-6 l-span-4">
-      {% include patterns/cards/link.liquid link="https://adamrobillard.ca" title="Course Content" text="All of the course learning materials broken down week by week." %}
+      {% include patterns/cards/link.liquid link="course-content/" title="Course Content" text="All of the course learning materials broken down week by week." %}
     </li>
     <li class="m-span-6 l-span-4">
       {% include patterns/cards/link.liquid link="deliverables/" title="Deliverables" text="All of the information you need to complete the course exercises and assignments." %}
     </li>
     <li class="m-span-6 l-span-4">
-      {% include patterns/cards/link.liquid link="deliverables/" title="Resources" text="Additional external &amp; college resources that will compliment and support your learning." %}
+      {% include patterns/cards/link.liquid link="resources/" title="Resources" text="Additional external &amp; college resources that will compliment and support your learning." %}
     </li>
   </ul>
 </section>
@@ -55,7 +55,7 @@ class: home has-hero
       <p>Adam is an Interaction Designer at {% include snippets/link-external.liquid text="Spruce Creative Inc" link="https://sprucecreative.ca" %} specializing in website design, development, and user experience. A graduate of Algonquin College's {% include snippets/link-external.liquid text="Graphic Design" link="https://algonquindesign.ca" %} program, Adam has experience in a wide variety of design, development, branding, and visual communication.</p>
       <ul class="list-clear">
         <li class="push-1-2">
-          <a class="icon-link" href="mailto:robilla@algonquincollege.com">
+          <a class="icon-link" href="mailto:robilla@algonquincollege.com" aria-label="Send Adam an email at robilla@algonquincollege.com">
             <i class="icon">
               <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#email" /></svg>
             </i>
@@ -63,7 +63,7 @@ class: home has-hero
           </a>
         </li>
         <li>
-          <a class="icon-link" href="https://github.com/arobillard">
+          <a class="icon-link" href="https://github.com/arobillard" aria-label="View Adam's Github page">
             <i class="icon">
               <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#github" /></svg>
             </i>

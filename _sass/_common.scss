@@ -1,7 +1,10 @@
-:root {
+:root,
+.section-1 {
     /* Colors */
     --color-primary: #00292C;
     --color-primary-dark: #00181A;
+    --color-primary: hsl(184, 100%, 9%);
+    --color-primary-dark: hsl(185, 100%, 5%);
     --color-secondary: #8DCF54;
     --color-secondary-dark: #3A5F1C;
     --color-secondary-pale: #FCFFFA;
@@ -23,9 +26,9 @@
     --shadow-large: 0px 5px 10px rgba(0, 0, 0, .15);
 }
 
-.group-2 {
+.section-2 {
   --color-primary: #2c0029;
-  --color-primary-dark: #00181A;
+  --color-primary-dark: #1a0018;
   --color-secondary: #548dcf;
   --color-secondary-dark: #3A5F1C;
   --color-secondary-pale: #FCFFFA;
@@ -34,6 +37,21 @@
   --color-accent-2: #cf54c6;
   --color-accent-2-dark: #1E5E67;
   --color-accent-3: #cf54a9;
+  --color-accent-3-dark: #235F7B;
+  --gradient: linear-gradient(-20deg, var(--color-secondary), var(--color-accent-1), var(--color-accent-2), var(--color-accent-3));
+}
+
+.section-3 {
+  --color-primary: #2c0300;
+  --color-primary-dark: #1a0200;
+  --color-secondary: hsl(272, 56%, 65%);
+  --color-secondary-dark: #3A5F1C;
+  --color-secondary-pale: #FCFFFA;
+  --color-accent-1: #cf5475;
+  --color-accent-1-dark: #1D634D;
+  --color-accent-2: #cf5d54;
+  --color-accent-2-dark: #1E5E67;
+  --color-accent-3: #cf7a54;
   --color-accent-3-dark: #235F7B;
   --gradient: linear-gradient(-20deg, var(--color-secondary), var(--color-accent-1), var(--color-accent-2), var(--color-accent-3));
 }

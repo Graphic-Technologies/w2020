@@ -9,6 +9,10 @@ a.btn {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   text-align: center;
+  font-size: 1rem;
+  border: 0;
+  transition:
+    all var(--transition);
   @include hov {
     background-color: var(--color-accent-1);
     color: var(--color-primary);
