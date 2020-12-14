@@ -4,7 +4,7 @@ import { headerShift, stickyToggle } from './modules/header.js';
 import './modules/section-selector.js';
 import './modules/accessibility.js';
 import { addToPageNav, createLinked } from './modules/page-nav.js';
-import { autoLinkedHeadings } from './selectors.js';
+import { autoLinkedHeadings, pageNav } from './selectors.js';
 import './pages/pages.js';
 
 function init() {
@@ -19,7 +19,7 @@ function init() {
   
   if (autoLinkedHeadings.length) {
     autoLinkedHeadings.forEach(h2 => {
-      addToPageNav(h2);
+      pageNav && addToPageNav(h2);
       createLinked(h2);
     });
   }

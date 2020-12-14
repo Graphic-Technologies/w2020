@@ -9,7 +9,7 @@ a.btn {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   text-align: center;
-  font-size: 1rem;
+  font-size: inherit;
   border: 0;
   transition:
     all var(--transition);
@@ -41,4 +41,8 @@ a.btn--primary {
     background-color: var(--color-primary-dark);
     color: var(--color-secondary);
   }
+}
+
+.btn--full {
+  width: 100%;
 }

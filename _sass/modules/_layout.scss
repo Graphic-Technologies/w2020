@@ -29,9 +29,12 @@
       grid-template-columns: 1fr;
       position: sticky;
       top: 6rem;
-      padding-bottom: 3rem;
+      padding-bottom: 6rem;
       margin-bottom: 0;
     }
+  }
+  *:last-child {
+    margin-bottom: 0;
   }
 }
 

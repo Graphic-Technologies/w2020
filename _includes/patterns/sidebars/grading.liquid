@@ -1,0 +1,17 @@
+
+  {% assign total = 0 %}
+  {% for gradeItem in page.grading %}
+    {% assign total = total | plus: gradeItem.value %}
+  {% endfor %}
+
+<div class="sidebar deliverables">
+  <h2 class="sidebar__title">Grading</h2>
+  <dl class="sidebar__list--grading">
+    {% for gradeItem in page.grading %}
+    <dt class="sidebar__list__title">{{ gradeItem.title }}</dt>
+    <dd class="sidebar__list__value">{{ gradeItem.value }}</dd>
+    {% endfor %}
+    <dt class="sidebar__list__title--total">Total:</dt>
+    <dd class="sidebar__list__value--total">{{ total }}</dd>
+  </dl>
+</div>

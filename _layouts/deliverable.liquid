@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<article class="deliverable">
+  <header class="content-banner container-grid center" tabindex="0">
+    <div class="content-banner__graphic l-9-13">
+      <div class="graphic-tilt">
+        {% if page.graphic %}
+          {% capture link %}graphics/icon-{{page.graphic}}.liquid{% endcapture %}
+          {% include {{ link }} %}
+        {% endif %}
+      </div>
+    </div>
+    <div class="content-banner__content l-span-6 l-first-row">
+      <strong class="content-banner__week">Week {{ page.week }}</strong>
+      <h1 class="content-banner__title">{{ page.title }}</h1>
+      <p class="content-banner__intro">{{ page.intro }}</p>
+    </div>
+  </header>
+
+  <div class="container-grid">
+    <div class="l-9-13">
+      <div class="content-sidebars">
+        {% if page.files %}
+          {% include patterns/sidebars/files.liquid %}
+        {% endif %}
+        <div class="sidebar submission">
+          <h2 class="sidebar__title">Submission</h2>
+          <p>{{ page.submission.info | markdownify }}</p>
+          <div class="btn-wrap">
+            <a href="{{ page.submission.link }}" class="btn--gradient btn--full scale-5">{{ page.submission.label | default: "Submit"}}</a>
+          </div>
+        </div>
+        {% if page.grading %}
+          {% include patterns/sidebars/grading.liquid %}
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="content-wrap l-1-9">
+      <section id="content" class="content auto-heading-links pad-b-4">
+        
+        {{ content }}
+        
+
+      </section>
+    </div>
+    <a class="heading-linked__link hidden" href="#outline" aria-label="Select to share link to Outline.">
+      <i role="img" class="icon">
+        <svg><use xlink:href="/images/icons.svg#link"></use></svg>
+      </i>
+    </a>
+
+  </div>
+</article>

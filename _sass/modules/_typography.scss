@@ -222,3 +222,11 @@ p:last-child {
 .bold {
   font-weight: bold;
 }
+
+.truncate {
+  max-width: 100%;
+  overflow: hidden;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

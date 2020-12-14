@@ -9,4 +9,9 @@ collections:
   course-content:
     output: true
     permalink: /:collection/:path/
-    layout: content
+  exercises:
+    output: true
+    permalink: /deliverables/:collection/:path/
+  assignments:
+    output: true
+    permalink: /deliverables/:collection/:path/
