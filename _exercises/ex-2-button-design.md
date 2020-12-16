@@ -2,6 +2,7 @@
 layout: deliverable
 num: 2
 title: Button Design
+type: exercise
 intro: |-
   The goal of this assignment is to learn how basic shapes can be used to create logos and other designs.
 active: true

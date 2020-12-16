@@ -1,0 +1,27 @@
+discussions:
+  - num: 1
+    type: discussion
+    title: Avatar Icon Feedback
+    intro: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium eligendi ipsum eos officiis expedita officia corporis ratione.
+    due: January 31st
+  - num: 2
+    type: discussion
+    title: Profile Card Feedback
+    intro: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium eligendi ipsum eos officiis expedita officia corporis ratione.
+    due: February 28th
+  - num: 3
+    type: discussion
+    title: Final Project Feedback
+    intro: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium eligendi ipsum eos officiis expedita officia corporis ratione.
+    due: March 28th
+quizzes:
+  - num: 1
+    type: quiz
+    title: Illustrator Quiz
+    intro: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium eligendi ipsum eos officiis expedita officia corporis ratione.
+    due: January 31st
+  - num: 2
+    type: quiz
+    title: Photoshop Quiz
+    intro: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium eligendi ipsum eos officiis expedita officia corporis ratione.
+    due: February 28th

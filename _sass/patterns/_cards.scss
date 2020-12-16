@@ -4,29 +4,34 @@
   border-radius: var(--radius);
   padding: 1.5rem;
   box-shadow: var(--shadow);
+  background-color: #fff;
   text-decoration: none;
   color: var(--color-primary);
   &__preTitle {
     position: relative;
+    z-index: 1;
     display: inline-block;
     text-transform: uppercase;
+    margin: 0;
     @include typeScaleH5;
-    background-color: #fff;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -ms-background-clip: text;
-    -o-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    -ms-text-fill-color: transparent;
-    -o-text-fill-color: transparent;
-    text-fill-color: transparent;
+    span {
+      background-color: #fff;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -ms-background-clip: text;
+      -o-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-text-fill-color: transparent;
+      -ms-text-fill-color: transparent;
+      -o-text-fill-color: transparent;
+      text-fill-color: transparent;
+    }
     &::before {
       content: ' ';
       position: absolute;
       width: calc(100% + 1.75rem);
-      height: 75%;
+      height: 100%;
       background: var(--gradient);
       top: 50%;
       transform: translateY(-50%);

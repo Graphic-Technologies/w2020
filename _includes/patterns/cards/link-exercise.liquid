@@ -1,6 +1,6 @@
-<a class="card card--exercise {{ include.class }}" href="{{site.baseurl}}{{ exercise.url }}">
-  <span class="card__preTitle">exercise {{ exercise.num }}</span>
-  <h3 class="card__title">{{ exercise.title }}</h3>
-  <p class="card__text">{{ exercise.intro }}</p>
-  <p><span class="bold">Due:</span> {{ exercise.due }}</p>
+<a class="card {{ include.class }}" href="{{site.baseurl}}{{ deliverable.url }}">
+  <div class="card__preTitle"><span>{{ deliverable.type | capitalize }} {{ deliverable.num }}</span></div>
+  <h3 class="card__title">{{ deliverable.title }}</h3>
+  <p class="card__text">{{ deliverable.intro }}</p>
+  <p><span class="bold">Due:</span> {{ deliverable.due }}</p>
 </a>

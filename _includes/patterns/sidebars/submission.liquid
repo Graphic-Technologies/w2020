@@ -1,0 +1,8 @@
+<div class="sidebar submission">
+  <h2 class="sidebar__title">Submission</h2>
+  <p class="scale-5"><strong>Due:</strong> {{ page.due }}</p>
+  <p>{{ page.submission.info | markdownify }}</p>
+  <div class="btn-wrap">
+    <a href="{{ page.submission.link }}" class="btn--gradient btn--full scale-5">{{ page.submission.label | default: "Submit"}}</a>
+  </div>
+</div>

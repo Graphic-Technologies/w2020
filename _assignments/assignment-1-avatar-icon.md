@@ -1,8 +1,8 @@
 ---
 layout: deliverable
-num: 3
-title: Character Vectorization
-type: exercise
+num: 1
+title: Avatar Icon
+type: assignment
 intro: |-
   The goal of this assignment is to learn how basic shapes can be used to create logos and other designs.
 active: true
