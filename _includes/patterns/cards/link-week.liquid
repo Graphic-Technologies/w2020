@@ -1,5 +1,47 @@
-{% capture numDel %}{% for deliverable in week.deliverables %}{{ forloop.length }}{% break %}{% endfor %}{% endcapture %}
-{% capture numFiles %}{% for file in week.files %}{{ forloop.length }}{% break %}{% endfor %}{% endcapture %}
+{% assign dels = '' %}
+
+{% for ass in site.assignments %}
+  {% for weekNum in ass.weeks %}
+    {% if weekNum == week.week  %}
+      {% assign newDel = ass.title | append: ',' %}
+      {% assign dels = dels | append: newDel %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+{% for ex in site.exercises %}
+  {% for weekNum in ex.weeks %}
+    {% if weekNum == week.week  %}
+      {% assign newDel = ex.title | append: ',' %}
+      {% assign dels = dels | append: newDel %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+{% for dis in site.discussions %}
+  {% for weekNum in dis.weeks %}
+    {% if weekNum == week.week  %}
+      {% assign newDel = dis.title | append: ',' %}
+      {% assign dels = dels | append: newDel %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+{% for quiz in site.quizzes %}
+  {% for weekNum in quiz.weeks %}
+    {% if weekNum == week.week  %}
+      {% assign newDel = quiz.title | append: ',' %}
+      {% assign dels = dels | append: newDel %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+{% assign numList = dels | split: ',' %}
+
+{%- capture numDel -%}
+  {% for num in numList %}
+    {{ forloop.length }}
+    {% break %}
+  {% endfor %}
+{%- endcapture -%}
+{%- capture numFiles -%}{% for file in week.files %}{{ forloop.length }}{% break %}{% endfor %}{%- endcapture -%}
 
 <a class="card card--week {{ include.class }}" href="{{site.baseurl}}{{ week.url }}">
   <div class="card__preTitle"><span>Week {{ week.week }}</span></div>
@@ -8,11 +50,11 @@
   <ul class="icon-list">
     <li class="icon-wrap">
       <i class="icon"><svg><use xlink:href="{{site.baseurl}}/images/icons.svg#assignment" /></svg></i>
-      <span class="label">{{ numDel }} Deliverables</span>
+      <span class="label">{% if numDel == '' %}0{% else %}{{ numDel }}{% endif %} Deliverable{% if numDel != '1' %}s{% endif %}</span>
     </li>
     <li class="icon-wrap">
       <i class="icon"><svg><use xlink:href="{{site.baseurl}}/images/icons.svg#download" /></svg></i>
-      <span class="label">{{ numFiles }} File{% if numFiles != '1' %}s{% endif %}</span>
+      <span class="label">{% if numFiles == '' %}0{% else %}{{ numFiles }}{% endif %} File{% if numFiles != '1' %}s{% endif %}</span>
     </li>
   </ul>
 </a>

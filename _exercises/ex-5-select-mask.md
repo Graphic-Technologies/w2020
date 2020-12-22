@@ -7,6 +7,8 @@ intro: |-
   The goal of this assignment is to learn basic masking techniques in Photoshop.
 active: true
 graphic: psd
+weeks:
+  - 6
 due:
   sec-1: February 22, 2021
   sec-2: February 23, 2021

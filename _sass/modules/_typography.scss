@@ -114,6 +114,15 @@ a {
   }
 }
 
+.content {
+  h3 {
+    @include typeScaleH4;
+  }
+  h4 {
+    @include typeScaleH5;
+  }
+}
+
 .heading-linked {
   // position: relative;
   margin-top: -3rem;

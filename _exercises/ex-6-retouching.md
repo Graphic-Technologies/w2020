@@ -7,6 +7,8 @@ intro: |-
   The goal of this assignment is to learn basic retouching techniques and non-destructive editing.
 active: true
 graphic: psd
+weeks:
+  - 7
 due:
   sec-1: March 1, 2021
   sec-2: March 2, 2021

@@ -3,7 +3,7 @@
     {% include snippets/heading-linked.liquid text="Assignments" class="shift-full" %}
     {% for deliverable in site.assignments %}
       {% if deliverable.active %}
-        {% include patterns/cards/link-exercise.liquid class="l-span-6" %}
+        {% include patterns/cards/link-deliverable.liquid class="l-span-6" %}
       {% endif %}
     {% endfor %}
   </div>

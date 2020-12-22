@@ -27,3 +27,67 @@
     }
   }
 }
+
+.week-nav {
+  text-align: center;
+  @media only screen and (min-width: 38em) {
+    text-align: left;
+  }
+  &__prev,
+  &__next {
+    text-decoration: none;
+    color: var(--color-primary);
+    @include hov {
+      color: var(--color-primary);
+      .week-nav__label {
+        &::before {
+          transform: translateX(-2.25rem);
+        }
+      }
+    }
+    @media only screen and (min-width: 38em) {
+      grid-column: span 6;
+    }
+  }
+  &__next {
+    .week-nav__label {
+      &::before {
+        transform: translateX(1.5rem);
+      }
+    }
+    @include hov {
+      .week-nav__label {
+        &::before {
+          transform: translateX(2.25rem);
+        }
+      }
+    }
+    @media only screen and (min-width: 38em) {
+      text-align: right;
+      grid-column: 7 / 13;
+    }
+  }
+  &__label {
+    display: inline-block;
+    position: relative;
+    &::before {
+      content: ' ';
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-1.5rem);
+      width: 4.5rem;
+      height: 100%;
+      background: var(--gradient);
+      transition:
+        transform var(--transition);
+    }
+    span {
+      position: relative;
+    }
+  }
+  &__title {
+    @include typeScaleH5;
+    font-weight: bold;
+  }
+}

@@ -7,6 +7,8 @@ intro: |-
   In this assignment we will be creating a variety of buttons using different colours and styles. The goal is to get familiar with the Color, Swatches, and Gradient panels.
 active: true
 graphic: ai
+weeks:
+  - 3
 due:
   sec-1: February 1, 2021
   sec-2: February 2, 2021

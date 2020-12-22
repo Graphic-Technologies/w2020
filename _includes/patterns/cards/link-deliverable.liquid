@@ -1,4 +1,4 @@
-<a class="card {{ include.class }}" href="{{site.baseurl}}{{ deliverable.url }}">
+<a class="card {{ include.class }}" href="{% if deliverable.link %}{{ deliverable.link }}{% else %}{{site.baseurl}}{{ deliverable.url }}{% endif %}"{% if deliverable.link %} target="_blank" rel="noopener noreferrer"{% endif %}>
   <div class="card__preTitle"><span>{{ deliverable.type | capitalize }} {{ deliverable.num }}</span></div>
   <h3 class="card__title">{{ deliverable.title }}</h3>
   <p class="card__text">{{ deliverable.intro }}</p>

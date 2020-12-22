@@ -1,22 +1,14 @@
 .deliverable {
-  .content {
-    h2:first-child {
-      margin-top: -6rem;
-    }
-    h3 {
-      @include typeScaleH4;
-    }
-    h4 {
-      @include typeScaleH5;
-    }
-    #examples + p {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: .75rem;
-      align-items: stretch;
-      img {
-        object-fit: cover;
-      }
+  h2:first-child {
+    margin-top: -6rem;
+  }
+  #examples + p {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .75rem;
+    align-items: stretch;
+    img {
+      object-fit: cover;
     }
   }
 }

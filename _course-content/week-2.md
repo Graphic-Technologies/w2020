@@ -5,16 +5,7 @@ week: 2
 active: true
 intro: |-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia.
-deliverables:
-  - title: Icon Peer Feedback
-    category: Discussion Board
-    link: 'https://brightspace.algonquincollege.com'
-    newTab: true
-    icon: assignment
-  - title:  Select &amp; Mask
-    category: Exercise
-    link: '#'
-    icon: design-service
+graphic: ai
 files:
   - title: intro-to-illustrator
     link: '#'

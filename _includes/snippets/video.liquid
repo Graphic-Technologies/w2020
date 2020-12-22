@@ -1,0 +1,6 @@
+<div class="embed embed-16by9">
+  {% if include.type == 'youtube' %}
+    <iframe src="https://www.youtube.com/embed/{{ include.id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  {% elsif include.type == 'vimeo' %}
+  {% endif %}
+</div>

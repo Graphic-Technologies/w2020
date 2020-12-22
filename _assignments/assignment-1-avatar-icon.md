@@ -7,6 +7,11 @@ intro: |-
   The goal of this assignment is to learn how basic shapes can be used to create logos and other designs.
 active: true
 graphic: ai
+weeks:
+  - 2
+  - 3
+  - 4
+  - 5
 due:
   sec-1: January 31, 2021
   sec-2: February 2, 2021

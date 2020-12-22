@@ -15,3 +15,9 @@ collections:
   assignments:
     output: true
     permalink: /deliverables/:collection/:path/
+  discussions:
+    output: false
+    permalink: /deliverables/:collection/:path/
+  quizzes:
+    output: false
+    permalink: /deliverables/:collection/:path/

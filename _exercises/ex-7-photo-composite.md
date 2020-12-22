@@ -7,6 +7,8 @@ intro: |-
   The goal of this assignment is to learn basic image compositing and non-destructive editing.
 active: true
 graphic: psd
+weeks:
+  - 8
 due:
   sec-1: March 8, 2021
   sec-2: March 9, 2021

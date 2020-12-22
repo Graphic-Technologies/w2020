@@ -1,9 +1,17 @@
+{% assign delCheck = '' %}
+{% for ass in site.assignments %}{% for week in ass.weeks %}{% if week == page.week %}{% assign delCheck = 'yup' %}{% endif %}{% endfor %}{% endfor %}
+{% for ex in site.exercises %}{% for week in ex.weeks %}{% if week == page.week %}{% assign delCheck = 'yup' %}{% endif %}{% endfor %}{% endfor %}
+{% for dis in site.discussions %}{% for week in dis.weeks %}{% if week == page.week %}{% assign delCheck = 'yup' %}{% endif %}{% endfor %}{% endfor %}
+{% for quiz in site.quizzes %}{% for week in quiz.weeks %}{% if week == page.week %}{% assign delCheck = 'yup' %}{% endif %}{% endfor %}{% endfor %}
+
+{% if delCheck != '' %}
 <div class="sidebar deliverables">
   <h2 class="sidebar__title">Deliverables</h2>
   <ul class="sidebar__list">
+    {% comment %}
     {% for deliverable in page.deliverables %}
     <li>
-      <a href="{{ deliverable.link }}"{% if deliverable.newTab %} target="_blank" rel="noreferrer noopener"{% endif %} class="sidebar__list__item icon-wrap">
+      <a href="{% unless deliverable.external %}/deliverables/{{ deliverable.type }}/{% endunless %}{{ deliverable.link }}"{% if deliverable.external %} target="_blank" rel="noreferrer noopener"{% endif %} class="sidebar__list__item icon-wrap">
         <i role="img" class="icon">
           <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#{{ deliverable.icon }}" /></svg>
         </i>
@@ -14,5 +22,75 @@
       </a>
     </li>
     {% endfor %}
+    {% endcomment %}
+    {% for ass in site.assignments %}
+      {% for week in ass.weeks %}
+        {% if week == page.week %}
+          <li>
+            <a href="{{site.baseurl}}{{ ass.url }}" class="sidebar__list__item icon-wrap">
+              <i role="img" class="icon">
+                <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#assignment" /></svg>
+              </i>
+              <div role="img" class="icon-label">
+                <span class="sidebar__list__secondary">Assignment</span>
+                <span class="sidebar__list__title">{{ ass.title }}</span>
+              </div>
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    {% for ex in site.exercises %}
+      {% for week in ex.weeks %}
+        {% if week == page.week %}
+          <li>
+            <a href="{{site.baseurl}}{{ ex.url }}" class="sidebar__list__item icon-wrap">
+              <i role="img" class="icon">
+                <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#design-service" /></svg>
+              </i>
+              <div role="img" class="icon-label">
+                <span class="sidebar__list__secondary">Exercise</span>
+                <span class="sidebar__list__title">{{ ex.title }}</span>
+              </div>
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    {% for dis in site.discussions %}
+      {% for week in dis.weeks %}
+        {% if week == page.week %}
+          <li>
+            <a href="{{ dis.link }}" class="sidebar__list__item icon-wrap" target="_blank" rel="noreferrer noopener">
+              <i role="img" class="icon">
+                <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#chat" /></svg>
+              </i>
+              <div role="img" class="icon-label">
+                <span class="sidebar__list__secondary">Discussion</span>
+                <span class="sidebar__list__title">{{ dis.title }}</span>
+              </div>
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    {% for quiz in site.quizzes %}
+      {% for week in quiz.weeks %}
+        {% if week == page.week %}
+          <li>
+            <a href="{{ quiz.link }}" class="sidebar__list__item icon-wrap" target="_blank" rel="noreferrer noopener">
+              <i role="img" class="icon">
+                <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#quiz" /></svg>
+              </i>
+              <div role="img" class="icon-label">
+                <span class="sidebar__list__secondary">Quiz</span>
+                <span class="sidebar__list__title">{{ quiz.title }}</span>
+              </div>
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
   </ul>
 </div>
+{% endif %}

@@ -7,6 +7,8 @@ intro: |-
   The goal of this assignment is to learn to use Typography and Appearance settings in Illustrator.
 active: true
 graphic: ai
+weeks:
+  - 5
 due:
   sec-1: February 15, 2021
   sec-2: February 16, 2021

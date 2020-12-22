@@ -7,63 +7,44 @@ intro: |-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia.
 graphic: ai
 graphicTilt: true
-deliverables:
-  - title: Icon Peer Feedback
-    category: Discussion Board
-    link: 'https://brightspace.algonquincollege.com'
-    newTab: true
-    icon: assignment
-  - title:  Select &amp; Mask
-    category: Exercise
-    link: '#'
-    icon: design-service
 files:
-  - title: intro-to-illustrator
-    link: '#'
-    size: 250mb
+  - title: w1-course-introduction
+    link: https://drive.google.com/uc?export=download&id=1X9RtXP6EGevXm7LSSKzII5_ryUgWZDhq
+    size: 118kb
+  - title: w1-set-up-intro-to-illustrator
+    link: https://drive.google.com/uc?export=download&id=14fUsSJ3xFH23rbJwFEwbdSZKjAIeo5tr
+    size: 259kb
 todos:
-  content: |-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia.
   tasks:
-    - Task 1
-    - Task 2
-    - Task 3
-    - Task 4
-    - Task 5
-    - Task 6
+    - Install Adobe Creative Cloud
+    - Install Adobe Illustrator
+    - Read and review Week 2 content
   videos:
-    - id: Xk200TIb6TA
+    - id: p2thSkOa_Xg
       type: youtube
-    - id: Xk200TIb6TA
-      type: youtube
-    - id: Xk200TIb6TA
-      type: youtube
+
 ---
 
-## Common Features & Tools
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia. Sed elementum rhoncus velit, sed laoreet elit. Cras quis vulputate justo. Aliquam accumsan purus non est porttitor finibus. Vivamus convallis, urna et consectetur mattis, odio elit commodo lacus, non bibendum purus est sed nibh. Pellentesque nisi sem, luctus vitae quam blandit, aliquet blandit justo. Duis euismod interdum eros, eget blandit augue cursus vel.
+## Introduction
+Welcome to MAD9010, Graphic Technologies. In this design course, we are going to explorer fundamental design concepts and learn the fun and useful tools to help you design graphics and interfaces.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia. Sed elementum rhoncus velit, sed laoreet elit. Cras quis vulputate justo. Aliquam accumsan purus non est porttitor finibus. Vivamus convallis, urna et consectetur mattis, odio elit commodo lacus, non bibendum purus est sed nibh. Pellentesque nisi sem, luctus vitae quam blandit, aliquet blandit justo. Duis euismod interdum eros, eget blandit augue cursus vel.
+To have a smooth start:
+- Download and install the Adobe Creative Cloud as well as the following programs:
+  - Adobe Illustrator
+  - Adobe Photoshop
+  - Adobe Xd
+- Ensure all tools are ready for the course this week
+- [Course Policies]({{site.baseurl}}/course-policies)
+- [Professor Contact Info]({{site.baseurl}}/#about-the-professor)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia. Sed elementum rhoncus velit, sed laoreet elit. Cras quis vulputate justo. Aliquam accumsan purus non est porttitor finibus. Vivamus convallis, urna et consectetur mattis, odio elit commodo lacus, non bibendum purus est sed nibh. Pellentesque nisi sem, luctus vitae quam blandit, aliquet blandit justo. Duis euismod interdum eros, eget blandit augue cursus vel.
+## Adobe Illustrator
+Adobe Illustrator is a vector-based illustration program. What does that mean?
+- A vector image is an image created using anchor points (or coordinates) and paths to draw shapes
+- Vector images are infinitely scalable, allowing them to be rendered on a web page or printed at any size without losing quality
 
-## Basic Skills
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia. Sed elementum rhoncus velit, sed laoreet elit. Cras quis vulputate justo. Aliquam accumsan purus non est porttitor finibus. Vivamus convallis, urna et consectetur mattis, odio elit commodo lacus, non bibendum purus est sed nibh. Pellentesque nisi sem, luctus vitae quam blandit, aliquet blandit justo. Duis euismod interdum eros, eget blandit augue cursus vel.
+Adobe Illustrator is considered the industry standard for vector based illustration programs.
 
-<div class="highlight-box">
-
-  <h3>Highlight box</h3>
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia. Sed elementum rhoncus velit, sed laoreet elit. Cras quis vulputate justo.
-
-</div>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia. Sed elementum rhoncus velit, sed laoreet elit. Cras quis vulputate justo. Aliquam accumsan purus non est porttitor finibus. Vivamus convallis, urna et consectetur mattis, odio elit commodo lacus, non bibendum purus est sed nibh. Pellentesque nisi sem, luctus vitae quam blandit, aliquet blandit justo. Duis euismod interdum eros, eget blandit augue cursus vel.
-
-## Pro Tips
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia. Sed elementum rhoncus velit, sed laoreet elit. Cras quis vulputate justo. Aliquam accumsan purus non est porttitor finibus. Vivamus convallis, urna et consectetur mattis, odio elit commodo lacus, non bibendum purus est sed nibh. Pellentesque nisi sem, luctus vitae quam blandit, aliquet blandit justo. Duis euismod interdum eros, eget blandit augue cursus vel.
-
-## Online Resources
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia. Sed elementum rhoncus velit, sed laoreet elit. Cras quis vulputate justo. Aliquam accumsan purus non est porttitor finibus. Vivamus convallis, urna et consectetur mattis, odio elit commodo lacus, non bibendum purus est sed nibh. Pellentesque nisi sem, luctus vitae quam blandit, aliquet blandit justo. Duis euismod interdum eros, eget blandit augue cursus vel.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia. Sed elementum rhoncus velit, sed laoreet elit. Cras quis vulputate justo. Aliquam accumsan purus non est porttitor finibus. Vivamus convallis, urna et consectetur mattis, odio elit commodo lacus, non bibendum purus est sed nibh. Pellentesque nisi sem, luctus vitae quam blandit, aliquet blandit justo. Duis euismod interdum eros, eget blandit augue cursus vel.
+### Illustrator Resources
+- [Illustrator Toolbar Chart](https://helpx.adobe.com/content/dam/help/en/illustrator/using/tools/jcr_content/main-pars/image_2118360399/Tool-bar-chart.png)
+- [Illustrator Keyboard Shortcuts](https://helpx.adobe.com/illustrator/using/default-keyboard-shortcuts.html)
+- [Tool Galleries](https://helpx.adobe.com/illustrator/using/tool-galleries.html)

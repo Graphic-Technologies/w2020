@@ -7,6 +7,8 @@ intro: |-
   The goal of this assignment is to practice using vector shapes in Photoshop.
 active: true
 graphic: psd
+weeks:
+  - 9
 due:
   sec-1: March 15, 2021
   sec-2: March 16, 2021
