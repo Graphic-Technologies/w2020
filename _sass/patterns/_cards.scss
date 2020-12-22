@@ -81,12 +81,30 @@
 
 .card--week {
   .icon-list {
+    flex-wrap: wrap;
     .icon-wrap {
+      width: 100%;
       &:not(:last-child) {
-        margin-right: 3rem;
+        margin-bottom: 1.5rem;
       }
       .icon {
         color: var(--color-secondary);
+      }
+    }
+    @media only screen and (min-width: 25em) {
+      .icon-wrap {
+        width: max-content;
+        &:not(:last-child) {
+          margin-bottom: 0;
+          margin-right: 1.5rem;
+        }
+      }
+    }
+    @media only screen and (min-width: 38em) {
+      .icon-wrap {
+        &:not(:last-child) {
+          margin-right: 3rem;
+        }
       }
     }
   }

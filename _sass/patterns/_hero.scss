@@ -28,7 +28,10 @@
   }
   .icon-list {
     li:not(:last-child) {
-      margin-right: 3rem;
+      margin-right: 1.5rem;
+      @media only screen and (min-width: 25em) {
+        margin-right: 3rem;
+      }
     }
   }
 }
