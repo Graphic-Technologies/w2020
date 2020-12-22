@@ -2,7 +2,7 @@
 {% capture numFiles %}{% for file in week.files %}{{ forloop.length }}{% break %}{% endfor %}{% endcapture %}
 
 <a class="card card--week {{ include.class }}" href="{{site.baseurl}}{{ week.url }}">
-  <span class="card__preTitle">Week {{ week.week }}</span>
+  <div class="card__preTitle"><span>Week {{ week.week }}</span></div>
   <h3 class="card__title">{{ week.title }}</h3>
   <p class="card__text">{{ week.intro }}</p>
   <ul class="icon-list">

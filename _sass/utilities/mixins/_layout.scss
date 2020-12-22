@@ -111,6 +111,202 @@
   }
 
 }
+// @mixin grid($xs: 12, $s: 12, $m: 12, $l: 12, $gap: 1.5) {
+//   display: grid;
+//   grid-template-columns: repeat($xs, 1fr);
+//   @if ($gap != 0) {
+//     gap: #{$gap}rem;
+//   }
+//   > * {
+//     grid-column: 1 / -1;
+//     margin-bottom: 0;
+//   }
+//   > h2 {
+//     margin-bottom: 1.5rem;
+//   }
+//   $mqs: (
+//     'xs': 0,
+//     's': 25,
+//     'm': 38,
+//     'l': 60
+//   );
+
+//   @each $mqLabel, $mqValue in $mqs {
+
+//     @if ($mqLabel == 'xs') {
+//       @for $i from 1 through $xs + 1 {
+//         @for $j from 2 through $xs + 1 {
+//           @if ($i < $j) {
+//             .xs-#{$i}-#{$j} {
+//               grid-column-start: $i;
+//               grid-column-end: $j;
+//             }
+//           }
+//         }
+//         @if ($i > 1) {
+//           .xs-span-#{$i} {
+//             grid-column: span $i;
+//           }
+//         }
+//       }
+//       .xs-order-first {
+//         order: -1;
+//       }
+//       @for $o from 0 through 10 {
+//         .xs-order-#{$o} {
+//           order: $o;
+//         }
+//       }
+//       .xs-order-last {
+//         order: 10000000;
+//       }
+//       .xs-0 {
+//         display: none;
+//       }
+//     } @else {
+//       @media only screen and (min-width: #{$mqValue}em) {
+//         $cols: 0;
+//         @if ($mqLabel == 's') {
+//           $cols: $s;
+//         } @else if ($mqLabel == 'm') {
+//           $cols: $m;
+//         } @else if ($mqLabel == 'l') {
+//           $cols: $l;
+//         }
+//         grid-template-columns: repeat($cols, 1fr);
+//         @for $i from 1 through $cols + 1 {
+//           @for $j from 2 through $cols + 1 {
+//             @if ($i < $j) {
+//               .#{$mqLabel}-#{$i}-#{$j} {
+//                 grid-column-start: $i;
+//                 grid-column-end: $j;
+//               }
+//             }
+//           }
+//           @if ($i > 1) {
+//             .#{$mqLabel}-span-#{$i} {
+//               grid-column: span $i;
+//             }
+//           }
+//         }
+//         .#{$mqLabel}-order-first {
+//           order: -1;
+//         }
+//         @for $o from 0 through 10 {
+//           .#{$mqLabel}-order-#{$o} {
+//             order: $o;
+//           }
+//         }
+//         .#{$mqLabel}-order-last {
+//           order: 10000000;
+//         }
+//         [class*="#{$mqLabel}-"] {
+//           display: block;
+//         }
+//         .#{$mqLabel}-0 {
+//           display: none;
+//         }
+//         .#{$mqLabel}-first-row {
+//           grid-row-start: 1;
+//         }
+//       }
+//     }
+
+//   }
+
+// }
+@mixin grid($xs: 12, $s: 12, $m: 12, $l: 12, $gap: 1.5) {
+  
+  $mqs: (
+    'xs': 0,
+    's': 25,
+    'm': 38,
+    'l': 60
+  );
+
+  @each $mqLabel, $mqValue in $mqs {
+
+    @if ($mqLabel == 'xs') {
+      @for $i from 1 through $xs + 1 {
+        @for $j from 2 through $xs + 1 {
+          @if ($i < $j) {
+            .xs-#{$i}-#{$j} {
+              grid-column-start: $i;
+              grid-column-end: $j;
+            }
+          }
+        }
+        @if ($i > 1) {
+          .xs-span-#{$i} {
+            grid-column: span $i;
+          }
+        }
+      }
+      .xs-order-first {
+        order: -1;
+      }
+      @for $o from 0 through 10 {
+        .xs-order-#{$o} {
+          order: $o;
+        }
+      }
+      .xs-order-last {
+        order: 10000000;
+      }
+      .xs-0 {
+        display: none;
+      }
+    } @else {
+      @media only screen and (min-width: #{$mqValue}em) {
+        $cols: 0;
+        @if ($mqLabel == 's') {
+          $cols: $s;
+        } @else if ($mqLabel == 'm') {
+          $cols: $m;
+        } @else if ($mqLabel == 'l') {
+          $cols: $l;
+        }
+        @for $i from 1 through $cols + 1 {
+          @for $j from 2 through $cols + 1 {
+            @if ($i < $j) {
+              .#{$mqLabel}-#{$i}-#{$j} {
+                grid-column-start: $i;
+                grid-column-end: $j;
+              }
+            }
+          }
+          @if ($i > 1) {
+            .#{$mqLabel}-span-#{$i} {
+              grid-column: span $i;
+            }
+          }
+        }
+        .#{$mqLabel}-order-first {
+          order: -1;
+        }
+        @for $o from 0 through 10 {
+          .#{$mqLabel}-order-#{$o} {
+            order: $o;
+          }
+        }
+        .#{$mqLabel}-order-last {
+          order: 10000000;
+        }
+        [class*="#{$mqLabel}-"] {
+          display: block;
+        }
+        .#{$mqLabel}-0 {
+          display: none;
+        }
+        .#{$mqLabel}-first-row {
+          grid-row-start: 1;
+        }
+      }
+    }
+
+  }
+
+}
 
 @mixin container {
   width: 100%;
@@ -127,5 +323,14 @@
 
 @mixin containerGrid {
   @include container;
-  @include grid();
+  // @include grid();
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1.5rem;
+  > * {
+    margin-bottom: 0;
+  }
+  > h2 {
+    margin-bottom: 1.5rem;
+  }
 }

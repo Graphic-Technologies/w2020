@@ -2,5 +2,9 @@
   <div class="card__preTitle"><span>{{ deliverable.type | capitalize }} {{ deliverable.num }}</span></div>
   <h3 class="card__title">{{ deliverable.title }}</h3>
   <p class="card__text">{{ deliverable.intro }}</p>
-  <p><span class="bold">Due:</span> {{ deliverable.due }}</p>
+  <p>
+    <span class="bold">Due:</span> 
+    <span class="content-sec-1">{{ deliverable.due.sec-1 }}</span>
+    <span class="content-sec-2">{{ deliverable.due.sec-2 }}</span>
+  </p>
 </a>

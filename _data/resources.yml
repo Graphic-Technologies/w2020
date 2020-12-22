@@ -1,0 +1,60 @@
+- title: Let's Xd
+  url: https://letsxd.com/
+  intro: A collection of tutorials and assets for Adobe Xd
+  category: Adobe Resources
+- title: Learn the Web
+  url: https://learn-the-web.algonquindesign.ca/
+  intro: Tutorials and reference cheat sheets for HTML & CSS
+  category: Tutorials &amp; Guides
+- title: Computer Graphics
+  url: https://cg.algonquindesign.ca/
+  intro: Tutorials and reference sheets for Adobe CC
+  category: Tutorials &amp; Guides
+- title: Digital Resources
+  url: https://plato.algonquincollege.com/DigitalResources/Default.aspx
+  intro: Download software that is included in your tuition.
+  category: College Resources
+- title: Registrar's Office
+  url: https://www.algonquincollege.com/ro/
+  intro: Find information and support for course changes, financial aid, and more.
+  category: College Resources
+- title: Financial Aid
+  url: https://www.algonquincollege.com/financial-aid/
+  intro: College financial aid resource website. Learn and apply for loans, bursaries, scholarships, and more.
+  category: College Resources
+- title: Counselling Services
+  url: https://www.algonquincollege.com/counselling/
+  intro: Counselling Services provides caring, confidential, professional counselling for Algonquin students at no cost.
+  category: College Resources
+- title: Student Survival Guide
+  url: https://algonquincollege.libguides.com/student-survival-guide
+  intro: Tips and tricks for success as an Algonquin student.
+  category: College Resources
+- title: LinkedIn Learning
+  url: https://www.linkedin.com/learning/
+  intro: Features a tremendous wealth of tutorials and courses on a huge variety of topics.
+  category: Tutorials &amp; Guides
+- title: Adobe Illustrator Docs
+  url: https://helpx.adobe.com/ca/support/illustrator.html
+  intro: Guides and tutorials for Illustrator straight from the creators!
+  category: Adobe Resources
+- title: Adobe Photoshop Docs
+  url: https://helpx.adobe.com/ca/support/photoshop.html
+  intro: Guides and tutorials for Photoshop straight from the creators!
+  category: Adobe Resources
+- title: MDN Documentation
+  url: https://developer.mozilla.org/
+  intro: The Mozilla developer documentation, a great place to reference and learn about HTML, CSS, and JS.
+  category: Tutorials &amp; Guides
+- title: Unsplash
+  url: https://unsplash.com/
+  intro: Free high quality artistic stock photography.
+  category: Free Stock Images
+- title: Pixabay
+  url: https://pixabay.com/
+  intro: Free high quality basic stock photography.
+  category: Free Stock Images
+- title: Adobe Color
+  url: https://color.adobe.com/create/color-wheel
+  intro: Color scheme creator built by Adobe that integrates with your Adobe projects.
+  category: Adobe Resources

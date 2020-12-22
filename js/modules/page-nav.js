@@ -1,4 +1,5 @@
-import { pageNav } from '../selectors.js';
+import { pageNav, linkedHeadings, body } from '../selectors.js';
+import { wait } from '../helpers.js';
 
 export function addToPageNav(heading) {
   const a = document.createElement('a');
@@ -30,6 +31,8 @@ export function createLinked(heading) {
   a.insertAdjacentElement('beforeend', clone);
   a.setAttribute('aria-label', `Select to share link to ${heading.textContent}.`);
 
+  linkedHeadings && linkedHeadings.push(a);
+
   const span = document.createElement('span');
   span.textContent = heading.textContent;
   span.classList.add('heading-linked__content');
@@ -38,4 +41,23 @@ export function createLinked(heading) {
   
   heading.textContent = '';
   heading.insertAdjacentElement('beforeend', span);
+}
+
+export async function showToast(text, name) {
+  const toast = document.createElement('div');
+  toast.textContent = text;
+  toast.classList.add(`toast--${name}`);
+  body.insertAdjacentElement('beforeend', toast);
+  await wait(10);
+  toast.classList.add('active');
+  await wait(2000);
+  toast.classList.remove('active');
+  await wait(300);
+  toast.remove();
+}
+
+export function copyLink(e) {
+  const link = window.location.href;
+  navigator.clipboard.writeText(link);
+  showToast('Link copied', 'copied');
 }

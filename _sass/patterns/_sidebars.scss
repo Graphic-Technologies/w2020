@@ -62,7 +62,7 @@
       }
     }
     &__title {
-      @include typeScaleH5;
+      // @include typeScaleH5;
       display: block;
       line-height: 1.2;
       color: var(--color-primary);
@@ -71,7 +71,7 @@
         color var(--transition);
     }
     &__secondary {
-      // @include typeScaleSmall;
+      @include typeScaleSmall;
       display: block;
       line-height: 1.2;
       position: relative;
@@ -83,13 +83,17 @@
       margin: 0;
       .sidebar__list__title {
         font-weight: normal;
+        grid-column: span 1;
         &--total {
+          grid-column: span 1;
           border-top: 1px solid var(--color-secondary);
           padding-top: .75rem;
         }
       }
       .sidebar__list__value {
+        grid-column: span 1;
         &--total {
+          grid-column: span 1;
           border-top: 1px solid var(--color-secondary);
           padding-top: .75rem;
         }
@@ -98,7 +102,7 @@
     &__value {
       text-align: center;
       font-weight: bold;
-      @include typeScaleH5;
+      // @include typeScaleH5;
       margin: 0;
       &--total {
         @extend .sidebar__list__value;

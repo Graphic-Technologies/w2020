@@ -4,32 +4,29 @@ num: 2
 title: Button Design
 type: exercise
 intro: |-
-  The goal of this assignment is to learn how basic shapes can be used to create logos and other designs.
+  In this assignment we will be creating a variety of buttons using different colours and styles. The goal is to get familiar with the Color, Swatches, and Gradient panels.
 active: true
 graphic: ai
-due: January 26, 2021
+due:
+  sec-1: February 1, 2021
+  sec-2: February 2, 2021
 files:
-  - title: logo-recreation.zip
+  - title: lName-fName-section#-button-design.zip
     link: '#'
     size: 250mb
 submission:
   link: '#'
   info: |-
-    Upload your compressed **lName-fName-section#-logo-recreation.ai** file on Brightspace.
+    Upload your compressed **lName-fName-section#-button-design.ai** file on Brightspace.
 grading:
-  - title: 3 Logos
-    value: 3
+  - title: 4 Buttons
+    value: 4
   - title: File Organization
     value: 1
 ---
 
-## Introduction
-The goal of this assignment is to learn how basic shapes can be used to create logos and other designs. You will be recreating the three logos provided in the attached starter file. Create your version of the logos in the corresponding labeled Artboards on the "Final Artwork" layer.
+## Instructions
 
-![Three logos example]({{site.baseurl}}/images/exercises/exercise-1/3-logos.jpg)
+In the starter file provided, recreate the three buttons shown. Then, create a hover/alternate state for each button. To create the hover state, you can play around with the fill, stroke, opacity, or any other styling you wish. Lastly, create you own unique button and a hover state. Be creative with it! Experiment with different colours, sizes, text, and elements.
 
-## Requirements
-Save and upload your Illustrator file to BrightSpace named as follows: **lName-fName-section#-logo-recreation.ai**. You do not need to export or upload JPG versions of the files. All you need to submit is your Illustrator file with the completed logo recreation. Your file should like something like this when I open it:
-
-![File setup example]({{site.baseurl}}/images/exercises/exercise-1/logo-recreation-example.png)
-
+![Button example]({{site.baseurl}}/images/exercises/exercise-2/button-example.jpg)

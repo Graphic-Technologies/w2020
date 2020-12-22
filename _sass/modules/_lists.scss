@@ -1,8 +1,7 @@
-@mixin listClear {
-  padding: 0;
-  margin: 0;
+@mixin bulletClear {
   list-style-type: none;
   > li {
+    padding: 0;
     &::before {
       display: none;
     }
@@ -12,16 +11,24 @@
   }
 }
 
+@mixin listClear {
+  padding: 0;
+  margin: 0;
+  @include bulletClear;
+}
+
 ul {
   list-style-type: none;
+  padding-left: 0;
 }
 
 ul > li {
-  display: flex;
+  padding-left: 3rem;
   &::before {
     display: inline-block;
     margin-top: .45rem;
-    margin-right: 1.5rem;
+    margin-right: 1.25rem;
+    margin-left: -1.75rem;
     width: .5rem;
     height: .5rem;
     border-radius: 50%;
@@ -29,6 +36,10 @@ ul > li {
     text-align: right;
     background-color: var(--color-secondary);
     font-weight: bold;
+  }
+  li::before {
+    background-color: var(--color-accent-1);
+    border-radius: .125rem;
   }
 }
 
@@ -39,10 +50,12 @@ ol {
 }
 
 ol > li {
-  display: flex;
+  padding-left: 3rem;
   &::before {
     display: inline-block;
-    margin-right: 1.5rem;
+    margin-top: .45rem;
+    margin-right: 1.25rem;
+    margin-left: -1.75rem;
     width: 1rem;
     counter-increment: ol-simple-numbers;
     content: counter(ol-simple-numbers) ".";
@@ -50,6 +63,13 @@ ol > li {
     color: var(--color-secondary);
     font-weight: bold;
   }
+  li::before {
+    color: var(--color-accent-1);
+  }
+}
+
+.bullet-clear {
+  @include bulletClear;
 }
 
 .list-clear {
@@ -65,7 +85,7 @@ ol > li {
 dl {
   dt {
     font-weight: bold;
-    @include typeScaleH5;
+    // @include typeScaleH5;
     color: var(--color-accent-3-dark);
   }
 }

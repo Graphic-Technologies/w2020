@@ -1,5 +1,12 @@
+/* Grid Start */
+@include grid();
+
 .container {
   @include container;
+}
+
+* {
+  grid-column: 1 / -1;
 }
 
 .container-grid {
@@ -10,6 +17,24 @@
   &.center {
     align-items: center;
   }
+  // > *:not([class*="xs-"]) {
+  //   grid-column: 1 / -1;
+  // }
+  // @media only screen and (min-width: 25em) {
+  //   > *:not([class*="s-"]) {
+  //     grid-column: 1 / -1;
+  //   }
+  // }
+  // @media only screen and (min-width: 38em) {
+  //   > *:not([class*="m-"]) {
+  //     grid-column: 1 / -1;
+  //   }
+  // }
+  // @media only screen and (min-width: 60em) {
+  //   > *:not([class*="l-"]) {
+  //     grid-column: 1 / -1;
+  //   }
+  // }
 }
 
 .content {
@@ -56,4 +81,8 @@
 
 .hidden {
   display: none;
+}
+
+.contents-on-grid {
+  display: contents;
 }

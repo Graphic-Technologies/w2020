@@ -9,12 +9,12 @@
   <ul class="sidebar__list">
     {% for file in page.files %}
     <li>
-      <a href="{{ file.link }}"{% if file.newTab %} target="_blank" rel="noreferrer noopener"{% endif %} class="sidebar__list__item icon-wrap">
+      <a href="{{ file.link }}"{% if file.newTab %} target="_blank" rel="noreferrer noopener"{% endif %} class="sidebar__list__item icon-wrap" aria-label="Click here to download {{ file.title }}">
         <i role="img" class="icon">
           <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#download" /></svg>
         </i>
         <div class="icon-label">
-          <span class="sidebar__list__title">{{ file.title }}</span>
+          <span class="sidebar__list__title">{{ file.title | truncate: 25 }}</span>
           <span class="sidebar__list__secondary">{{ file.size }}</span>
         </div>
       </a>

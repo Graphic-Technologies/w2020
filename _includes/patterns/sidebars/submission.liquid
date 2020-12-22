@@ -1,8 +1,6 @@
 <div class="sidebar submission">
   <h2 class="sidebar__title">Submission</h2>
-  <p class="scale-5"><strong>Due:</strong> {{ page.due }}</p>
+  <p class="scale-5"><strong>Due:</strong> <span class="content-sec-1">{{ page.due.sec-1 }}</span><span class="content-sec-2">{{ page.due.sec-2 }}</span></p>
   <p>{{ page.submission.info | markdownify }}</p>
-  <div class="btn-wrap">
-    <a href="{{ page.submission.link }}" class="btn--gradient btn--full scale-5">{{ page.submission.label | default: "Submit"}}</a>
-  </div>
+  {% include snippets/link-external.liquid link="https://brightspace.algonquincollege.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=332375&type=lti&rcode=5D0A62E3-9FCD-4186-8FE2-4DAA73394FE0-2477272&srcou=6606" text="Submit on Brightspace" class="btn--gradient btn--full scale-5" wrapped=true %}
 </div>

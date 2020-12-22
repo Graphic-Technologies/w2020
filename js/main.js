@@ -1,9 +1,10 @@
-import { toggles } from './selectors.js';
+import { toggles, linkedHeadings } from './selectors.js';
 import { Toggle } from './modules/nav-toggle.js';
 import { headerShift, stickyToggle } from './modules/header.js';
 import './modules/section-selector.js';
 import './modules/accessibility.js';
-import { addToPageNav, createLinked } from './modules/page-nav.js';
+import './modules/link-copy.js';
+import { addToPageNav, createLinked, copyLink } from './modules/page-nav.js';
 import { autoLinkedHeadings, pageNav } from './selectors.js';
 import './pages/pages.js';
 
@@ -23,6 +24,10 @@ function init() {
       createLinked(h2);
     });
   }
+
+  linkedHeadings && linkedHeadings.forEach(link => {
+    link.addEventListener('click', copyLink);
+  })
 
 }
 

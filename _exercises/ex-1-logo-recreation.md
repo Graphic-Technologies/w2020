@@ -7,7 +7,9 @@ intro: |-
   The goal of this assignment is to learn how basic shapes can be used to create logos and other designs.
 active: true
 graphic: ai
-due: January 19, 2021
+due:
+  sec-1: January 25, 2021
+  sec-2: January 26, 2021
 files:
   - title: logo-recreation.zip
     link: '#'

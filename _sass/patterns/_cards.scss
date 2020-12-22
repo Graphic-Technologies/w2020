@@ -1,5 +1,7 @@
 .card {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   width: 100%;
   border-radius: var(--radius);
   padding: 1.5rem;
@@ -45,23 +47,30 @@
   &__title {
     @include typeScaleH4;
     font-weight: bold;
-    position: relative;
     margin-bottom: .75rem;
-    &::before {
-      content: ' ';
-      position: absolute;
-      width: 4.5rem;
-      height: 75%;
-      background: var(--gradient);
-      top: 50%;
-      transform: translateY(-50%);
-      left: -1.5rem;
-      z-index: -1;
+    span {
+      position: relative;
+      display: inline-block;
+      z-index: 1;
+      &::before {
+        content: ' ';
+        position: absolute;
+        width: 4.5rem;
+        height: 75%;
+        background: var(--gradient);
+        top: 50%;
+        transform: translateY(-50%);
+        left: -1.5rem;
+        z-index: -1;
+      }
     }
     &::after {
       content: ' ';
       display: block;
     }
+  }
+  &__text {
+    flex-grow: 1;
   }
   @include hov {
     box-shadow: var(--shadow-large);
@@ -73,7 +82,6 @@
 .card--week {
   .icon-list {
     .icon-wrap {
-      gap: .75rem;
       &:not(:last-child) {
         margin-right: 3rem;
       }

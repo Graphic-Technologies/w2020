@@ -3,25 +3,35 @@ discussions:
     type: discussion
     title: Avatar Icon Feedback
     intro: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium eligendi ipsum eos officiis expedita officia corporis ratione.
-    due: January 31st
+    due:
+      sec-1: January 31, 2021
+      sec-2: February 2, 2021
   - num: 2
     type: discussion
     title: Profile Card Feedback
     intro: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium eligendi ipsum eos officiis expedita officia corporis ratione.
-    due: February 28th
+    due:
+      sec-1: February 28, 2021
+      sec-2: March 2, 2021
   - num: 3
     type: discussion
     title: Final Project Feedback
     intro: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium eligendi ipsum eos officiis expedita officia corporis ratione.
-    due: March 28th
+    due:
+      sec-1: March 28, 2021
+      sec-2: March 30, 2021
 quizzes:
   - num: 1
     type: quiz
     title: Illustrator Quiz
     intro: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium eligendi ipsum eos officiis expedita officia corporis ratione.
-    due: January 31st
+    due:
+      sec-1: January 31, 2021
+      sec-2: February 2, 2021
   - num: 2
     type: quiz
     title: Photoshop Quiz
     intro: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium eligendi ipsum eos officiis expedita officia corporis ratione.
-    due: February 28th
+    due:
+      sec-1: February 28, 2021
+      sec-2: march 2, 2021

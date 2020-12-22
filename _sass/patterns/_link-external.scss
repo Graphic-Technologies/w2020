@@ -5,4 +5,7 @@ a.link-external {
     width: .75rem;
     height: .75rem;
   }
+  &[class*="btn"] {
+    justify-content: center;
+  }
 }

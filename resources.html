@@ -1,0 +1,52 @@
+---
+layout: default
+title: Resources
+---
+{% include patterns/banner-inner.liquid %}
+
+{% assign cats = '' %}
+
+{% for item in site.data.resources %}
+  {% assign newCat = item.category | append: ',' %}
+  {% unless cats contains newCat %}
+    {% assign cats = cats | append: newCat %}
+  {% endunless %}
+{% endfor %}
+
+{% assign catsList = cats | split: ',' | sort %}
+
+<section class="pad-t-4 pad-b-4 bg-grey-light">
+  <div class="container-grid">
+    <h2>Categories</h2>
+    <ol class="contents-on-grid list-clear">
+      {% for cat in catsList %}
+        <li class="s-span-6 l-span-3">
+          <a href="#{{ cat | slugify }}">{{ cat }}</a>
+        </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+{% for cat in catsList %}
+  <section class="pad-t-4 pad-b-4{% cycle "", " bg-grey-light" %}">
+    <div class="container-grid">
+      {% include snippets/heading-linked.liquid text=cat %}
+      <ul class="contents-on-grid resource-list list-clear">
+        {% assign sorted = site.data.resources | sort: 'title' %}
+        {% for resource in sorted %}
+          {% if resource.category == cat %}
+            <li class="l-span-6">
+              <a href="{{ resource.url }}" target="_blank" rel="noopener noreferrer">
+                <h3 class="push-1-2">{{ resource.title }}</h3>
+                {% if resource.intro %}
+                  {{ resource.intro | markdownify }}
+                {% endif %}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+{% endfor %}

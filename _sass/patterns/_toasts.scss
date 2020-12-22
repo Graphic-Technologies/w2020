@@ -1,0 +1,21 @@
+.toast {
+  position: fixed;
+  bottom: -5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  padding: .5rem  1.5rem;
+  border-radius: var(--radius);
+  opacity: 0;
+  transition:
+    bottom var(--transition),
+    opacity var(--transition);
+  &.active {
+    bottom: 1.5rem;
+    opacity: 1;
+  }
+  &--copied {
+    @extend .toast;
+  }
+}

@@ -63,6 +63,9 @@
         display: grid;
         gap: 1.5rem;
       }
+      li {
+        padding: 0;
+      }
       a {
         @include typeScaleH2;
         display: inline-block;
