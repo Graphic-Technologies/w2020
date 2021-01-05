@@ -46,6 +46,7 @@ layout: default
     </a>
 
   </div>
+  {% if page.relContent %}
   <footer class="pad-t-4 pad-b-4 bg-grey-light">
     <div class="container-grid">
     	{% include snippets/heading-linked.liquid text="Relevant Content" class="shift-full" %}
@@ -59,4 +60,5 @@ layout: default
     	{% endfor %}
     </div>
   </footer>
+  {% endif %}
 </article>
