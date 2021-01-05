@@ -1,49 +1,84 @@
 ---
 layout: course-content
-title: Time to Color
+title: Time to Colour
 week: 3
 active: true
 intro: |-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia.
+  This week we will cover the basics of colour theory and working with colour in Adobe&nbsp;Illustrator.
+graphic: ai
 files:
-  - title: intro-to-illustrator
-    link: '#'
-    size: 250mb
+  - title: w3-playground-time-to-colour.zip
+    link: https://drive.google.com/uc?export=download&id=1E-HfiCzRzPgISYsrSwbjJy8Kn76dgfFB
+    size: 416kb
 todos:
-  content: |-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia.
   tasks:
-    - Task 1
-    - Task 2
-    - Task 3
-    - Task 4
-    - Task 5
-    - Task 6
-  videos:
-    - id: Xk200TIb6TA
-      type: youtube
-    - id: Xk200TIb6TA
-      type: youtube
-    - id: Xk200TIb6TA
-      type: youtube
+    - Complete Button Design exercise
+    - Begin working on Avatar Icon concepts
+    - Post your concepts to Avatar Icon Feedback discussion board
+    - Review week 4 content
 ---
 
-## Common Features & Tools
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia. Sed elementum rhoncus velit, sed laoreet elit. Cras quis vulputate justo. Aliquam accumsan purus non est porttitor finibus. Vivamus convallis, urna et consectetur mattis, odio elit commodo lacus, non bibendum purus est sed nibh. Pellentesque nisi sem, luctus vitae quam blandit, aliquet blandit justo. Duis euismod interdum eros, eget blandit augue cursus vel.
+## Colour theory and tools
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia. Sed elementum rhoncus velit, sed laoreet elit. Cras quis vulputate justo. Aliquam accumsan purus non est porttitor finibus. Vivamus convallis, urna et consectetur mattis, odio elit commodo lacus, non bibendum purus est sed nibh. Pellentesque nisi sem, luctus vitae quam blandit, aliquet blandit justo. Duis euismod interdum eros, eget blandit augue cursus vel.
+Colour theory is simpler than you think. Before we dive into it, let's understand the fundamentals of design. Next, we are going to learn why some colours look good together and some don't, how to choose the right ones, and the tools on Adobe Illustrator to manipulate and colour shapes.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia. Sed elementum rhoncus velit, sed laoreet elit. Cras quis vulputate justo. Aliquam accumsan purus non est porttitor finibus. Vivamus convallis, urna et consectetur mattis, odio elit commodo lacus, non bibendum purus est sed nibh. Pellentesque nisi sem, luctus vitae quam blandit, aliquet blandit justo. Duis euismod interdum eros, eget blandit augue cursus vel.
+## Design Fundamentals
 
-## Basic Skills
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia. Sed elementum rhoncus velit, sed laoreet elit. Cras quis vulputate justo. Aliquam accumsan purus non est porttitor finibus. Vivamus convallis, urna et consectetur mattis, odio elit commodo lacus, non bibendum purus est sed nibh. Pellentesque nisi sem, luctus vitae quam blandit, aliquet blandit justo. Duis euismod interdum eros, eget blandit augue cursus vel.
+The fundamentals of design are going to play a very important role in your career and you will learn more about them later on, but for now take a look at this nice video to get an introduction on the elements of design.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia. Sed elementum rhoncus velit, sed laoreet elit. Cras quis vulputate justo. Aliquam accumsan purus non est porttitor finibus. Vivamus convallis, urna et consectetur mattis, odio elit commodo lacus, non bibendum purus est sed nibh. Pellentesque nisi sem, luctus vitae quam blandit, aliquet blandit justo. Duis euismod interdum eros, eget blandit augue cursus vel.
+{% include snippets/video.liquid id="YqQx75OPRa0" %}
 
-## Pro Tips
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia. Sed elementum rhoncus velit, sed laoreet elit. Cras quis vulputate justo. Aliquam accumsan purus non est porttitor finibus. Vivamus convallis, urna et consectetur mattis, odio elit commodo lacus, non bibendum purus est sed nibh. Pellentesque nisi sem, luctus vitae quam blandit, aliquet blandit justo. Duis euismod interdum eros, eget blandit augue cursus vel.
+## Colour Fundamentals
 
-## Online Resources
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia. Sed elementum rhoncus velit, sed laoreet elit. Cras quis vulputate justo. Aliquam accumsan purus non est porttitor finibus. Vivamus convallis, urna et consectetur mattis, odio elit commodo lacus, non bibendum purus est sed nibh. Pellentesque nisi sem, luctus vitae quam blandit, aliquet blandit justo. Duis euismod interdum eros, eget blandit augue cursus vel.
+Being proficient at picking the right colours is very important but not an easy task and there is a lot of theory behind it, but if you follow some simple rules you are likely to make the right decision.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ultrices metus eget maximus. Vestibulum sit amet justo vel nulla tincidunt lacinia. Sed elementum rhoncus velit, sed laoreet elit. Cras quis vulputate justo. Aliquam accumsan purus non est porttitor finibus. Vivamus convallis, urna et consectetur mattis, odio elit commodo lacus, non bibendum purus est sed nibh. Pellentesque nisi sem, luctus vitae quam blandit, aliquet blandit justo. Duis euismod interdum eros, eget blandit augue cursus vel.
+{% include snippets/video.liquid id="_2LLXnUdUIc" %}
+
+Creating good colour schemes can be challenging and take practice. But don't worry, there are some great resources out there to help you. Here are some great examples:
+
+### [Adobe Color](https://color.adobe.com/)
+
+Adobe Color allows you to generate create your own unique colour palettes and explore colour palettes created by others. You can also export the palettes as CSS, Sass,
+LESS, or save your palette into your CC Libraries and access the colours right in Illustrator, Photoshop, and other Adobe applications.
+
+### [Colormind.io](http://colormind.io/bootstrap/)
+
+This site allows you to generate a colour palette guaranteed to look good and shows you some examples of how to use each colour as well with common elements on the web.
+
+## Colour in Adobe Illustrator
+
+Let's continue working with colours in Adobe Illustrator, including how to create swatches, trace images, recolour artwork, and more.
+
+### Working with Colours In Illustrator
+
+To learn how to change colour, create swatches, recolour artwork, we will begin with this set of short video tutorials on [Change colour and strokes. (5 videos)](https://helpx.adobe.com/illustrator/how-to/color-basics.html)
+
+- Change the colour of artwork
+- Create colour swatches
+- Add dashed lines and arrows
+- Create colour gradients
+- Recolour artwork
+
+### Colour Swatches
+
+Take a look at this tutorial from lynda.com (Linkedin Learning) on colour swatches, try to make your own and use them to colour some shapes. As always, we will practice this in class.
+
+{% include snippets/video.liquid id="vvjgJ10DjKw" %}
+
+### Tracing Images
+
+Adobe Illustrator works with vectors, we learned that last week, but we can import an image to illustrator and make it a vector object (or a collection of objects), take a look at this tutorial and see how to set options and preferences to optimise your conversion from raster to vector.
+
+{% include snippets/video.liquid id="Qgsm-Hx-lTE" %}
+
+### Recolouring Artwork
+
+Adobe Illustrator has many shortcuts and ways to get to the same place. It is always useful to keep it in your notes for later. In the following video, you will learn how to recolour artwork and how to access this tool from more than one place in your workspace. This workflow will help a lot and is a fun way to achieve different results with only a few clicks.
+
+[![Recolouring artwork]({{site.baseurl}}/images/course-content/week-3/recolorArtwork.png)](https://helpx.adobe.com/illustrator/how-to/color-basics.html#recolor_artwork)
+
+### Gradient Tool
+
+The gradient tool allows you to colour any vector shape in illustrator with a set of colours while transitioning smoothly between them; this tool is used very frequently and you will use it to do some of your assignments. Let's follow this video to create, edit, and apply custom gradients.
+
+[![Recolouring artwork]({{site.baseurl}}/images/course-content/week-3/customGradient.png)](https://helpx.adobe.com/illustrator/how-to/color-basics.html#create_color_gradients)

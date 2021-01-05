@@ -9,15 +9,18 @@ active: true
 graphic: ai
 weeks:
   - 3
+relContent:
+  - 2
+  - 3
 due:
   sec-1: February 1, 2021
   sec-2: February 2, 2021
 files:
   - title: lName-fName-section#-button-design.zip
-    link: '#'
+    link: "#"
     size: 250mb
 submission:
-  link: '#'
+  link: "#"
   info: |-
     Upload your compressed **lName-fName-section#-button-design.ai** file on Brightspace.
 grading:

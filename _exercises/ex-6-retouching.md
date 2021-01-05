@@ -10,14 +10,14 @@ graphic: psd
 weeks:
   - 7
 due:
-  sec-1: March 1, 2021
-  sec-2: March 2, 2021
+  sec-1: March 8, 2021
+  sec-2: March 9, 2021
 files:
   - title: character-samples.zip
-    link: '#'
+    link: "#"
     size: 250mb
 submission:
-  link: '#'
+  link: "#"
   info: |-
     Upload your compressed **lName-fName-section#-character-vectorization.ai** file on Brightspace.
 grading:
@@ -30,19 +30,23 @@ grading:
 ---
 
 ## Instructions
+
 Apply the retouching techniques practiced in class and apply them to the two supplied Photoshop files.
 
 ### File 1: 01-photoshop-repairing-blemishes
+
 - Remove all blemishes on the model in the photo
 - Use the tools explored in class and make sure to make all edits on a new layer.
 
 ### File 2: 02-photoshop-content-aware-fill
+
 - Use content aware fill to remove the microphone and light fixture
 - Make sure the brick texture looks good and convincing!
 
 Make sure that the original layer in both file remains unedited!
 
 ## Folder Structure
+
 Submit your compressed lName-fName-section#-retouching folder to Brightspace. Your folder should contain the following:
 
 - 01-photoshop-repairing-blemishes.psd

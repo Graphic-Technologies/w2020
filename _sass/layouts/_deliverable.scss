@@ -1,11 +1,11 @@
 .deliverable {
-  h2:first-child {
+  .content-wrap h2:first-child {
     margin-top: -6rem;
   }
   #examples + p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: .75rem;
+    gap: 0.75rem;
     align-items: stretch;
     img {
       object-fit: cover;

@@ -12,6 +12,7 @@ export function addToPageNav(heading) {
   if (pnChildren.length >= 4) {
     pageNav.classList.add('columns-2');
   }
+  pageNav.setAttribute('style', `--rows: ${Math.ceil(pnChildren.length / 2)};`)
 }
 
 export function createLinked(heading) {

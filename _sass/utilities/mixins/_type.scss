@@ -51,14 +51,23 @@ $lScale: 1.333;
     font-size: typeScale($lScale, 1);
   }
 }
-
-@mixin typeScaleSmall {
-  font-size: typeScale($sScale, 1, 'down');
+@mixin typeScaleBody {
+  font-size: 1rem;
   @media only screen and (min-width: 38em) {
-    font-size: typeScale($mScale, 1, 'down');
+    font-size: 1rem;
   }
   @media only screen and (min-width: 60em) {
-    font-size: typeScale($lScale, 1, 'down');
+    font-size: 1rem;
+  }
+}
+
+@mixin typeScaleSmall {
+  font-size: typeScale($sScale, 1, "down");
+  @media only screen and (min-width: 38em) {
+    font-size: typeScale($mScale, 1, "down");
+  }
+  @media only screen and (min-width: 60em) {
+    font-size: typeScale($lScale, 1, "down");
   }
 }
 

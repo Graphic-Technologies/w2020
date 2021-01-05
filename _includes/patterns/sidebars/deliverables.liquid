@@ -33,7 +33,9 @@
               </i>
               <div role="img" class="icon-label">
                 <span class="sidebar__list__secondary">Assignment</span>
-                <span class="sidebar__list__title">{{ ass.title }}</span>
+                <h3 class="sidebar__list__title">{{ ass.title }}</h3>
+                <span class="sidebar__list__due content-sec-1">Due: {{ ass.due.sec-1 }}</span>
+                <span class="sidebar__list__due content-sec-2">Due: {{ ass.due.sec-2 }}</span>
               </div>
             </a>
           </li>
@@ -50,7 +52,9 @@
               </i>
               <div role="img" class="icon-label">
                 <span class="sidebar__list__secondary">Exercise</span>
-                <span class="sidebar__list__title">{{ ex.title }}</span>
+                <h3 class="sidebar__list__title">{{ ex.title }}</h3>
+                <span class="sidebar__list__due content-sec-1">Due: {{ ex.due.sec-1 }}</span>
+                <span class="sidebar__list__due content-sec-2">Due: {{ ex.due.sec-2 }}</span>
               </div>
             </a>
           </li>
@@ -67,7 +71,9 @@
               </i>
               <div role="img" class="icon-label">
                 <span class="sidebar__list__secondary">Discussion</span>
-                <span class="sidebar__list__title">{{ dis.title }}</span>
+                <h3 class="sidebar__list__title">{{ dis.title }}</h3>
+                <span class="sidebar__list__due content-sec-1">Due: {{ dis.due.sec-1 }}</span>
+                <span class="sidebar__list__due content-sec-2">Due: {{ dis.due.sec-2 }}</span>
               </div>
             </a>
           </li>
@@ -85,6 +91,8 @@
               <div role="img" class="icon-label">
                 <span class="sidebar__list__secondary">Quiz</span>
                 <span class="sidebar__list__title">{{ quiz.title }}</span>
+                <span class="sidebar__list__due content-sec-1">Due: {{ quiz.due.sec-1 }}</span>
+                <span class="sidebar__list__due content-sec-2">Due: {{ quiz.due.sec-2 }}</span>
               </div>
             </a>
           </li>

@@ -13,14 +13,14 @@ weeks:
   - 4
   - 5
 due:
-  sec-1: January 31, 2021
-  sec-2: February 2, 2021
+  sec-1: February 15, 2021
+  sec-2: February 16, 2021
 files:
   - title: logo-recreation.zip
-    link: '#'
+    link: "#"
     size: 250mb
 submission:
-  link: '#'
+  link: "#"
   info: |-
     Upload your compressed **lName-fName-section#-logo-recreation.ai** file on Brightspace.
 grading:
@@ -31,12 +31,13 @@ grading:
 ---
 
 ## Introduction
+
 The goal of this assignment is to learn how basic shapes can be used to create logos and other designs. You will be recreating the three logos provided in the attached starter file. Create your version of the logos in the corresponding labeled Artboards on the "Final Artwork" layer.
 
 ![Three logos example]({{site.baseurl}}/images/exercises/exercise-1/3-logos.jpg)
 
 ## Requirements
+
 Save and upload your Illustrator file to BrightSpace named as follows: **lName-fName-section#-logo-recreation.ai**. You do not need to export or upload JPG versions of the files. All you need to submit is your Illustrator file with the completed logo recreation. Your file should like something like this when I open it:
 
 ![File setup example]({{site.baseurl}}/images/exercises/exercise-1/logo-recreation-example.png)
-

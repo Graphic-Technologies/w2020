@@ -6,7 +6,14 @@ title: Course Policies
 {% include snippets/heading-linked.liquid text="Course Description" class="shift-full" %}
 Students are introduced to graphics and illustration programs in the computer environment. Students also learn skills and production techniques which help to design effective interfaces for websites, mobile websites and mobile applications. Focus is placed on hands-on learning of software, such as Adobe Photoshop and Illustrator. Basic design concepts are covered within the context of becoming productive with the software packages.
 
+{% include snippets/heading-linked.liquid text="Due dates and times" %}
+
+Unless otherwise stated in the deliverable description or on Brightspace, deliverables must be submitted **before** the start of class on the assigned due date. **For example:** [Exercise 1: {{site.exercises[0].title}}]({{site.baseurl}}{{site.exercises[0].url}}) is due on <span class="bold content-sec-1">{{site.exercises[0].due.sec-1}}</span><span class="bold content-sec-2">{{site.exercises[0].due.sec-2}}</span> and must be submitted before the start of class at <span class="bold content-sec-1"><time datetime="08:00">8:00am</time></span><span class="bold content-sec-2"><time datetime="10:00">10:00am</time></span>
+
+If there is ever a discrepancy between due dates or times on this site vs on Brightspace, the **due date and time on Brightspace will be used** as it automatically tracks submission times and records late submissions. If you discover any issues with due dates and times, please notify me of the issue.
+
 {% include snippets/heading-linked.liquid text="Late Assignment Policy" %}
+
 - **10% deduction per day** for the first 3 days (including weekend).
 - After 10 days (including weekend) of no submission, the student will **receive a 0** make this much longer to break.
 

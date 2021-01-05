@@ -83,7 +83,7 @@ layout: default
     {% for week in site.course-content %}
       {% if prevNum == week.week %}
         <a class="week-nav__prev" href="{{site.baseurl}}/course-content/week-{{ prevNum }}">
-          <div class="week-nav__label"><span>Previous Week</span></div>
+          <div class="week-nav__label"><span>Last Week</span></div>
           <p class="week-nav__title">{{ week.title }}</p>
         </a>
       {% endif %}

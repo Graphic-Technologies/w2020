@@ -21,8 +21,8 @@ menu {
   margin: 0 0 1.5rem;
 }
 
-
-h1, .heading-1 {
+h1,
+.heading-1 {
   @include typeScaleH1;
   line-height: 1.2;
   color: var(--color-primary);
@@ -44,40 +44,44 @@ h1, .heading-1 {
   // }
 }
 
-h2, .heading-2 {
+h2,
+.heading-2 {
   @include typeScaleH2;
   position: relative;
   line-height: 1.2;
   color: var(--color-primary);
   margin-bottom: 3rem;
   &::after {
-    content: ' ';
+    content: " ";
     position: absolute;
-    bottom: -.5rem;
+    bottom: -0.5rem;
     left: 0;
-    height: .25rem;
+    height: 0.25rem;
     width: 4.5rem;
     background: var(--gradient);
-    transition:
-      width var(--transition);
+    transition: width var(--transition);
   }
 }
 
-h3, .heading-3 {
+h3,
+.heading-3 {
   @include typeScaleH3;
   color: var(--color-primary);
   font-weight: 500;
 }
 
-h4, .heading-4 {
+h4,
+.heading-4 {
   @include typeScaleH4;
 }
 
-h5, .heading-5 {
+h5,
+.heading-5 {
   @include typeScaleH5;
 }
 
-h6, .heading-6 {
+h6,
+.heading-6 {
   font-size: 1rem;
 }
 
@@ -101,14 +105,14 @@ h6, .heading-6 {
   @include typeScaleH5;
 }
 
-small, .type-small {
+small,
+.type-small {
   font-size: 1rem;
 }
 
 a {
   color: var(--color-accent-3-dark);
-  transition:
-    all var(--transition);
+  transition: all var(--transition);
   @include hov {
     color: var(--color-accent-3);
   }
@@ -132,7 +136,7 @@ a {
     margin-top: -6rem;
   }
   &::before {
-    content: ' ';
+    content: " ";
     position: relative;
     // top: 0;
     // left: 0;
@@ -140,7 +144,6 @@ a {
     display: block;
     width: 100%;
     height: 6rem;
-    
   }
   &__content {
     position: relative;
@@ -153,8 +156,8 @@ a {
     transform: translate(-100%, 30%);
     width: 2rem;
     height: 2rem;
-    padding: .25rem;
-    opacity: .125;
+    padding: 0.25rem;
+    opacity: 0.125;
     color: var(--color-secondary);
     @include hov {
       opacity: 1;
@@ -169,13 +172,13 @@ a {
     }
     @media only screen and (min-width: 60em) {
       transform: translate(-100%, 60%);
-      padding: 0 .5rem 0 0;
+      padding: 0 0.5rem 0 0;
       width: 2.5rem;
     }
   }
   @include hov {
     .heading-linked__link {
-      opacity: .5;
+      opacity: 0.5;
       &:hover {
         opacity: 1;
       }
@@ -183,19 +186,24 @@ a {
   }
 }
 
-
 .bg-primary,
 .bg-primary-dark,
 .bg-secondary-dark,
 .bg-accent-1-dark,
 .bg-accent-2-dark,
 .bg-accent-3-dark {
-  h1, .heading-1,
-  h2, .heading-2,
-  h3, .heading-3,
-  h4, .heading-4,
-  h5, .heading-5,
-  h6, .heading-6,
+  h1,
+  .heading-1,
+  h2,
+  .heading-2,
+  h3,
+  .heading-3,
+  h4,
+  .heading-4,
+  h5,
+  .heading-5,
+  h6,
+  .heading-6,
   .heading-linked {
     color: #fff;
   }
@@ -211,7 +219,8 @@ a {
 .bg-accent-1,
 .bg-accent-2,
 .bg-accent-3 {
-  h2, .heading-2 {
+  h2,
+  .heading-2 {
     &::after {
       background: #fff;
     }
@@ -238,4 +247,11 @@ p:last-child {
   width: 100%;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+code {
+  background-color: #0002;
+  border: 1px solid #0004;
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
 }

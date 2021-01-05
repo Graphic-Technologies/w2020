@@ -52,4 +52,8 @@ export async function Toggle(tog) {
     tog.classList.contains('open') ? close() : open();
   });
 
+  window.addEventListener('keydown', (e) => {
+    e.key === 'Escape' && close();
+  })
+
 }

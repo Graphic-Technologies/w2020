@@ -8,8 +8,8 @@ class: has-hero
 
 {% capture numEx %}{% for exercise in site.exercises %}{{ forloop.length }}{% break %}{% endfor %}{% endcapture %}
 {% capture numAss %}{% for assignment in site.assignments %}{{ forloop.length }}{% break %}{% endfor %}{% endcapture %}
-{% capture numDis %}{% for discussion in site.data.deliverables.discussions %}{{ forloop.length }}{% break %}{% endfor %}{% endcapture %}
-{% capture numQuiz %}{% for quiz in site.data.deliverables.quizzes %}{{ forloop.length }}{% break %}{% endfor %}{% endcapture %}
+{% capture numDis %}{% for discussion in site.discussions %}{{ forloop.length }}{% break %}{% endfor %}{% endcapture %}
+{% capture numQuiz %}{% for quiz in site.quizzes %}{{ forloop.length }}{% break %}{% endfor %}{% endcapture %}
 
 <section class="pad-t-4 pad-b-4 bg-grey-light" tabindex="0">
   <div class="container-grid">
@@ -44,6 +44,9 @@ class: has-hero
         </dd>
       </div>
     </dl>
+    <h3 class="push-0 pad-t">Due dates and times</h3>
+    <p class="l-span-8">Unless otherwise stated in the deliverable description or on Brightspace, deliverables must be submitted <strong>before</strong> the start of class on the assigned due date. <span class="bold">For example:</span> <a href="{{site.baseurl}}{{site.exercises[0].url}}">Exercise 1: {{site.exercises[0].title}}</a> is due on <span class="bold content-sec-1">{{site.exercises[0].due.sec-1}}</span><span class="bold content-sec-2">{{site.exercises[0].due.sec-2}}</span> and must be submitted before the start of class at <span class="bold content-sec-1"><time datetime="08:00">8:00am</time></span><span class="bold content-sec-2"><time datetime="10:00">10:00am</time></span></p>
+    <p class="l-span-8">If there is ever a discrepancy between due dates or times on this site vs on Brightspace, the <strong>due date and time on Brightspace will be used</strong> as it automatically tracks submission times and records late submissions. If you discover any issues with due dates and times, please notify me of the issue.</p>
   </div>
 </section>
 
