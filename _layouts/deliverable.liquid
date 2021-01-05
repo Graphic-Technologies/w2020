@@ -46,15 +46,17 @@ layout: default
     </a>
 
   </div>
-  <footer class="container-grid pad-b-2">
-    <h2>Relevant Content</h2>
-    {% for week in page.relContent  %}
-      {% assign num = week | minus: 1 %}
-      <a class="card card--week l-span-6" href="{{site.baseurl}}{{ site.course-content[num].url }}">
-        <div class="card__preTitle"><span>Week {{ site.course-content[num].week }}</span></div>
-        <h3 class="card__title">{{ site.course-content[num].title }}</h3>
-        <p class="card__text">{{ site.course-content[num].intro }}</p>
-      </a>
-    {% endfor %}
+  <footer class="pad-t-4 pad-b-4 bg-grey-light">
+    <div class="container-grid">
+    	{% include snippets/heading-linked.liquid text="Relevant Content" class="shift-full" %}
+    	{% for week in page.relContent  %}
+    	  {% assign num = week | minus: 1 %}
+    	  <a class="card card--week l-span-6" href="{{site.baseurl}}{{ site.course-content[num].url }}">
+    	    <div class="card__preTitle"><span>Week {{ site.course-content[num].week }}</span></div>
+    	    <h3 class="card__title">{{ site.course-content[num].title }}</h3>
+    	    <p class="card__text">{{ site.course-content[num].intro }}</p>
+    	  </a>
+    	{% endfor %}
+    </div>
   </footer>
 </article>
