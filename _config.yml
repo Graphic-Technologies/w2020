@@ -2,8 +2,8 @@ permalinks: pretty
 sass:
   style: expanded
 
-kramdown:
-  parse_block_html: true
+# kramdown:
+#   parse_block_html: true
 
 collections:
   course-content:

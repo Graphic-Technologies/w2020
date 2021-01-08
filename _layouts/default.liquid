@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {% if page.intro %}<meta name="description" content="{{ page.intro }}">{% endif %}
-  <title>{% if page.title %}{% if page.week %}Week {{ page.week }} - {{ page.title }} · {% endif %}{% endif %}Graphic Technologies</title>
+  <title>{% if page.title %}{% if page.week %}Week {{ page.week }} - {% elsif page.layout == 'deliverable' %}{{ page.type | capitalize }} {{ page.num }} - {% endif %}{{ page.title }} · {% endif %}Graphic Technologies</title>
   <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
   <link rel="shortcut icon" href="{{site.baseurl}}/favicon.ico"/>
 </head>

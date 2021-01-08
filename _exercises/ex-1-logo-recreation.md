@@ -16,8 +16,8 @@ due:
   sec-2: January 26, 2021
 files:
   - title: lName-fName-section#-logo-recreation
-    link: https://drive.google.com/uc?export=download&id=120H9zYVDxNhj2_FFx1tmshpYEpX_GDet
-    size: 250mb
+    link: https://drive.google.com/uc?export=download&id=1Orqe3IpIUOCBo2ZLrgctsJgryYfjTqw3
+    size: 4mb
 submission:
   link: "#"
   info: |-

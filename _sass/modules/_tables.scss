@@ -1,0 +1,52 @@
+table {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  width: 100%;
+  border-collapse: collapse;
+  th {
+    text-align: left;
+  }
+  th,
+  td {
+    vertical-align: top;
+    padding: 0.5rem;
+  }
+  thead {
+    tr {
+      background-color: var(--color-primary);
+      color: #fff;
+    }
+  }
+  tbody {
+    @include typeScaleSmall;
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    th,
+    td {
+      padding: 1rem 0.5rem;
+    }
+  }
+  tfoot {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+  }
+  &.rubric {
+    th:last-child,
+    td:last-child {
+      text-align: right;
+      font-size: 1rem;
+    }
+    tbody td:last-child {
+      font-weight: bold;
+    }
+  }
+}
+
+.table-wrap {
+  width: 100%;
+  overflow-x: scroll;
+  table {
+    min-width: 40rem;
+  }
+}

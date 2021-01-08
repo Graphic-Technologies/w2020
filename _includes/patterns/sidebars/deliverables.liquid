@@ -8,26 +8,11 @@
 <div class="sidebar deliverables">
   <h2 class="sidebar__title">Deliverables</h2>
   <ul class="sidebar__list">
-    {% comment %}
-    {% for deliverable in page.deliverables %}
-    <li>
-      <a href="{% unless deliverable.external %}/deliverables/{{ deliverable.type }}/{% endunless %}{{ deliverable.link }}"{% if deliverable.external %} target="_blank" rel="noreferrer noopener"{% endif %} class="sidebar__list__item icon-wrap">
-        <i role="img" class="icon">
-          <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#{{ deliverable.icon }}" /></svg>
-        </i>
-        <div role="img" class="icon-label">
-          <span class="sidebar__list__secondary">{{ deliverable.category }}</span>
-          <span class="sidebar__list__title">{{ deliverable.title }}</span>
-        </div>
-      </a>
-    </li>
-    {% endfor %}
-    {% endcomment %}
     {% for ass in site.assignments %}
       {% for week in ass.weeks %}
         {% if week == page.week %}
           <li>
-            <a href="{{site.baseurl}}{{ ass.url }}" class="sidebar__list__item icon-wrap">
+            <a href="{{site.baseurl}}{{ ass.url }}" class="sidebar__list__item icon-wrap" aria-label="Assignment {{ass.num}}: {{ass.title}}, click to view assignment page for more details">
               <i role="img" class="icon">
                 <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#assignment" /></svg>
               </i>
@@ -46,7 +31,7 @@
       {% for week in ex.weeks %}
         {% if week == page.week %}
           <li>
-            <a href="{{site.baseurl}}{{ ex.url }}" class="sidebar__list__item icon-wrap">
+            <a href="{{site.baseurl}}{{ ex.url }}" class="sidebar__list__item icon-wrap" aria-label="Exercise {{ex.num}}: {{ex.title}}, click to view exercise page for more details">
               <i role="img" class="icon">
                 <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#design-service" /></svg>
               </i>
@@ -65,7 +50,7 @@
       {% for week in dis.weeks %}
         {% if week == page.week %}
           <li>
-            <a href="{{ dis.link }}" class="sidebar__list__item icon-wrap" target="_blank" rel="noreferrer noopener">
+            <a href="{{ dis.link }}" class="sidebar__list__item icon-wrap" target="_blank" rel="noreferrer noopener" aria-label="Discussion {{dis.num}}: {{dis.title}}, click to visit Brightspace for more details">
               <i role="img" class="icon">
                 <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#chat" /></svg>
               </i>
@@ -84,7 +69,7 @@
       {% for week in quiz.weeks %}
         {% if week == page.week %}
           <li>
-            <a href="{{ quiz.link }}" class="sidebar__list__item icon-wrap" target="_blank" rel="noreferrer noopener">
+            <a href="{{ quiz.link }}" class="sidebar__list__item icon-wrap" target="_blank" rel="noreferrer noopener" aria-label="Quiz {{quiz.num}}: {{quiz.title}}, click to visit Brightspace for more details">
               <i role="img" class="icon">
                 <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#quiz" /></svg>
               </i>

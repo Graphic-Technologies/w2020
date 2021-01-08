@@ -63,8 +63,6 @@
   }
 }
 
-
-
 /* - - - - - - - - - - Displays - - - - - - - - - - */
 
 .block {
@@ -85,4 +83,14 @@
 
 .contents-on-grid {
   display: contents;
+}
+
+ul.contents-on-grid {
+  list-style-type: none;
+  > li {
+    padding: 0;
+    &::before {
+      display: none;
+    }
+  }
 }

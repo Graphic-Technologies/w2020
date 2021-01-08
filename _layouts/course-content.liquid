@@ -82,8 +82,8 @@ layout: default
     {% assign prevNum = page.week | minus: 1 %}
     {% for week in site.course-content %}
       {% if prevNum == week.week %}
-        <a class="week-nav__prev" href="{{site.baseurl}}/course-content/week-{{ prevNum }}">
-          <div class="week-nav__label"><span>Last Week</span></div>
+        <a class="week-nav__prev" href="{{site.baseurl}}/course-content/week-{{ prevNum }}" aria-label="View the previous week's content: Week {{ prevNum }} - {{ week.title}}">
+          <div class="week-nav__label"><span>Week {{ prevNum }}</span></div>
           <p class="week-nav__title">{{ week.title }}</p>
         </a>
       {% endif %}
@@ -91,8 +91,8 @@ layout: default
     {% assign nextNum = page.week | plus: 1 %}
     {% for week in site.course-content %}
       {% if nextNum == week.week and week.active %}
-        <a class="week-nav__next" href="{{site.baseurl}}/course-content/week-{{ nextNum }}">
-          <div class="week-nav__label"><span>Next Week</span></div>
+        <a class="week-nav__next" href="{{site.baseurl}}/course-content/week-{{ nextNum }}" aria-label="View the next week's content: Week {{ nextNum }} - {{ week.title}}">
+          <div class="week-nav__label"><span>Week {{ nextNum }}</span></div>
           <p class="week-nav__title">{{ week.title }}</p>
         </a>
       {% endif %}

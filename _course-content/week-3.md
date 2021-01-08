@@ -13,8 +13,8 @@ files:
 todos:
   tasks:
     - Complete Button Design exercise
-    - Begin working on Avatar Icon concepts
-    - Post your concepts to Avatar Icon Feedback discussion board
+    - Begin working on App Icon concepts
+    - Post your concepts to App Icon Feedback discussion board
     - Review week 4 content
 ---
 
@@ -75,10 +75,10 @@ Adobe Illustrator works with vectors, we learned that last week, but we can impo
 
 Adobe Illustrator has many shortcuts and ways to get to the same place. It is always useful to keep it in your notes for later. In the following video, you will learn how to recolour artwork and how to access this tool from more than one place in your workspace. This workflow will help a lot and is a fun way to achieve different results with only a few clicks.
 
-[![Recolouring artwork]({{site.baseurl}}/images/course-content/week-3/recolorArtwork.png)](https://helpx.adobe.com/illustrator/how-to/color-basics.html#recolor_artwork)
+[![Adobe tutorial for Recolouring artwork]({{site.baseurl}}/images/course-content/week-3/recolorArtwork.png)](https://helpx.adobe.com/illustrator/how-to/color-basics.html#recolor_artwork)
 
 ### Gradient Tool
 
 The gradient tool allows you to colour any vector shape in illustrator with a set of colours while transitioning smoothly between them; this tool is used very frequently and you will use it to do some of your assignments. Let's follow this video to create, edit, and apply custom gradients.
 
-[![Recolouring artwork]({{site.baseurl}}/images/course-content/week-3/customGradient.png)](https://helpx.adobe.com/illustrator/how-to/color-basics.html#create_color_gradients)
+[![Adobe tutorial for using the gradient tool]({{site.baseurl}}/images/course-content/week-3/customGradient.png)](https://helpx.adobe.com/illustrator/how-to/color-basics.html#create_color_gradients)

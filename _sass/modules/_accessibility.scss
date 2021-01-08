@@ -1,7 +1,5 @@
 .screen-reader-text {
-  position: absolute!important;
-  top: 0;
-  left: 0;
+  position: absolute !important;
   font-size: 1rem;
   width: 1px;
   height: 1px;
@@ -32,7 +30,6 @@
 
 *:focus {
   outline: 0;
-  
 }
 
 .tabbing {
@@ -40,32 +37,31 @@
     outline: 2px solid var(--color-primary-dark);
     outline-offset: 2px;
   }
-  
+
   &.has-hero {
     .masthead *:focus {
       outline: 2px solid var(--color-secondary);
     }
   }
-  
+
   .footer *:focus,
   .to-top:focus {
     outline: 2px solid var(--color-secondary);
   }
 }
 
-
 .to-top {
   position: fixed;
   bottom: 0;
   right: 2rem;
-  padding: .375rem .75rem;
+  padding: 0.375rem 0.75rem;
   background-color: var(--color-accent-3);
   color: var(--color-primary);
   border-radius: var(--radius) var(--radius) 0 0;
-  opacity: .5;
+  opacity: 0.5;
   transform: translateY(100%);
   @media only screen and (min-width: 38em) {
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     right: 3rem;
   }
   @include hov {

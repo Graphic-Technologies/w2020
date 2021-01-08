@@ -1,22 +1,3 @@
-@mixin bulletClear {
-  list-style-type: none;
-  > li {
-    padding: 0;
-    &::before {
-      display: none;
-    }
-  }
-  > li:not(.icon-wrap) {
-    display: block;
-  }
-}
-
-@mixin listClear {
-  padding: 0;
-  margin: 0;
-  @include bulletClear;
-}
-
 ul {
   list-style-type: none;
   padding-left: 0;

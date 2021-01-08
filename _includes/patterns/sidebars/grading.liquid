@@ -6,6 +6,10 @@
 
 <div class="sidebar deliverables">
   <h2 class="sidebar__title">Grading</h2>
+  {% if page.grading.rubric %}
+  <p>Full grading information can be found in the assignment rubric.</p>
+  {% include snippets/link-external.liquid class="btn--gradient" text="View rubric on Brightspace" link=page.grading.rubric %}
+  {% else %}
   <dl class="sidebar__list--grading">
     {% for gradeItem in page.grading %}
     <dt class="sidebar__list__title">{{ gradeItem.title }}</dt>
@@ -14,4 +18,5 @@
     <dt class="sidebar__list__title--total">Total:</dt>
     <dd class="sidebar__list__value--total">{{ total }}</dd>
   </dl>
+  {% endif %}
 </div>

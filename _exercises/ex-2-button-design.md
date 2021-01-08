@@ -17,8 +17,8 @@ due:
   sec-2: February 2, 2021
 files:
   - title: lName-fName-section#-button-design.zip
-    link: "#"
-    size: 250mb
+    link: https://drive.google.com/uc?export=download&id=1qCluUJsQzGHeM975oVEqPeP8YdRx8NM6
+    size: 528kb
 submission:
   link: "#"
   info: |-

@@ -1,3 +1,22 @@
+@mixin bulletClear {
+  list-style-type: none;
+  > li {
+    padding: 0;
+    &::before {
+      display: none;
+    }
+  }
+  > li:not(.icon-wrap) {
+    display: block;
+  }
+}
+
+@mixin listClear {
+  padding: 0;
+  margin: 0;
+  @include bulletClear;
+}
+
 @function divideAble($num, $frac) {
   $result: ceil($num / $frac) - $num / $frac;
   @if ($result == 0) {
@@ -21,15 +40,14 @@
     margin-bottom: 1.5rem;
   }
   $mqs: (
-    'xs': 0,
-    's': 25,
-    'm': 38,
-    'l': 60
+    "xs": 0,
+    "s": 25,
+    "m": 38,
+    "l": 60,
   );
 
   @each $mqLabel, $mqValue in $mqs {
-
-    @if ($mqLabel == 'xs') {
+    @if ($mqLabel == "xs") {
       @for $i from 1 through $xs + 1 {
         @for $j from 2 through $xs + 1 {
           @if ($i < $j) {
@@ -62,11 +80,11 @@
     } @else {
       @media only screen and (min-width: #{$mqValue}em) {
         $cols: 0;
-        @if ($mqLabel == 's') {
+        @if ($mqLabel == "s") {
           $cols: $s;
-        } @else if ($mqLabel == 'm') {
+        } @else if ($mqLabel == "m") {
           $cols: $m;
-        } @else if ($mqLabel == 'l') {
+        } @else if ($mqLabel == "l") {
           $cols: $l;
         }
         grid-template-columns: repeat($cols, 1fr);
@@ -107,9 +125,7 @@
         }
       }
     }
-
   }
-
 }
 // @mixin grid($xs: 12, $s: 12, $m: 12, $l: 12, $gap: 1.5) {
 //   display: grid;
@@ -216,17 +232,15 @@
 
 // }
 @mixin grid($xs: 12, $s: 12, $m: 12, $l: 12, $gap: 1.5) {
-  
   $mqs: (
-    'xs': 0,
-    's': 25,
-    'm': 38,
-    'l': 60
+    "xs": 0,
+    "s": 25,
+    "m": 38,
+    "l": 60,
   );
 
   @each $mqLabel, $mqValue in $mqs {
-
-    @if ($mqLabel == 'xs') {
+    @if ($mqLabel == "xs") {
       @for $i from 1 through $xs + 1 {
         @for $j from 2 through $xs + 1 {
           @if ($i < $j) {
@@ -259,11 +273,11 @@
     } @else {
       @media only screen and (min-width: #{$mqValue}em) {
         $cols: 0;
-        @if ($mqLabel == 's') {
+        @if ($mqLabel == "s") {
           $cols: $s;
-        } @else if ($mqLabel == 'm') {
+        } @else if ($mqLabel == "m") {
           $cols: $m;
-        } @else if ($mqLabel == 'l') {
+        } @else if ($mqLabel == "l") {
           $cols: $l;
         }
         @for $i from 1 through $cols + 1 {
@@ -303,14 +317,12 @@
         }
       }
     }
-
   }
-
 }
 
 @mixin container {
   width: 100%;
-  max-width: 70em;
+  max-width: 75em;
   margin-left: auto;
   margin-right: auto;
   padding-left: 2rem;

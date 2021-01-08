@@ -79,8 +79,23 @@ Next, we practice using the drawing tools to [create and edit shapes. (4 videos)
 
 To streamline the process of drawing shapes and ensuring they are even, we use this set of tools to transform them and arrange them in the artboard, take a look at this video and try to follow along. The sample files are on the website you will be redirected to, make sure to download and open it before starting.
 
-[![Transform Options: Rotate, reflect, and shear]({{site.baseurl}}/images/course-content/week-2/transformArtwork.5ff6c45a.png)](https://helpx.adobe.com/ca/illustrator/how-to/apply-rotation-and-reflection-in-artwork.html)
+[![Adobe tutorials for Transform Options: Rotate, reflect, and shear]({{site.baseurl}}/images/course-content/week-2/transformArtwork.5ff6c45a.png)](https://helpx.adobe.com/ca/illustrator/how-to/apply-rotation-and-reflection-in-artwork.html)
 
 ## Colour of fill and stroke
 
 To make our designs more interesting and clear, we need to use colour. Take a look at [the first video on this tutorial page](https://helpx.adobe.com/illustrator/how-to/color-basics.html) to learn how to apply colour to your shapes and edit the stroke as well.
+
+## Export for Screens
+
+The Export for Screens dialogue allows us to efficiently export our artwork to numerous file types and sizes at once. To access the Export for Screens dialogue, access through the dropdown menus `File > Export > Export for Screens` or with keyboard shortcut `Option + Command + E` on Mac or `Control + Alt + E` on Windows.
+
+The export is based on the artboards in the file, so make sure to set up your file properly with correctly sized arboards for your artwork. In the example below, the icon designs have the exact same width and height as their artboard, allowing them to export cleanly with no extra space around the edges and without accidentally cropping any of the artwork. You can also choose specific artboards to export, while omitting others.
+
+![Export for screens dialogue]({{site.baseurl}}/images/course-content/week-5/export-for-screens.jpg)
+
+1. **Artboards preview** - here you can select which artboards to export and you can rename the artboards
+2. **Select export location** - use this button to find the proper location in your files to export to
+3. **Scale** - select the scale of your export. You can select a scale multiplier (1x, 2x, etc.) or a specific width or height.
+4. **Suffix** - a short string of text that will be added to the end of the filename to identify the export
+5. **Format** - choose the file format for the exported file
+6. **Create Sub-folders** - checking this will create a new folder for for each different scale or format that you export. I would recommend unchecking this, as most exports are only a few files at a time and it will just result in numerous unnecessary folders.
