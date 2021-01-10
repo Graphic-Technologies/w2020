@@ -16,3 +16,7 @@ submission:
     sec-2: https://brightspace.algonquincollege.com/d2l/lms/quizzing/user/quiz_summary.d2l?qi=392366&ou=317259
   btnText: Complete Quiz on Brightspace
 ---
+
+## Quiz Overview
+
+This open book quiz has 20 questions that will cover a range of topics related to Adobe Illustrator including tools, keyboard shortcuts, panels, best practices, and more. You will have **3 attempts** to try and get the best mark possible. The **highest** mark of all the attempts will be recorded, not the most recent one. The quiz will be available for a two week window ending on **February 19, at 11:59pm**

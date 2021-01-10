@@ -50,7 +50,7 @@
       {% for week in dis.weeks %}
         {% if week == page.week %}
           <li>
-            <a href="{{ dis.link }}" class="sidebar__list__item icon-wrap" target="_blank" rel="noreferrer noopener" aria-label="Discussion {{dis.num}}: {{dis.title}}, click to visit Brightspace for more details">
+            <a href="{{ dis.url }}" class="sidebar__list__item icon-wrap" aria-label="Discussion {{dis.num}}: {{dis.title}}, click to visit Brightspace for more details">
               <i role="img" class="icon">
                 <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#chat" /></svg>
               </i>
@@ -69,7 +69,7 @@
       {% for week in quiz.weeks %}
         {% if week == page.week %}
           <li>
-            <a href="{{ quiz.link }}" class="sidebar__list__item icon-wrap" target="_blank" rel="noreferrer noopener" aria-label="Quiz {{quiz.num}}: {{quiz.title}}, click to visit Brightspace for more details">
+            <a href="{{ quiz.url }}" class="sidebar__list__item icon-wrap" aria-label="Quiz {{quiz.num}}: {{quiz.title}}, click to visit Brightspace for more details">
               <i role="img" class="icon">
                 <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#quiz" /></svg>
               </i>

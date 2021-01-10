@@ -5,8 +5,8 @@ const ssWrap = document.querySelector('.section-selector--wrap');
 const ssLauncher = document.querySelector('.section-select-launcher');
 const ssButtons = document.querySelectorAll('.section-selector button');
 
-async function ssOpen() {
-  // e.preventDefault();
+async function ssOpen(e) {
+  e.preventDefault();
   ssWrap.classList.add('active');
   await wait(10);
   ssWrap.classList.add('transitioned');
