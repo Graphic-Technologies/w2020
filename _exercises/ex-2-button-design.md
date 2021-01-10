@@ -22,7 +22,7 @@ files:
 submission:
   link:
     sec-1: https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=289593&grpid=0&isprv=0&bp=0&ou=332375
-    sec-2: "#sec-2"
+    sec-2: https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=290042&grpid=0&isprv=0&bp=0&ou=317259
   info: |-
     Upload your compressed **lName-fName-section#-button-design.ai** file on Brightspace.
 grading:

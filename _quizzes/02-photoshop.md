@@ -14,5 +14,5 @@ due:
 submission:
   link:
     sec-1: https://brightspace.algonquincollege.com/d2l/lms/quizzing/user/quiz_summary.d2l?qi=392007&ou=332375
-    sec-2: "#sec-2"
+    sec-2: https://brightspace.algonquincollege.com/d2l/lms/quizzing/user/quiz_summary.d2l?qi=392367&ou=317259
 ---

@@ -15,7 +15,7 @@ due:
 submission:
   link:
     sec-1: https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=289595&grpid=0&isprv=0&bp=0&ou=332375
-    sec-2: "#sec-2"
+    sec-2: https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=290044&grpid=0&isprv=0&bp=0&ou=317259
   info: |-
     Upload your compressed **lName-fName-section#-personalized-name.ai** file on Brightspace.
 grading:

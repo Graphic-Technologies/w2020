@@ -4,7 +4,7 @@ num: 2
 type: discussion
 graphic: psd
 title: Profile Card Feedback
-intro: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium eligendi ipsum eos officiis expedita officia corporis ratione.
+intro: Post your draft of your Profile Card assignment to receive and give feedback to your peers.
 weeks:
   - 6
   - 7
@@ -16,9 +16,9 @@ due:
 submission:
   link:
     sec-1: https://brightspace.algonquincollege.com/d2l/le/332375/discussions/topics/449867/View
-    sec-2: "#sec-2"
+    sec-2: https://brightspace.algonquincollege.com/d2l/le/317259/discussions/topics/449960/View
   info: |-
-    Post on the "App Brand Feedback" discussion board on Brightspace.
+    Post on the "Profile Card" discussion board on Brightspace.
   btnText: View Discussion Board
   ariaText: View App Icon Feedback discussion board on Brightspace in a new tab.
 ---

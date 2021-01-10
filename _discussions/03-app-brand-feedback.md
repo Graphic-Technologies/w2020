@@ -16,7 +16,7 @@ due:
 submission:
   link:
     sec-1: https://brightspace.algonquincollege.com/d2l/le/332375/discussions/topics/449868/View
-    sec-2: "#sec-2"
+    sec-2: https://brightspace.algonquincollege.com/d2l/le/317259/discussions/topics/449961/View
   info: |-
     Post on the "App Brand Feedback" discussion board on Brightspace.
   btnText: View Discussion Board

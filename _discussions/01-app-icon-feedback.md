@@ -14,7 +14,7 @@ due:
 submission:
   link:
     sec-1: https://brightspace.algonquincollege.com/d2l/le/332375/discussions/topics/449866/View
-    sec-2: "#sec-2"
+    sec-2: https://brightspace.algonquincollege.com/d2l/le/317259/discussions/topics/449959/View
   info: |-
     Post on the "App Icon Feedback" discussion board on Brightspace.
   btnText: View Discussion Board
