@@ -1,5 +1,5 @@
 MAD9010
-# Graphic Technologies
+# [Graphic Technologies](https://graphic-technologies.github.io/w2021/)
 Course content for [Internet Applications and Web Development](https://www.algonquincollege.com/sat/program/internet-applications-web-development/) course MAD9010  - Graphic Technologies for Winter 2021 Semester
 ## Course Introduction
 
