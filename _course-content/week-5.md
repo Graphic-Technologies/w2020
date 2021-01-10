@@ -12,16 +12,15 @@ files:
     size: 1mb
 todos:
   tasks:
-    - Complete Character Vectorization exercise
-    - Continue working on App Icon
-    - Post to the App Icon Feedback discussion board
-  # videos:
-  #   - id: Xk200TIb6TA
-  #     type: youtube
-  #   - id: Xk200TIb6TA
-  #     type: youtube
-  #   - id: Xk200TIb6TA
-  #     type: youtube
+    - Complete Personalized Name exercise
+    - Complete App Icon
+    - Install Adobe Photoshop
+    - Review week 6 Introduction to Photoshop content
+  videos:
+    - id: m6Wb2R2FTAc
+      type: youtube
+    - id: 0Qm5nS2PMBs
+      type: youtube
 ---
 
 ## Introduction
