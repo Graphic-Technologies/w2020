@@ -16,8 +16,8 @@ collections:
     output: true
     permalink: /deliverables/:collection/:path/
   discussions:
-    output: false
+    output: true
     permalink: /deliverables/:collection/:path/
   quizzes:
-    output: false
+    output: true
     permalink: /deliverables/:collection/:path/

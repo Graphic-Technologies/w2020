@@ -19,7 +19,9 @@ files:
     link: https://drive.google.com/uc?export=download&id=1Orqe3IpIUOCBo2ZLrgctsJgryYfjTqw3
     size: 4mb
 submission:
-  link: "#"
+  link:
+    sec-1: https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=289592&grpid=0&isprv=0&bp=0&ou=332375
+    sec-2: "#sec-2"
   info: |-
     Upload your compressed **lName-fName-section#-logo-recreation.ai** file on Brightspace.
 grading:

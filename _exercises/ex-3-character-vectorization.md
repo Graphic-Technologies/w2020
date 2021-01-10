@@ -17,7 +17,9 @@ files:
     link: https://drive.google.com/uc?export=download&id=1edMo785M-wcy76DclQJfqZSNBaMe_AE1
     size: 603kb
 submission:
-  link: "#"
+  link:
+    sec-1: https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=289594&grpid=0&isprv=0&bp=0&ou=332375
+    sec-2: "#sec-2"
   info: |-
     Upload your compressed **lName-fName-section#-character-vectorization.ai** file on Brightspace.
 grading:

@@ -1,6 +1,11 @@
 <div class="sidebar submission">
   <h2 class="sidebar__title">Submission</h2>
   <p class="scale-5"><strong>Due:</strong> <span class="content-sec-1">{{ page.due.sec-1 }}</span><span class="content-sec-2">{{ page.due.sec-2 }}</span></p>
-  <p>{{ page.submission.info | markdownify }}</p>{% capture ariaLabel %}Submit {{ page.title }} on Brightspace{% endcapture %}
-  {% include snippets/link-external.liquid link="https://brightspace.algonquincollege.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=332375&type=lti&rcode=5D0A62E3-9FCD-4186-8FE2-4DAA73394FE0-2477272&srcou=6606" text="Submit on Brightspace" aria-label=ariaLabel class="btn--gradient btn--full scale-5" wrapped=true %}
+  {% if page.submission.info %}
+    <p>{{ page.submission.info | markdownify }}</p>
+  {% endif %}
+  {%- capture ariaLabel -%}{% if page.submission.ariaText %}{{ page.submission.ariaText }}{% else %}Submit {{ page.title }} on Brightspace{% endif %}{%- endcapture -%}
+  {%- capture btnText -%}{% if page.submission.btnText %}{{ page.submission.btnText }}{% else %}Submit on Brightspace{% endif %}{%- endcapture -%}
+  {% include snippets/link-external.liquid link=page.submission.link.sec-1 text=btnText aria-label=ariaLabel class="btn--gradient btn--full scale-5 content-sec-1" wrapped=true %}
+  {% include snippets/link-external.liquid link=page.submission.link.sec-2 text=btnText aria-label=ariaLabel class="btn--gradient btn--full scale-5 content-sec-2" wrapped=true %}
 </div>

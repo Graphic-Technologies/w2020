@@ -1,13 +1,18 @@
 ---
+layout: deliverable
 num: 1
 type: quiz
 title: Illustrator Quiz
-intro: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium eligendi ipsum eos officiis expedita officia corporis ratione.
+intro: Test your knowledge of Illustrator with this quiz on tool, terminology, and best practices!
 weeks:
   - 4
   - 5
 due:
   sec-1: February 19, 2021 - 11:59PM
   sec-2: February 19, 2021 - 11:59PM
-link: "#"
+submission:
+  link:
+    sec-1: https://brightspace.algonquincollege.com/d2l/lms/quizzing/user/quiz_summary.d2l?qi=392006&ou=332375
+    sec-2: "#sec-2"
+  btnText: Complete Quiz on Brightspace
 ---

@@ -20,7 +20,9 @@ files:
     link: https://drive.google.com/uc?export=download&id=1qCluUJsQzGHeM975oVEqPeP8YdRx8NM6
     size: 528kb
 submission:
-  link: "#"
+  link:
+    sec-1: https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=289593&grpid=0&isprv=0&bp=0&ou=332375
+    sec-2: "#sec-2"
   info: |-
     Upload your compressed **lName-fName-section#-button-design.ai** file on Brightspace.
 grading:

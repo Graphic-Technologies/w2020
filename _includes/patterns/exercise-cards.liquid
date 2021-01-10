@@ -1,7 +1,8 @@
+{% assign sortedEx = site.exercises | sort: "num" %}
 <section class="pad-t-4 pad-b-4" tabindex="0">
   <div class="container-grid">
     {% include snippets/heading-linked.liquid text="Exercises" class="shift-full" %}
-    {% for deliverable in site.exercises %}
+    {% for deliverable in sortedEx %}
       {% if deliverable.active %}
         {% include patterns/cards/link-deliverable.liquid class="l-span-6" %}
       {% endif %}
