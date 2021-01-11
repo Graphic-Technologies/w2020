@@ -5,8 +5,8 @@ const ssWrap = document.querySelector('.section-selector--wrap');
 const ssLauncher = document.querySelector('.section-select-launcher');
 const ssButtons = document.querySelectorAll('.section-selector button');
 
-async function ssOpen(e) {
-  e.preventDefault();
+async function ssOpen() {
+  // e.preventDefault();
   ssWrap.classList.add('active');
   await wait(10);
   ssWrap.classList.add('transitioned');
@@ -18,7 +18,7 @@ async function ssClose() {
   ssWrap.classList.remove('active');
 }
 
-function applySection() {
+export function applySection() {
   const section = localStorage.getItem('section');
   const removeClasses = ['section-1', 'section-2'];
   if (section) {
