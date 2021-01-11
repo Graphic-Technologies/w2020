@@ -4,7 +4,7 @@ num: 1
 title: App Icon
 type: assignment
 intro: |-
-  The goal of this assignment is to learn how basic shapes can be used to create logos and other designs.
+  The goal of this assignment is to apply your Illustrator to create a professional app icon for an original iOS app.
 active: true
 graphic: ai
 includeOutline: true
@@ -76,7 +76,7 @@ To successfully complete this assignment you must submit a **lName-fName-section
 
 ## Feedback Discussion
 
-As part of this assignment, you must submit the first draft of your icon concept, design, and color scheme to the {% include snippets/link-external.liquid link="#" text="App Icon Feedback discussion" %} to receive feedback from your peers and professor. You must also provide feedback to a minimum of two other students on their discussion posts.
+As part of this assignment, you must submit the first draft of your icon concept, design, and color scheme to the [App Icon Feedback discussion]({{site.baseurl}}/deliverables/discussions/01-app-icon-feedback/) to receive feedback from your peers and professor. You must also provide feedback to a minimum of two other students on their discussion posts.
 
 This must be completed by the start of class of **Week 5** to allow time to implement the feedback received.
 

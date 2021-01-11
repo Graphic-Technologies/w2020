@@ -85,7 +85,7 @@ Picking and sourcing fonts can be challenging. In order to pick the right font f
 The character panel is used to format the styles of characters of your type. Here you can pick your fonts, weight, style, size, and numerous other settings.
 
 <figure>
-<img class="push" src="{{site.baseurl}}/images/course-content/week-5/panel-character-styles.jpg" alt="" />
+<img src="{{site.baseurl}}/images/course-content/week-5/panel-character-styles.jpg" alt="" />
 <figcaption>
 <ol>
 <li><strong>Font Family</strong> <p>
@@ -132,7 +132,7 @@ The paragraph panel is used to format styles that affect a group of text, or a p
 Different paragraphs within the same text box can have different paragraph styles, however they must be divided by new line or a hard return. Characters within the same paragraph all share the same paragraph styles.
 
 <figure>
-<img class="push" src="{{site.baseurl}}/images/course-content/week-5/panel-paragraph-styles.jpg" alt="" />
+<img src="{{site.baseurl}}/images/course-content/week-5/panel-paragraph-styles.jpg" alt="" />
 <figcaption>
 <ol>
   <li><strong>Text Alignment</strong><p>

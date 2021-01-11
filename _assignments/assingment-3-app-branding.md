@@ -23,8 +23,9 @@ submission:
     sec-2: https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=290051&grpid=0&isprv=0&bp=0&ou=317259
   info: |-
     Upload your compressed **lName-fName-section#-app-branding.zip** folder on Brightspace.
-grading:
-  rubric: "#sup"
+
+# grading:
+#   rubric: "#sup"
 ---
 
 <div class="highlight-box" style="margin: 0;">

@@ -12,10 +12,10 @@ weeks:
 due:
   sec-1: February 22, 2021
   sec-2: February 23, 2021
-files:
-  - title: character-samples.zip
-    link: "#"
-    size: 250mb
+# files:
+#   - title: character-samples.zip
+#     link: "#"
+#     size: 250mb
 submission:
   link:
     sec-1: https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=289597&grpid=0&isprv=0&bp=0&ou=332375

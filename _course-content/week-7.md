@@ -1,7 +1,7 @@
 ---
 layout: course-content
-title: Introduction to Photoshop
-week: 6
+title: Photo Retouching
+week: 7
 active: false
 intro: |-
   This week we will begin learning Adobe Photoshop, a fantastic tool for editing and manipulating images.
@@ -83,38 +83,22 @@ Next, we will convert the masking image to a Smart Object Layer and change the B
 
 ![Photoshop workspace showing a masked dancer]({{site.baseurl}}/images/course-content/week-6/masking-2.png)
 
-## Destructive V.S. Non-destructive Editing
+## More Useful Tools
 
-In Adobe Photoshop there is a incredibly important concept called **non-destructive editing**. What does that mean exactly? Non-destructive editing means that the edits, changes, filters, etc. that you do in your PSD file are all done in a way that is reversible and non-permanent. Meaning, if you make a mistake you could easily undo certain changes and revert your work to an earlier state if necessary. This is important for a number of reasons:
+### Content-Aware Fill
 
-1. It protects your assets so you don't accidentally change the original and no longer have access to the original asset (It's really embarrassing if you accidentally permanently change an asset and have to go back to your client to ask for another copy of the originals)
-2. It makes it easy to revert to an earlier version if you decide to go another direction with your work
-3. It protects you from having to spend hours redoing work if you make a mistake
+Content-Aware Fill makes removing unwanted objects or distracting elements from your photos easy. Simply by drawing a selection around an area, Photoshop can instantly replace it with new image detail from the surrounding areas. Follow along this 5-min video, we will learn Content-aware fill workspace with the `Auto`, `Rectangular`, and `Custom` options.
 
-### How do you edit non-destructively?
+[![Content-aware Fill Tutorial]({{site.baseurl}}/images/course-content/week-7/content-aware-fill.png)](https://helpx.adobe.com/photoshop/how-to/content-aware-hide-objects.html)
 
-Some best practices to insure you are working non-destructively include:
+### Content Aware Fill Tools
 
-1. **Maintain strong file organization** - helps to insure layers aren't deleted or modified unintentionally
-2. **Use effective `Layer Masks`** - this allows you to hide portions of a layer without deleting pixels, preserving the ability to edit and change later on
-3. **Use `Smart Objects` as much as possible** - making a layer a `Smart Object` protects the layer while allowing you to add/remove/edit filters, effects, and more without making them permanent
+The Clone Stamp, Healing Brush and Patch tools are also content-aware fill tools. We use Spot Healing Brush to retouch unwanted dust spots, blemishes, scratches, stray hairs and other small image imperfections. In this short video, it introduces these tools to us. We will go over all other content-aware tools later in the photo retouching lesson.
 
-We will go into more detail on these topics as we move through the semester, but for now just make sure to keep those terms in mind.
+{% include snippets/video.liquid id="aC3eyz7evBo" %}
 
-### Destructive V.S. Non-destructive Editing Comparison
+The Adobe tutorials listed below will reinforce your knowledge of those tools.
 
-The simplest example of destructive v.s. non-destructive, and one of the most important to **always** remember, is to use a layer mask to remove unwanted areas of an image instead of erasing. Take a look at the example below. In both images, the background is effectively removed, showing the checkered pattern representing a transparent background. The first example is destructive, with the pixels in the background being permanently erased, which makes it difficult or impossible to edit or undo those changes afterwards. The second example accomplishes the same result in a non-destructive way. The background is simply hidden with a layer mask, which can be edited and altered as many times as necessary.
-
-<figure>
-<img src="{{site.baseurl}}/images/course-content/week-6/destructive.png" alt="">
-<figcaption><strong class="text-secondary">Destructive edit:</strong> the background has been erased and the pixels data is permanently lost</figcaption>
-</figure>
-
-<figure>
-<img src="{{site.baseurl}}/images/course-content/week-6/non-destructive.png" alt="">
-<figcaption><strong class="text-secondary">Non-destructive edit:</strong> the background has been removed with a mask. That masked can be edited afterwards to show/hide more areas of the image, or undone entirely if needed.</figcaption>
-</figure>
-
-It is expected in this course to always edit non-destructively<span class="text-secondary">\*</span>, especially in the above scenario with masking. You will lose marks on exercises and assignments if destructive editing techniques are used when a non-destructive could have been used.
-
-<span class="text-secondary">\*</span>There are some edits that are only possible in a destructive manner. We will discuss some such edits during throughout the course. In cases where destructive edits are required, you should create a duplicate of your layer before making a destructive edit in case you need to revert the edit.
+- Remove objects with the Clone Stamp tool
+- Retouch photos with the Healing Brush tool
+- Hide unwanted content with the Patch Tool
