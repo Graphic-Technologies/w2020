@@ -11,8 +11,8 @@ weeks:
   - 8
   - 9
 due:
-  sec-1: February 28, 2021
-  sec-2: March 2, 2021
+  sec-1: March 15, 2021
+  sec-2: March 16, 2021
 submission:
   link:
     sec-1: https://brightspace.algonquincollege.com/d2l/le/332375/discussions/topics/449867/View
