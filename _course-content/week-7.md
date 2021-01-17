@@ -20,6 +20,12 @@ todos:
   videos:
     - id: a5KYlHNKQB8
       type: youtube
+    - id: gZZKYc7l2YA
+      type: youtube
+    - id: lrXTg7MzVyk
+      type: youtube
+    - id: RPn5fTWCZnU
+      type: youtube
 ---
 
 ## Introduction
@@ -122,7 +128,7 @@ The important factor is to never touch the original photo. Make sure edits you m
 
 The Content Aware Tools in Photoshop are truly magical. They make a really good guess at how you want to fill in shapes. All you do is lasso the unwanted area, then `Edit > Fill > Content Aware Fill`. Presto!
 
-![Photoshop workspace set up for clone stamping]({{site.baseurl}}/images/course-content/week-7/content-aware-fill-2.png)
+![Photoshop workspace set up for clone stamping]({{site.baseurl}}/images/course-content/week-7/content-aware-fill-2.jpg)
 
 Make a selection, then use `Edit > Fill > Content Aware Fill` to open the Content Aware Fill dialogue. In this dialogue you can select which areas of the photo to sample from by painting on the green sections. On the right side you will see a preview of the fill. When you are happy with the results, make sure **Output to** is set to **New Layer** then click **OK** and it will automatically create a new layer with the filled area.
 
@@ -131,3 +137,5 @@ Depending on how complex the fill needs to be, you may need to layer a couple fi
 <div class="highlight-box">
   If you're zoomed in really closely, you can hold h, then click-hold with your mouse to zoom out and choose another zoom location. Go ahead; give it a whirl.
 </div>
+
+Content on this page is used with permission from {% include snippets/link-external.liquid text="cg.algonquindesign.ca" link="https://cg.algonquindesign.ca/topics/retouching-fundamentals.html" %}

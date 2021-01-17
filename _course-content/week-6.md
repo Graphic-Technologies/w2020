@@ -143,10 +143,8 @@ Photoshop has numerous processes for exporting your artwork, all of which can be
 
 This dialogue can be can be accessed through `File > Export > Export As` or with the (dangerous) keyboard shortcut `Shift + Option + Command + W` on Mac or `Shift + Control + Alt + W` on Windows.
 
-<!-- ![Photoshop window with multiple artboards]({{site.baseurl}}/images/course-content/week-6/export-as-artboards.png) -->
-
 <figure>
-<img src="{{site.baseurl}}/images/course-content/week-6/export-as-artboards.png" alt="">
+<img src="{{site.baseurl}}/images/course-content/week-6/export-as-artboards.jpg" alt="">
 <figcaption>A Photoshop file that contains multiple artboards of different sizes.</figcaption>
 </figure>
 

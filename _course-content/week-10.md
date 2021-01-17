@@ -33,13 +33,13 @@ A number of the tools for creating vector shapes that exist in Illustrator, such
 
 Let's start with the basics of creating text and shapes in Photoshop. This is going to feel very familiar to what we covered previously in Illustrator. Most of the tools work identically, however there is the occasional difference.
 
-[![Adobe tutorial for creating text and shapes]({{site.baseurl}}/images/course-content/week-10/creating-text-shapes.png)](https://helpx.adobe.com/ca/photoshop/how-to/adding-text-shapes-basics.html)
+[![Adobe tutorial for creating text and shapes]({{site.baseurl}}/images/course-content/week-10/creating-text-shapes.jpg)](https://helpx.adobe.com/ca/photoshop/how-to/adding-text-shapes-basics.html)
 
 ## Working with shape tools
 
 Shape layers in Photoshop provide us with some pretty cool functionality. When creating our shapes, we have the option to create each shape on an independent layer (similarly to how we made shapes in Illustrator), or we can combine multiple shapes on the same shape layer to create complex shapes.
 
-[![Adobe tutorial for using shape tools]({{site.baseurl}}/images/course-content/week-10/shape-tools.png)](https://helpx.adobe.com/ca/photoshop/how-to/photoshop-vector-shape-tools.html)
+[![Adobe tutorial for using shape tools]({{site.baseurl}}/images/course-content/week-10/shape-tools.jpg)](https://helpx.adobe.com/ca/photoshop/how-to/photoshop-vector-shape-tools.html)
 
 ## Copying Assets from Illustrator
 

@@ -16,13 +16,9 @@ todos:
     - Complete first draft of Profile Card assignment
     - Post your draft to the Profile Card Feedback dicussion
     - Review week 10 content
-  # videos:
-  #   - id: Xk200TIb6TA
-  #     type: youtube
-  #   - id: Xk200TIb6TA
-  #     type: youtube
-  #   - id: Xk200TIb6TA
-  #     type: youtube
+  videos:
+    - id: b8RG7PuqM7s
+      type: youtube
 ---
 
 ## Introduction
