@@ -9,19 +9,21 @@ active: true
 graphic: psd
 weeks:
   - 6
+relContent:
+  - 6
 due:
   sec-1: February 22, 2021
   sec-2: February 23, 2021
-# files:
-#   - title: character-samples.zip
-#     link: "#"
-#     size: 250mb
+files:
+  - title: select-and-mask-assets.zip
+    link: https://drive.google.com/uc?export=download&id=1iy7-1MbKPXdiAkfPTIOTUEdLv6B7mzS0
+    size: 18mb
 submission:
   link:
     sec-1: https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=289597&grpid=0&isprv=0&bp=0&ou=332375
     sec-2: https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=290046&grpid=0&isprv=0&bp=0&ou=317259
   info: |-
-    Upload your compressed **lName-fName-section#-character-vectorization.ai** file on Brightspace.
+    Upload your compressed **lName-fName-section#-select-mask.zip** folder on Brightspace.
 grading:
   - title: Masking Technique
     value: 2

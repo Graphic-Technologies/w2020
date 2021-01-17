@@ -9,19 +9,22 @@ active: true
 graphic: psd
 weeks:
   - 7
+relContent:
+  - 6
+  - 7
 due:
   sec-1: March 8, 2021
   sec-2: March 9, 2021
 files:
-  - title: character-samples.zip
-    link: "#"
-    size: 250mb
+  - title: lName-fName-section#-retouching.zip
+    link: https://drive.google.com/uc?export=download&id=1FnKPEyV0Q1VqDyin8cysheuK1uHgxli3
+    size: 49mb
 submission:
   link:
     sec-1: https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=289598&grpid=0&isprv=0&bp=0&ou=332375
     sec-2: https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=290047&grpid=0&isprv=0&bp=0&ou=317259
   info: |-
-    Upload your compressed **lName-fName-section#-character-vectorization.ai** file on Brightspace.
+    Upload your compressed **lName-fName-section#-retouching.zip** folder on Brightspace.
 grading:
   - title: Retouching Techniques
     value: 2
@@ -38,14 +41,14 @@ Apply the retouching techniques practiced in class and apply them to the two sup
 ### File 1: 01-photoshop-repairing-blemishes
 
 - Remove all blemishes on the model in the photo
-- Use the tools explored in class and make sure to make all edits on a new layer.
+- Use the tools explored in class to make all edits **non-destructive**.
 
 ### File 2: 02-photoshop-content-aware-fill
 
 - Use content aware fill to remove the microphone and light fixture
 - Make sure the brick texture looks good and convincing!
 
-Make sure that the original layer in both file remains unedited!
+Make sure that the original layer in both files remain unedited!
 
 ## Folder Structure
 

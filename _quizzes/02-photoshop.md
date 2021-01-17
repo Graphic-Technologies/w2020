@@ -8,6 +8,7 @@ weeks:
   - 8
   - 9
   - 10
+  - 11
 due:
   sec-1: March 26, 2021 - 11:59PM
   sec-2: March 26, 2021 - 11:59PM

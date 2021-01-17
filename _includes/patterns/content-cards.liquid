@@ -1,7 +1,8 @@
+{% assign sortedWeeks = site.course-content | sort: "week" %}
 <section class="pad-t-4 pad-b-4" tabindex="0">
   <div class="container-grid">
     <h2>Weekly Content</h2>
-    {% for week in site.course-content %}
+    {% for week in sortedWeeks %}
       {% if week.active %}
         {% include patterns/cards/link-week.liquid class="l-span-6" %}
       {% endif %}

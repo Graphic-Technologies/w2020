@@ -1,8 +1,1 @@
-{% if include.wrapped %}<div class="link-wrap {{ include.wrapClass }}">{% endif %}
-  <a class="link-external {{ include.class }}" href="{{ include.link }}" target="_blank" rel="noopener noreferrer"{% if include.aria-label %}aria-label="{{ include.aria-label }}"{% endif %}>
-    {{ include.text }}
-    <i role="img" class="icon">
-      <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#external" /></svg>
-    </i>
-  </a>
-{% if include.wrapped %}</div>{% endif %}
+{%- if include.wrapped -%}<div class="link-wrap {{ include.wrapClass }}">{%- endif -%}<a class="link-external {{ include.class }}" href="{{ include.link }}" target="_blank" rel="noopener noreferrer"{% if include.aria-label %}aria-label="{{ include.aria-label }}"{% endif %}>{{ include.text }}<i role="img" class="icon"><svg><use xlink:href="{{site.baseurl}}/images/icons.svg#external" /></svg></i></a>{%- if include.wrapped -%}</div>{%- endif -%}

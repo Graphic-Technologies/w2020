@@ -9,6 +9,9 @@ active: true
 graphic: ai
 weeks:
   - 5
+relContent:
+  - 3
+  - 5
 due:
   sec-1: February 16, 2021
   sec-2: February 16, 2021

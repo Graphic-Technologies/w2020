@@ -7,6 +7,7 @@ intro: Test your knowledge of Illustrator with this quiz on tool, terminology, a
 weeks:
   - 4
   - 5
+  - 6
 due:
   sec-1: February 19, 2021 - 11:59PM
   sec-2: February 19, 2021 - 11:59PM

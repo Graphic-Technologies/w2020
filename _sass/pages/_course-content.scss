@@ -11,3 +11,24 @@ h2.heading-3 {
     margin: 0;
   }
 }
+
+.content {
+  blockquote {
+    padding: 0 1.5rem 0 3rem;
+    position: relative;
+    font-style: italic;
+    &::after {
+      content: " ";
+      width: 0.25rem;
+      height: 100%;
+      background: var(--gradient);
+      position: absolute;
+      top: 0;
+      left: 1.5rem;
+    }
+  }
+  img[src*="week-7/tool-icon-"] {
+    width: 100%;
+    max-width: 10rem;
+  }
+}
