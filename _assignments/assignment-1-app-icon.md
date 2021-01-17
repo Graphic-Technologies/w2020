@@ -4,7 +4,7 @@ num: 1
 title: App Icon
 type: assignment
 intro: |-
-  The goal of this assignment is to apply your Illustrator to create a professional app icon for an original iOS app.
+  The goal of this assignment is to apply your Illustrator skills to create a professional app icon for an original iOS app.
 active: true
 graphic: ai
 includeOutline: true
