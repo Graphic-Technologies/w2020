@@ -8,7 +8,7 @@ intro: |-
 graphic: ai
 files:
   - title: w3-playground-time-to-colour.zip
-    link: https://drive.google.com/uc?export=download&id=1Cp76-g8O9tyzIYFxrSf5uoQx08eMRRu8
+    link: https://drive.google.com/uc?export=download&id=1sGKaSY6reZ1I46mTjd-1hLErBD5HzJ0D
     size: 416kb
 todos:
   tasks:
