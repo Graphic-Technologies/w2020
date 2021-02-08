@@ -14,6 +14,7 @@ todos:
   tasks:
     - Complete Personalized Name exercise
     - Complete App Icon
+    - Complete Illustrator Quiz
     - Install Adobe Photoshop
     - Review week 6 Introduction to Photoshop content
   videos:
