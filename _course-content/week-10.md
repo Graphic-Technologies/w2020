@@ -14,7 +14,7 @@ todos:
   tasks:
     - Complete Web Banner exercise
     - Get planning for the Profile Card assignment
-    - Post your draft to the Profile Card Feedback dicussion
+    - Post your draft to the Profile Card Feedback discussion
     - Review week 10 content
   # videos:
   #   - id: Xk200TIb6TA

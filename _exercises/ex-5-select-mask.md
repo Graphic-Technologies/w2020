@@ -9,11 +9,12 @@ active: true
 graphic: psd
 weeks:
   - 6
+  - 7
 relContent:
   - 6
 due:
-  sec-1: February 22, 2021
-  sec-2: February 23, 2021
+  sec-1: March 8, 2021
+  sec-2: March 9, 2021
 files:
   - title: select-and-mask-assets.zip
     link: https://drive.google.com/uc?export=download&id=1iy7-1MbKPXdiAkfPTIOTUEdLv6B7mzS0
