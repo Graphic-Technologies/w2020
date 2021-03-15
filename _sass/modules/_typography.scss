@@ -241,6 +241,10 @@ p:last-child {
   font-weight: bold;
 }
 
+.text-upper {
+  text-transform: uppercase;
+}
+
 .truncate {
   max-width: 100%;
   overflow: hidden;
@@ -254,4 +258,37 @@ code {
   border: 1px solid #0004;
   padding: 0.125rem 0.25rem;
   border-radius: 0.25rem;
+}
+
+.highlighter-rouge {
+  margin-bottom: 1.5rem;
+  pre {
+    background-color: var(--color-primary-dark);
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: .5rem;
+  }
+  code {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    border-radius: 0;
+    .nt,
+    .nc,
+    .n {
+      color: #CFA5A8;
+    }
+    .nd {
+      color: #c09dc9;
+    }
+    .na {
+      // color: var(--color-accent-3);
+    }
+    .s, .no, .m {
+      color: var(--color-secondary);
+    }
+    .c {
+      opacity: .75;
+    }
+  }
 }

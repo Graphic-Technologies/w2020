@@ -7,22 +7,30 @@ intro: |-
   This week we will look at how we can create, import, and manipulate vectors elements in&nbsp;Photoshop.
 graphic: psd
 files:
-  - title: w10-playground-photo-manipulation.zip
+  - title: w10-playground-vectors-in-photoshop.zip
     link: https://drive.google.com/uc?export=download&id=1VY_Iej_wvmGJ1TiQc5-iXhMBCAooSpRX
     size: 3mb
 todos:
   tasks:
     - Complete Web Banner exercise
-    - Get planning for the Profile Card assignment
-    - Post your draft to the Profile Card Feedback discussion
-    - Review week 10 content
-  # videos:
-  #   - id: Xk200TIb6TA
-  #     type: youtube
-  #   - id: Xk200TIb6TA
-  #     type: youtube
-  #   - id: Xk200TIb6TA
-  #     type: youtube
+    - Complete the Profile Card assignment
+    - Complete the Photoshop Quiz
+    - Review week 11 content
+  videos:
+    - id: q_3Q9HHcXuA
+      type: youtube
+    - id: EEtnu8OMD3o
+      type: youtube
+    - id: UKXRwuXd7rA
+      type: youtube
+    - id: B5ol4ss-mi4
+      type: youtube
+    - id: xgZkRVCS07Q
+      type: youtube
+    - id: lSNnVbfvJJ0
+      type: youtube
+    - id: bWcweY66DL8
+      type: youtube
 ---
 
 ## Introduction

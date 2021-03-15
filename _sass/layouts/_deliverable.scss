@@ -11,4 +11,10 @@
       object-fit: cover;
     }
   }
+  .as3-student-examples.container-grid {
+    padding: 0;
+    img {
+      box-shadow: none;
+    }
+  }
 }
