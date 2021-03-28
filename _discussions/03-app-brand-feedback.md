@@ -9,7 +9,6 @@ weeks:
   - 11
   - 12
   - 13
-  - 14
 due:
   sec-1: April 12, 2021
   sec-2: April 13, 2021

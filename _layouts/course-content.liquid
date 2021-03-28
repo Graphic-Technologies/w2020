@@ -14,7 +14,9 @@ layout: default
     <div class="content-banner__content l-span-6 l-first-row">
       <strong class="content-banner__week">Week {{ page.week }}</strong>
       <h1 class="content-banner__title">{{ page.title }}</h1>
+      {%- if page.intro -%}
       <p class="content-banner__intro">{{ page.intro }}</p>
+      {%- endif -%}
     </div>
   </header>
   <div class="container-grid">
@@ -28,7 +30,7 @@ layout: default
     </div>
 
     <div class="content-wrap l-1-9">
-      <section class="content-outline" tabindex="0">
+      <section class="content-outline{% if page.hideOutline %} hidden{% endif %}" tabindex="0">
         {% include snippets/heading-linked.liquid text="Outline" class="shift-full" %}
         <ol class="page-nav">
         </ol>

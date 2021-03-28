@@ -15,16 +15,25 @@ todos:
     - Complete the Interactive SVG exercise
     - Review the App Branding assignment
     - Review week 13 content
-  # videos:
-  #   - id: Xk200TIb6TA
-  #     type: youtube
-  #   - id: Xk200TIb6TA
-  #     type: youtube
-  #   - id: Xk200TIb6TA
-  #     type: youtube
+  videos:
+    - id: KdfO_e0yK-g
+      type: youtube
+    - id: -hV9kKY5a94
+      type: youtube
+    - id: 3vj03O641GA
+      type: youtube
+    - id: swKI-M-RViQ
+      type: youtube
+    - id: H_TmuOJmdkI
+      type: youtube
+    - id: qICToKxlxAc
+      type: youtube
+    - id: XDFE5DH2Z5E
+      type: youtube
 ---
 
 ## Introduction
+
 There are SVG specific animations, named SMIL, but they are becoming deprecated. So CSS animations are a better way to go. Just treat your SVG elements like any other HTML elements. We will cover transition, transform, transform-origin with pixels, and animation in this lesson.
 
 To begin, let's review adding a CSS hover state to an SVG and then we will apply transitions to it.
@@ -51,9 +60,11 @@ Then in CSS, we can do this:
 ```
 
 ## CSS Transitions
+
 CSS transitions allows you to change property values from one state to another smoothly, over a given duration.
 
 ### Transition Property
+
 The CSS transition property is a shorthand property for transition-property, transition-duration, transition-timing-function, and transition-delay.
 
 ```css
@@ -79,9 +90,11 @@ Watch this video tutorial to understand how CSS `transistion` properties work.
 {% include snippets/video.liquid id="Nloq6uzF8RQ" %}
 
 ### Transform Property
+
 CSS `transform` properties let us move, rotate, scale, and skew elements. We can apply 2D or 3D transformations to an element.
 
 2D transform methods:
+
 - `translate()`
 - `rotate()`
 - `scaleX()`
@@ -93,6 +106,7 @@ CSS `transform` properties let us move, rotate, scale, and skew elements. We can
 - `matrix()`
 
 3D transform methods:
+
 - `rotateX()`
 - `rotateY()`
 - `rotateZ()`
@@ -118,10 +132,10 @@ We will follow along this video to practice adding transitions to an SVG by usin
 {% include snippets/video.liquid id="vwIVdI3WMIc" %}
 
 ### Transform Origin Property
+
 The SVG transform-origin attribute sets the origin for an item's transformations and its default value is the top left corner of the SVG canvas. However, the default transform origin for HTML elements is in the middle of themselves. To ensure the SVG animation working correctly in all browsers, we may need to set the pixel value to CSS transform-origin property. Let's follow this video to practice.
 
 {% include snippets/video.liquid id="AcdOzdoB390" %}
-
 
 ## Applying CSS Animations
 
@@ -144,11 +158,9 @@ The animator would first create the animation at each of these stages, and then 
 In CSS Animations, we do something very similar with the `@keyframes` rule. We set CSS values at different stages of our animation and then the browser automatically creates the transition between those keyframes. Our animation can be simple with just a beginning keyframe (represented by `0%` or `from`) and an end keyframe (represented by `100%` or `to`), or can have multiple keyframes (for example `0%`, `25%`, `50%`, `75%`, `100%`).
 
 ```css
-
 /* A simple animation that does a full rotation. */
 
 @keyframes rotate {
-
   from {
     transform: rotate(0);
   }
@@ -156,13 +168,11 @@ In CSS Animations, we do something very similar with the `@keyframes` rule. We s
   to {
     transform: rotate(360deg);
   }
-
 }
 
 /* A multiple step animation that moves up then back down. */
 
 @keyframes jump {
-
   0% {
     transform: translateY(0);
   }
@@ -174,12 +184,11 @@ In CSS Animations, we do something very similar with the `@keyframes` rule. We s
   100% {
     transform: translateY(0);
   }
-
 }
-
 ```
 
 ### Animation Property
+
 The animation property is a shorthand property for animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction, animation-fill-mode, and animation-play-state.
 
 ```css

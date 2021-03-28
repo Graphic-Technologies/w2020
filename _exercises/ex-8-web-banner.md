@@ -9,6 +9,8 @@ active: true
 graphic: psd
 weeks:
   - 10
+relContent:
+  - 10
 due:
   sec-1: March 22, 2021
   sec-2: March 23, 2021
