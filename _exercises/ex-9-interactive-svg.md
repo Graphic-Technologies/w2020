@@ -21,7 +21,7 @@ submission:
     sec-1: https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=289603&grpid=0&isprv=0&bp=0&ou=332375
     sec-2: https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=290052&grpid=0&isprv=0&bp=0&ou=317259
   info: |-
-    Upload your compressed **lName-fName-section#-interactive-svg.ai** file on Brightspace.
+    Upload your compressed **lName-fName-section#-interactive-svg.zip** folder on Brightspace.
 grading:
   - title: Banner Design
     value: 1
