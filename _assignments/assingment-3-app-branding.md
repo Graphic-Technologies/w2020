@@ -16,7 +16,7 @@ weeks:
   - 15
 due:
   sec-1: April 19, 2021
-  sec-2: April 20, 2021
+  sec-2: April 21, 2021
 submission:
   link:
     sec-1: https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=289602&grpid=0&isprv=0&bp=0&ou=332375
@@ -30,6 +30,7 @@ submission:
 In this assignment, you will be applying all of the knowledge gained this semester to create the brand of a mobile application. The assignment is broken down into four parts, each related to a unit in this course.
 
 ### Some things to consider when planning your project:
+
 - Don't make your icon overly complex as it will increase the difficulty of the animation.
 - When designing your splash screen, keep it simple and focused on the icon.
 - Make your animation, eye catching, but not over the top. Keep to one or two simple animations.
@@ -38,6 +39,7 @@ In this assignment, you will be applying all of the knowledge gained this semest
 - Do the assignment in order! Each part is meant to build on each other with the icon design influencing the splash screens, which influence the svg loader and prototype. This will help to plan your designs and keep them unified.
 
 ## Part 1: App Icon
+
 You will be creating a new original app icon in **Adobe Illustrator**. Your **lName-fName-section#-app-icon.ai** file should contain **one (1) artboard** that is **512x512px** containing your icon design. Your icon should be **512x512px** with **90px corner radius**. You only need to design one size for this icon. Once you have completed your design, use the **Export for Screens** dialogue to export your icon into the **01-app > exports** folder at the following sizes:
 
 - 57x57px
@@ -47,6 +49,7 @@ You will be creating a new original app icon in **Adobe Illustrator**. Your **lN
 <strong class="text-upper">Note:</strong> This is a new, different icon from the app icon made for the Illustrator App Icon assignment. It must only contain original vector artwork, no sourced images and/or raster images.
 
 ## Part 2: App Splash Screens
+
 You will create a splash screen design for your app. This is what appears when your app is first starting up and loading. Your splash screen must include app icon's main symbol (for example, the crown from the GamePlan app icon), however the rest of the design is up to you. The splash screen is an extension of the app's brand created with the icon, so it should feel similar and connected to the icon. Your splash screens may include original and/or properly sourced raster images and artwork, however it is not a requirement.
 
 You will create the splash screen designs in **Adobe Photoshop**. Your **lName-fName-section#-splash-screens.psd** will contain **five (5) artboards** to design the splash screen for multiple screen sizes. The design of your splash screens may change from screen size to screen size, however this is <strong class="text-upper">not</strong> required. Any changes should be made in order to make the design work best for that screen size.
@@ -67,11 +70,11 @@ Your completed splash screens will be exported using the **Export As...** dialog
 
 ## Part 3: Animated SVG Loader
 
-You will create an animated SVG Loader based on the icon and splash screens you have previously created. Your SVG Loader will feature a looping animation that is 1 - 5 seconds in length. Your SVG Loader will be coded within an `index.html` file and styled in a linked `main.css` file (make sure to review the proper folder set-up). You only need to include the SVG icon and animation in your coded files. No other coding or styling is required*. However, if you wish to challenge yourself and code your entire splash page, you are welcome to do so**.
+You will create an animated SVG Loader based on the icon and splash screens you have previously created. Your SVG Loader will feature a looping animation that is 1 - 5 seconds in length. Your SVG Loader will be coded within an `index.html` file and styled in a linked `main.css` file (make sure to review the proper folder set-up). You only need to include the SVG icon and animation in your coded files. No other coding or styling is required\*. However, if you wish to challenge yourself and code your entire splash page, you are welcome to do so\*\*.
 
-*If your icon is white, please add a background colour in your CSS to make it possible to see your icon animation.
+\*If your icon is white, please add a background colour in your CSS to make it possible to see your icon animation.
 
-**Fully coding your splash page will neither positively nor negatively affect your mark.
+\*\*Fully coding your splash page will neither positively nor negatively affect your mark.
 
 #### Student Examples
 
@@ -124,11 +127,12 @@ The final submission contains a number of deliverables so it is incredibly impor
   - lName-fName-section#-ui-prototype.xd
   - prototype-link.txt
 - support
-  - This folder will contain any supporting items and assets such as sourced images, drafts, pre-processed SVGs, etc. 
+  - This folder will contain any supporting items and assets such as sourced images, drafts, pre-processed SVGs, etc.
 
 <strong class="text-upper">Note:</strong> Proper file structure will be reflected in your final grade.
 
 ## Feedback Discussion
+
 As part of this assignment, you must submit the first draft of your assignment to the [App Branding Feedback](http://localhost:4000/deliverables/discussions/03-app-brand-feedback/) discussion to receive feedback from your peers and professor. You must also provide feedback to a minimum of two other students on their discussion posts.
 
 This must be completed by the start of class of **Week 14** to allow time to implement the feedback received.
