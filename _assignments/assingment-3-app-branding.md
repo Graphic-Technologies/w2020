@@ -103,7 +103,7 @@ For this part, you must submit both your **lName-fName-section#-ui-prototype.xd*
 
 ## File Set Up
 
-The final submission contains a number of deliverables so it is incredibly important to keep your files organized. Your submitted lName-fName-section#-svg-loader.zip file should contain the following file structure:
+The final submission contains a number of deliverables so it is incredibly important to keep your files organized. Your submitted lName-fName-section#-app-branding.zip file should contain the following file structure:
 
 - 01-app-icon
   - lName-fName-section#-app-icon.ai
