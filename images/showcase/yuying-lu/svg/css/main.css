@@ -1,0 +1,106 @@
+
+header{
+    width: 1200px;
+}
+.svgLayer{
+    float: right;
+    width: 800px;
+}
+#beat #beatArm{ 
+    animation: beatArm 0.3s 0.1s normal infinite cubic-bezier(.45,1.22,.87,.92);
+
+}
+@keyframes beatArm{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(0.8rem);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+#weight01Arm{
+    animation: weight01Arm 0.8s 0.1s normal infinite cubic-bezier(.45,1.22,.87,.92);
+}
+@keyframes weight01Arm{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(0.3rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+#ropePpl{
+    animation: ropeppl 1s 0s normal infinite cubic-bezier(.45,1.22,.87,.92);
+}
+@keyframes ropeppl{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(0.4rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+#rope{
+    animation: rope 1s  normal infinite ease;
+    transform-origin: center;
+}
+@keyframes rope{
+    0%{
+        transform: rotateZ(0)
+    }
+    100%{
+        transform: rotateX(360deg);
+    }
+}
+#moveLeg{
+    animation: moveLeg 1s  normal infinite cubic-bezier(.45,1.22,.87,.92);
+}
+@keyframes moveLeg{
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(0,-0.3rem);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}
+
+.wheel{
+    animation: wheel 3s  infinite linear;
+    transform-origin: 652.482px 83.625px;
+}
+@keyframes wheel{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(1turn);
+    }
+}
+#shoese{
+    animation: shoese 1s  infinite linear;
+    transform-origin: 28.0596px 98.9913px;
+}
+@keyframes shoese{
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}

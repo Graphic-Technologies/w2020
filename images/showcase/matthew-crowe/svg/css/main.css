@@ -1,0 +1,42 @@
+﻿body {
+    margin: 0
+}
+
+svg {
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    width: 50%;
+    height: 50%;
+    background: #fff;
+}
+
+.cls-1 {
+    fill: #1c9cf6;
+}
+
+.cls-2 {
+    fill: #fffae0;
+}
+
+.cls-3 {
+    fill: #ffcd00;
+}
+
+.cls-4 {
+    fill: #e3f4fe;
+}
+
+#thunder {
+    animation: animate 1s infinite
+}
+
+@keyframes animate {
+    20%, 39%, 60%, 80% {
+        opacity: 1;
+    }
+
+    0%, 19%, 40%, 81%, 100% {
+        opacity: 0;
+    }
+}

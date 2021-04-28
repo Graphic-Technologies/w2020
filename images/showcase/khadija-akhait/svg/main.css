@@ -1,0 +1,64 @@
+.cls-1 {
+    fill: #d9bf21;
+    stroke-width: 14.74px;
+}
+
+.cls-1,
+.cls-2 {
+    stroke: #fcee21;
+}
+
+.cls-1,
+.cls-2,
+.cls-4 {
+    stroke-miterlimit: 10;
+}
+
+.cls-2,
+.cls-3 {
+    fill: #fcee21;
+}
+
+.cls-2,
+.cls-4 {
+    stroke-width: 18px;
+}
+
+.cls-3,
+.cls-5 , text{
+    font-size: 219px;
+    font-family: BookmanOldStyle-Bold, Bookman Old Style;
+    font-weight: 700;
+}
+
+.cls-4,
+.cls-5 {
+    fill: #fff;
+}
+
+.cls-4 {
+    stroke: #fff;
+}
+body{
+    background-color: black; 
+    display: block;
+    margin-top : 250px;
+    margin-left: 640px;
+}
+#bitcoin_logo{
+    
+    animation: anim 3s infinite;
+}
+@keyframes anim{
+    0%{
+        transform: translateY(0);
+
+    }
+    50%{
+        transform: translateY(-360px);
+
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

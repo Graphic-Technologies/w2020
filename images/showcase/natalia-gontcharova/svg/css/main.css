@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+boby{
+    text-align: center;
+}
+#compass_logo{
+    width: min(30rem, 100%);
+}
+#handle{
+    transform: rotateZ(0deg);
+    transform: rotateZ(-20deg);
+    animation: handle_move 5s infinite  ease-out;
+    transform-origin: center ;
+    transform-box: fill-box;
+
+    }
+    @keyframes handle_move{
+        0%{
+            transform: rotateZ(0deg);}
+
+        25%{
+             transform: rotateZ(360deg);
+        }        
+        100%{
+            transform: rotateZ(-20deg);
+        }
+    }
+#blue_circle{
+    transform: scale(1.0);
+    animation: blue_circle_move 5s infinite;
+    transform-origin: center ;
+    transform-box: fill-box;
+}
+
+@keyframes blue_circle_move{
+    0% {
+        transform: scale(1.0);
+        
+    }
+    50% {
+        transform: scale(1.02);
+        
+    } 
+}

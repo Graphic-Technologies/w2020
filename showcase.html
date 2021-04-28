@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+{% include patterns/hero.liquid headline="Final Project Showcase" byline="Take a look at some of the fantastic final assignments created by students this semester!" %}
+
+<section class="pad-t-2 pad-b-2 bg-secondary">
+  <div class="container-grid">
+    <div class="m-span-8">
+      <p class="scale-4">All work featured below is included with the student's permission on an opt-in basis.</p>
+    </div>
+  </div>
+</section>
+
+<section class="showcase">
+  <div class="container-grid">
+    {% for student in site.data.showcase %}
+    <div id="{{ student.name | slugify }}" class="showcase__item pad-t-4 pad-b-4{% if student.section == 310 %} section-2 {% else %} section-1{% endif %}">
+      <div class="showcase__info">
+        <h2 class="heading-3">
+          {% if student.app %}
+            {{ student.app }}
+            <div>
+              <span>by {{ student.name }}</span>
+              {% for soc in student.social %}
+                <a href="{{ soc.link }}">
+                  <i role="img" class="icon-1-1-2">
+                    <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#{{ soc.type }}" /></svg>
+                  </i>
+                </a>
+              {% endfor %}
+            </div>
+          {% else %}
+            {{ student.name }}
+          {% endif %}
+        </h2>
+        {% if student.desc %}
+          <p class="showcase__desc">{{ student.desc }}</p>
+        {% endif %}
+        <a href="/images/showcase/{{ student.name | slugify }}/svg/" class="btn">Animated SVG</a>
+        <a href="{{ student.xd }}" class="btn--primary push-l" target="_blank" rel="noreferrer noopener">Xd Prototype</a>
+      </div>
+      <figure class="showcase__splash">
+        <img src="{{site.baseurl}}/images/showcase/{{ student.name | slugify }}/splash.jpg" alt="{{ student.name }}'s app splash screen">
+        <figcaption>Splash screen</figcaption>
+      </figure>
+      <figure class="showcase__icon">
+        <div class="showcase__icon--wrap">
+          <img src="{{site.baseurl}}/images/showcase/{{ student.name | slugify }}/icon.png" alt="{{ student.name }}'s app icon">
+          <img class="img-sm" src="{{site.baseurl}}/images/showcase/{{ student.name | slugify }}/icon.png" alt="{{ student.name }}'s app icon">
+          <img class="img-med" src="{{site.baseurl}}/images/showcase/{{ student.name | slugify }}/icon.png" alt="{{ student.name }}'s app icon">
+        </div>
+        <figcaption>App Icon</figcaption>
+      </figure>
+    </div>
+    {% endfor %}
+  </div>
+</section>

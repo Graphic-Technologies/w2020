@@ -1,0 +1,129 @@
+#svg-container {
+
+    width: 512px;
+    height: 512px;
+    background-color: #049a2e;
+    padding: 10px;
+}
+
+
+#clean-waterdrop {
+    transform: translate(156px, 128px);
+}
+
+
+#sparkle1 {
+    transform: translate(167px, 384px);
+    animation: sparkleFirst 1.5s infinite linear;
+}
+
+@keyframes sparkleFirst {
+    0% {
+        opacity: 0.5;
+    }
+    25% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 0.75;
+    }
+}
+
+#sparkle2 {
+    transform: translate(365px, 155px);
+    animation: sparkleSecond 0.75s infinite linear;
+}
+
+@keyframes sparkleSecond {
+    0% {
+        opacity: 1.0;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0.75;
+    }
+}
+
+
+#sparkle3 {
+    transform: translate(316px, 151px);
+    animation: sparkleThird 1.25s infinite linear;
+}
+
+@keyframes sparkleThird {
+    0% {
+        opacity: 0.5;
+    }
+    25% {
+        opacity: 0.75;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#sparkle4 {
+    transform: translate(230px, 260px);    
+    animation: sparkleFourth 1.5s infinite linear;
+}
+
+@keyframes sparkleFourth {
+    0% {
+        opacity: 1.0;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0.75;
+    }
+}
+
+#sparkle5 {
+    transform: translate(337px, 190px);
+    animation: sparkleFifth 0.75s infinite linear;
+}
+
+@keyframes sparkleFifth {
+    0% {
+        opacity: 1.0;
+    }
+    25% {
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 0.4;
+    }
+    75% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 0.9;
+    }
+}

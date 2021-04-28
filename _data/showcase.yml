@@ -1,0 +1,78 @@
+- name: Adrian Gracia
+  section: 310
+  xd: https://xd.adobe.com/view/1b8d8cca-ac2d-46ca-9831-24a6b3a84966-4ede/
+  desc: This is an app to find, keep, and share recipes. Using a food database people will be able to create their own recipes and get nutritional information about them, as well as being able to see other's people recipes.
+  app: Alimood
+- name: Charlotte Li
+  desc: It is an online dating App, through which users can search for people nearby and chat with them. It is a nice tool to make new friends through the pandemic period.
+  app: NiceToMeetYou
+  social:
+    - type: email
+      link: mailto:li000683@algonquinlive.com
+  section: 300
+  xd: https://xd.adobe.com/view/aa47616d-664a-4f08-b8c4-a26eaecac1d3-ff14/
+- name: Kal Alzohbi
+  app: Cyber Security
+  desc: This application design includes protection and security from hacker attacks and viruses, and I chose these colors because they refer to the world of technology with a little touch of electronic chips in the background to make some protected feeling.
+  section: 310
+  xd: https://xd.adobe.com/view/59b74ec0-a8f8-4829-9011-913cb798e8fc-0ce4/
+- name: Kazi Bubka
+  app: Writr
+  social:
+    - type: email
+      link: mailto:bubk0001@algonquinlive.com
+    - type: github
+      link: https://github.com/KaziBubka
+    - type: linkedin
+      link: https://www.linkedin.com/in/kazi-nasim-bubka/
+  desc: A simple note-taking app with options for ordered (numbered) or unordered (bullet points) lists. Inspired by the ColorNote app which we know and love.
+  section: 310
+  xd: https://xd.adobe.com/view/71449611-0892-4d57-add7-3389dce0cc73-2417/
+- name: Khadija Akhait
+  app: Bitcoin Today
+  desc: Bitcoin Today is a simple App for Buying, selling and trading Bitcoin.
+  section: 310
+  xd: https://xd.adobe.com/view/c731ab8a-5680-469f-922a-ee6d8e50ea79-9262/
+- name: Matthew Crowe
+  app: Weather Now
+  desc: This will be a weather app with the usual daily/weekly forecast.
+  section: 300
+  xd: https://xd.adobe.com/view/39ac4f28-393e-442d-af59-2cd491f0e041-6cff/
+- name: Melody Murphy
+  social:
+    - type: email
+      link: mailto:murp0465@algonquinlive.com
+  app: Poolishness
+  desc: Poolishness is an app for backyard pool cleaning services. Poolishness is a company that specializes in restoring algae-filled pools filled with green gunk back to crystal clear pools filled with clean, sparkling blue water. Poolishness aims to return a backyard paradise to pool owners, and restore the joy of swimming and frolicking in the warmth of the summer sun.
+  section: 310
+  xd: https://xd.adobe.com/view/66d86267-fedd-48a9-99d1-0e36ba3a09a0-338b/
+- name: Natalia Gontcharova
+  social:
+    - type: email
+      link: mailto:gont0004@algonquinlive.com
+  app: Travel Compass
+  desc: The purpose of the app  "Travel Compass" is to connect travelers to travel guides and gives travelers advice specific to their destinations.
+  section: 300
+  xd: https://xd.adobe.com/view/42f48571-0776-4dc1-940c-f9d544cd7b04-17a7/
+- name: Salam Alrebat
+  app: Covid-19 Prevention
+  section: 300
+  xd: https://xd.adobe.com/view/5921287f-1325-4d28-896d-3333c163a345-0c72/
+- name: Yongsong Qin
+  app: Weather Forecast
+  desc: This is a weather forecast app, which can monitor the weather in real time.
+  section: 300
+  xd: https://xd.adobe.com/view/2cb689e2-cef2-42d1-9fc9-49a47cc40513-79e5/
+- name: YuYing Lu
+  app: MeetSport
+  desc: This is an application that gather variable sports lovers. User can go through it to  participate in clubs, make new friends, create meeting to do exercise, etc. Otherwise, this app can also record the user's exercise data, included heart beating, time and mile.
+  social:
+    - type: linkedin
+      link: https://www.linkedin.com/in/yuying-lu-98a362145/
+  section: 300
+  xd: https://xd.adobe.com/view/ff88b691-067f-434e-b29f-64e6047c0f5e-aadb/
+- name: Zach Phillips
+  app: Sparkinect
+  desc: Sparkinect is a a simulator of this world. Its a data driven game with limited graphical qualities (not 3d).
+  section: 310
+  xd: https://xd.adobe.com/view/e240c4ff-072a-4f58-b3e7-cb2e6c201a3a-b713/

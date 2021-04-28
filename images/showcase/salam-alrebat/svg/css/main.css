@@ -1,0 +1,26 @@
+
+body{
+    background-color: #333333;
+}
+
+#Logo {
+    animation: Logo 5s infinite linear;
+}
+  
+@keyframes Logo {
+
+    0%,
+    25%,
+    50%,
+    75%,
+    100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-50px);
+    }
+    60% {
+      transform: translateY(-30px);
+    }
+    
+}

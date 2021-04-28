@@ -1,0 +1,81 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to right, #EFC169, #F2784B);
+    height: 100%;
+}
+
+.background {
+    fill:url(#linear-gradient);
+    }
+
+.head {
+    fill:#fff9c9;
+    }
+
+.dashline {
+    stroke-width:2px;
+    stroke: black;
+    stroke-dashoffset: 300;
+    stroke-dasharray:12;
+    animation-name: dash;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    } 
+    
+.mouth {
+    fill: rgb(196, 84, 103);
+    stroke:black;
+    stroke-width: 2px;
+    stroke-dasharray: 100;
+    stroke-dashoffset: -100;
+    animation-name: mouth;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+.heart {
+  fill: rgb(250, 6, 6);
+  animation-name: heart;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 50;
+    }
+}
+
+@keyframes mouth {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes heart {
+  0% {
+    transform: scale( 1 );
+  }
+
+  25% {
+    transform: scale( 1.02);
+  }
+
+  50% {
+    transform: scale( 1);
+  }
+
+  75% {
+      transform: scale(1.02)
+  }
+
+  100% {
+      transform: scale(1);
+  }
+  
+}
+
+
