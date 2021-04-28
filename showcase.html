@@ -27,6 +27,7 @@ layout: default
                   <i role="img" class="icon-1-1-2">
                     <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#{{ soc.type }}" /></svg>
                   </i>
+                  <span class="screen-reader-text">{% if soc.type == 'email' %}Click to email {{ student.name }}{% else %}Click to visit {{ student.name }}'s {{ soc.type | capitalize }} profile{% endif %}</span>
                 </a>
               {% endfor %}
             </div>
