@@ -37,7 +37,7 @@ layout: default
         {% if student.desc %}
           <p class="showcase__desc">{{ student.desc }}</p>
         {% endif %}
-        <a href="/images/showcase/{{ student.name | slugify }}/svg/" class="btn">Animated SVG</a>
+        <a href="{{site.baseurl}}/images/showcase/{{ student.name | slugify }}/svg/" class="btn">Animated SVG</a>
         <a href="{{ student.xd }}" class="btn--primary push-l" target="_blank" rel="noreferrer noopener">Xd Prototype</a>
       </div>
       <figure class="showcase__splash">
