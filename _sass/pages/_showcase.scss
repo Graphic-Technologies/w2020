@@ -56,6 +56,9 @@
   .img-sm {
     display: none;
   }
+  .btn {
+    margin: 0 0.75rem 0.75rem 0;
+  }
   @media only screen and (min-width: 38em) {
     &__info {
       grid-column: 1 / span 6;
@@ -70,6 +73,9 @@
       grid-column: 1 / span 6;
       grid-row: 2 / 3;
       align-self: flex-end;
+    }
+    .btn {
+      margin: 0 0.75rem 0 0;
     }
   }
   @media only screen and (min-width: 60em) {

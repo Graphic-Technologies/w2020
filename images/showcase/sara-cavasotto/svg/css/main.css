@@ -1,0 +1,107 @@
+.wood {
+    fill: #f89d53;
+}
+
+.pink {
+    fill: #b56669;
+}
+
+.red {
+    fill: #a41e24;
+}
+
+.dRed {
+    fill: #831216;
+}
+
+.white {
+    fill: #f7f3f8;
+}
+
+.grey {
+    fill: #cbc9cf;
+}
+
+.dGrey {
+    fill: #aba9ae;
+}
+
+.lBlue {
+    fill: #568ea4;
+}
+
+.blue {
+    fill: #346071;
+}
+
+.dBlue {
+    fill: #274d5b;
+}
+
+.biteRed {
+    fill: #a44448;
+}
+
+.bg {
+    fill: #acdee1;
+}
+
+.biteWhite {
+    fill: #e4e2e8;
+}
+
+#svg-all{
+    width: 300px;
+    padding: 30px;
+}
+
+#svg-bg{
+    background-color: #acdee1;
+    width: 360px
+}
+
+#svg-bite1{
+    animation: bite1 5s 1s infinite forwards;
+}
+
+#svg-bite2{
+    animation: bite2 5s 1s infinite forwards;
+}
+
+#svg-drip1{
+    animation: drip1 5s 1s infinite forwards;
+}
+
+#svg-drip2{
+    animation: drip2 5s 1s infinite forwards;
+}
+
+@keyframes bite1{
+    0%   {opacity: 0%;}
+    10%   {opacity: 0%;}
+    11%  {opacity: 100%;}
+    100%  {opacity: 100%;}
+}
+
+@keyframes bite2{
+    0%   {opacity: 0%;}
+    25%   {opacity: 0%;}
+    26%  {opacity: 100%;}
+    100%  {opacity: 100%;}
+}
+
+@keyframes drip1{
+    0%   {transform: translateY(0px);}
+    25%   {transform: translateY(0px);}
+    50%  {transform: translateY(100px);}
+    100% {transform: translateY(100px);}
+}
+
+@keyframes drip2{
+    0%   {transform: translateY(0px);}
+    50%  {transform: translateY(0px);}
+    75%  {transform: translateY(120px);}
+    100% {transform: translateY(120px);}
+}
+
+

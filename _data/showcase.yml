@@ -58,6 +58,11 @@
   app: Covid-19 Prevention
   section: 300
   xd: https://xd.adobe.com/view/5921287f-1325-4d28-896d-3333c163a345-0c72/
+- name: Sara Cavasotto
+  app: SicleSearch
+  desc: Popsicle/Frozen treat finder for summer.
+  section: 310
+  xd: https://xd.adobe.com/view/f34336d8-53ea-403e-bd73-920083d586cb-a610/
 - name: Yongsong Qin
   app: Weather Forecast
   desc: This is a weather forecast app, which can monitor the weather in real time.
